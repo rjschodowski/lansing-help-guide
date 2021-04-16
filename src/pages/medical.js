@@ -11,6 +11,9 @@ const Medical = () => {
             <p><span>Address: </span>1215 E Michigan Ave, Lansing, MI 48912</p>
             <p><span>Phone: </span>(517) 364-1000</p>
             <p><span>Website: </span><a href="https://www.sparrow.org/our-hospitals-and-services/sparrow-hospitals/sparrow-hospital" alt="Sparrow Hospital website link" target="_blank">Sparrow Hospital </a></p>
+            <div>
+                <button><a href="tel:911">911 EMERGENCY</a></button>
+            </div>
         </div>
     )
 }
