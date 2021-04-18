@@ -59,7 +59,8 @@ const Health = () => {
                 <li>
                     <a href="https://carefreemedical.com/dental/" alt="Carefree Dental website link" target="_blank">Carefree Dental</a>
                 </li>
-            </ul>          
+            </ul>
+            <h2>Mental Health</h2>          
         </div>
     )
 }
