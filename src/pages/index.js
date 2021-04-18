@@ -6,7 +6,7 @@ const IndexPage = () => {
     <nav>
       <ul>
         <li><Link to="/food">Food</Link></li>
-        <li><Link to="/medical">Medical</Link></li>
+        <li><Link to="/health">Health</Link></li>
         <li><Link to="/shelter">Shelter</Link></li>
         <li><Link to="/safety">Safety</Link></li>
       </ul>
