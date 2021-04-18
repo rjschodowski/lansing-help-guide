@@ -1,7 +1,7 @@
 import React from 'react'
 // import Layout from "../components/layout"
 
-const Medical = () => {
+const Health = () => {
     return (
         <div>
             <h1>Medical</h1>
@@ -13,4 +13,4 @@ const Medical = () => {
     )
 }
 
-export default Medical
+export default Health

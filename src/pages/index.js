@@ -9,8 +9,6 @@ const IndexPage = () => {
         <li><Link to="/medical">Medical</Link></li>
         <li><Link to="/shelter">Shelter</Link></li>
         <li><Link to="/safety">Safety</Link></li>
-         <li><Link to="/financial">Financial</Link></li>
-        <li><Link to="/legal">Legal</Link></li>
       </ul>
     </nav>
   )
