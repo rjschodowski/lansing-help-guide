@@ -8,16 +8,46 @@ const IndexPage = () => {
     <div>
       <HeaderHome />
       <nav>
-        <ul>
-          <li><Link to="/food"><StaticImage src="../images/food_bank-24px.svg" 
+        <button>
+          <Link to="/food">
+            <StaticImage src="../images/food_bank-24px.svg" 
                    width={40}
                    alt="food icon"
                    placeholder="tracedSVG"
-                   quality="40" />Food</Link></li>
-          <li><Link to="/health">Health</Link></li>
-          <li><Link to="/shelter">Shelter</Link></li>
-          <li><Link to="/safety">Safety</Link></li>
-        </ul>
+                   quality="40" />
+            Food
+          </Link>
+        </button>
+        <button>
+          <Link to="/health">
+            <StaticImage src="../images/health_and_safety-24px.svg" 
+                   width={40}
+                   alt="health icon"
+                   placeholder="tracedSVG"
+                   quality="40" />
+            Health
+          </Link>
+        </button>
+        <button>
+          <Link to="/shelter">
+            <StaticImage src="../images/night_shelter-24px.svg" 
+                   width={40}
+                   alt="shelter icon"
+                   placeholder="tracedSVG"
+                   quality="40" />
+            Shelter
+          </Link>
+        </button>
+        <button>
+          <Link to="/safety">
+            <StaticImage src="../images/shield-24px.svg" 
+                   width={40}
+                   alt="food icon"
+                   placeholder="tracedSVG"
+                   quality="40" />
+            Safety
+          </Link>
+        </button>
       </nav>
     </div>
   )
