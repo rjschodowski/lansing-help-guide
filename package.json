@@ -14,7 +14,7 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
-    "@material-ui/core": "^5.0.0-alpha.31",
+    "@material-ui/core": "^5.0.0",
     "@material-ui/icons": "^4.11.2",
     "@material/top-app-bar": "^11.0.0",
     "fontsource-roboto": "^4.0.0",
