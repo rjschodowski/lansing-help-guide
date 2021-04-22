@@ -19,36 +19,36 @@ const IndexPage = () => {
               Food
             </Link>
         </Button>
-        <button>
+        <Button variant="contained">
           <Link to="/health">
             <StaticImage src="../images/health_and_safety-24px.svg" 
-                   width={40}
-                   alt="health icon"
-                   placeholder="tracedSVG"
-                   quality="40" />
-            Health
-          </Link>
-        </button>
-        <button>
+              width={40}
+              alt="health icon"
+              placeholder="tracedSVG"
+              quality="40" />
+              Health
+            </Link>
+        </Button>
+        <Button variant="contained">
           <Link to="/shelter">
             <StaticImage src="../images/night_shelter-24px.svg" 
-                   width={40}
-                   alt="shelter icon"
-                   placeholder="tracedSVG"
-                   quality="40" />
-            Shelter
-          </Link>
-        </button>
-        <button>
+              width={40}
+              alt="shelter icon"
+              placeholder="tracedSVG"
+              quality="40" />
+              Shelter
+            </Link>
+        </Button>
+        <Button variant="contained">
           <Link to="/safety">
-            <StaticImage src="../images/shield-24px.svg" 
-                   width={40}
-                   alt="food icon"
-                   placeholder="tracedSVG"
-                   quality="40" />
-            Safety
-          </Link>
-        </button>
+            <StaticImage src="../images/support-24px.svg" 
+              width={40}
+              alt="safety icon"
+              placeholder="tracedSVG"
+              quality="40" />
+              Safety
+            </Link>
+        </Button>
       </nav>
     </div>
   )
