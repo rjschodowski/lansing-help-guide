@@ -2,11 +2,15 @@ import React from 'react'
 import { StaticImage } from 'gatsby-plugin-image'
 import Link from 'gatsby-link'
 import HeaderHome from '../components/headerHome'
+import Button from '@material-ui/core/Button'
 
 const IndexPage = () => {
   return (
     <div>
       <HeaderHome />
+      <Button >
+        Hello World
+      </Button>
       <nav>
         <button>
           <Link to="/food">
