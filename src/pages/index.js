@@ -8,19 +8,17 @@ const IndexPage = () => {
   return (
     <div>
       <HeaderHome />
-      <p>hey man</p>
-      <Button variant="contained" color="primary">Hey whoa!</Button>
       <nav>
-        <button>
+        <Button variant="contained">
           <Link to="/food">
             <StaticImage src="../images/food_bank-24px.svg" 
-                   width={40}
-                   alt="food icon"
-                   placeholder="tracedSVG"
-                   quality="40" />
-            Food
-          </Link>
-        </button>
+              width={40}
+              alt="food icon"
+              placeholder="tracedSVG"
+              quality="40" />
+              Food
+            </Link>
+        </Button>
         <button>
           <Link to="/health">
             <StaticImage src="../images/health_and_safety-24px.svg" 
