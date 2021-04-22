@@ -8,10 +8,9 @@ const IndexPage = () => {
   return (
     <div>
       <HeaderHome />
-      <Button >
-        Hello World
-      </Button>
-      <nav>
+      <p>hey man</p>
+      <Button>Hey whoa!</Button>
+      {/* <nav>
         <button>
           <Link to="/food">
             <StaticImage src="../images/food_bank-24px.svg" 
@@ -52,7 +51,7 @@ const IndexPage = () => {
             Safety
           </Link>
         </button>
-      </nav>
+      </nav> */}
     </div>
   )
 }
