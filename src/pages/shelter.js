@@ -1,9 +1,9 @@
 import React from 'react'
-// import Layout from "../components/layout"
+import Layout from "../components/layout"
 
 const Shelter = () => {
     return (
-        <div>
+        <Layout>
             <h1>Shelters</h1>
             <ul>
                 <li>
@@ -19,7 +19,7 @@ const Shelter = () => {
                 <a href="https://bearescuer.org" alt="City Rescue Mission website link" target="_blank">City Rescue Mission of Lansing</a>
                 </li>
             </ul>
-        </div>
+        </Layout>
     )
 }
 

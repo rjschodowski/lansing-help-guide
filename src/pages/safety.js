@@ -1,9 +1,9 @@
 import React from 'react'
-// import Layout from "../components/layout"
+import Layout from "../components/layout"
 
 const Safety = () => {
     return (
-        <div>
+        <Layout>
             <h1>Safety</h1>
             <ul>
                 <li>
@@ -16,7 +16,7 @@ const Safety = () => {
                 <a href="https://www.eveinc.org/" alt="End Violent Encounters website link" target="_blank">End Violent Encounters</a>
                 </li>
             </ul>
-        </div>
+        </Layout>
     )
 }
 

@@ -1,9 +1,9 @@
 import React from 'react'
-// import Layout from "../components/layout"
+import Layout from "../components/layout"
 
 const Health = () => {
     return (
-        <div>
+        <Layout>
             <h1>Health</h1>
             <h2>Hospitals</h2>
             <ul>
@@ -61,7 +61,7 @@ const Health = () => {
                 </li>
             </ul>
             <h2>Mental Health</h2>          
-        </div>
+        </Layout>
     )
 }
 
