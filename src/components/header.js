@@ -8,8 +8,6 @@ import 'fontsource-roboto';
 import Button from '@material-ui/core/Button';
 import IconButton from '@material-ui/core/IconButton';
 import HomeIcon from '@material-ui/icons/Home';
-import TranslateIcon from '@material-ui/icons/Translate';
-import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
 
@@ -35,11 +33,6 @@ export default function ButtonAppBar() {
             <Typography variant="h6" className={classes.title}>
             SOS LANSING
             </Typography>
-            <IconButton edge="start" className={classes.menuButton} color="inherit">
-                <TranslateIcon aria-label="translate button" />
-                <Button color="inherit">English</Button>
-                <ExpandMoreIcon aria-label="expand more button" />
-            </IconButton>
         </Toolbar>
       </AppBar>
     </div>
