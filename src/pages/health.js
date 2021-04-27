@@ -12,12 +12,18 @@ const Health = () => {
             <h2>Hospitals</h2>
             <ul>
                 <li>
-                    <IconButton>
-                        <Link to="tel:5173719500"><CallIcon />Call</Link>
+                    <IconButton aria-label="Call">
+                        <a href="tel:5173719500" alt="call" target="_blank">
+                            <CallIcon />Call
+                        </a>
                     </IconButton>
                 </li>
                 <li>
-                    <a href="https://goo.gl/maps/DBHUJ9jPWNPYEoTFA" alt="map directions" target="_blank">Directions</a>
+                    <IconButton>
+                        <Link to="https://goo.gl/maps/DBHUJ9jPWNPYEoTFA" alt="map directions" target="_blank">
+                            <DirectionsIcon />Directions
+                        </Link>
+                    </IconButton>
                 </li>
                 <li>
                     <a href="https://www.sparrow.org/our-hospitals-and-services/sparrow-hospitals/sparrow-hospital" alt="Sparrow Hospital website link" target="_blank">Website</a>
