@@ -4,6 +4,7 @@ import Layout from "../components/layout"
 import IconButton from '@material-ui/core/IconButton';
 import CallIcon from '@material-ui/icons/Call';
 import DirectionsIcon from '@material-ui/icons/Directions';
+import LanguageIcon from '@material-ui/icons/Language';
 
 const Health = () => {
     return (
@@ -13,29 +14,57 @@ const Health = () => {
             <ul>
                 <li>
                     <IconButton aria-label="Call">
-                        <a href="tel:5173719500" alt="call" target="_blank">
+                        <a href="tel:5173641000" alt="call" target="_blank">
                             <CallIcon />Call
                         </a>
                     </IconButton>
                 </li>
                 <li>
-                    <IconButton>
-                        <Link to="https://goo.gl/maps/DBHUJ9jPWNPYEoTFA" alt="map directions" target="_blank">
+                    <IconButton aria-label="Directions">
+                        <a href="https://goo.gl/maps/DBHUJ9jPWNPYEoTFA" alt="map directions" target="_blank">
                             <DirectionsIcon />Directions
-                        </Link>
+                        </a>
                     </IconButton>
                 </li>
                 <li>
-                    <a href="https://www.sparrow.org/our-hospitals-and-services/sparrow-hospitals/sparrow-hospital" alt="Sparrow Hospital website link" target="_blank">Website</a>
+                    <IconButton aria-label="website">
+                    <a href="https://www.sparrow.org/our-hospitals-and-services/sparrow-hospitals/sparrow-hospital" alt="Sparrow Hospital website link" target="_blank">
+                        <LanguageIcon />Website
+                    </a>
+                    </IconButton>
                 </li>
                 <li>
                     <a href="https://www.sparrow.org/our-hospitals-and-services/sparrow-hospitals/sparrow-hospital" alt="Sparrow Hospital website link" target="_blank">Sparrow Hospital</a>
+                </li>
+                <li>
+                    <IconButton aria-label="Call">
+                        <a href="tel:5179756000" alt="call" target="_blank">
+                            <CallIcon />Call
+                        </a>
+                    </IconButton>
+                </li>
+                <li>
+                    <IconButton aria-label="Directions">
+                        <a href="https://goo.gl/maps/XG6nho3HYy1RHdHL8" alt="map directions" target="_blank">
+                            <DirectionsIcon />Directions
+                        </a>
+                    </IconButton>
+                </li>
+                <li>
+                    <IconButton aria-label="website">
+                    <a href="https://www.mclaren.org/lansing/mclaren-greater-lansing-home" alt="McLaren Greater Lansing Hospital website link" target="_blank">
+                        <LanguageIcon />Website
+                    </a>
+                    </IconButton>
+                </li>
+                <li>
+                    <a href="https://www.mclaren.org/lansing/mclaren-greater-lansing-home" alt="Sparrow Hospital website link" target="_blank">McLaren Greater Lansing Hospital</a>
                 </li>
            </ul>
            <h2>Medical Clinics</h2>
            <ul>
                <li>
-                   <a href="tel:5178875922">Call</a>
+                   <a href="tel:5178875922" alt="call" target="_blank">Call</a>
                </li>
                <li>
                    <a href="https://goo.gl/maps/MLDaRQ9nnyWvwPzG7" alt="map directions" target="_blank">Directions</a>
@@ -60,7 +89,7 @@ const Health = () => {
             <h2>Dental</h2>
             <ul>
                 <li>
-                    <a href="tel:5172725053">Call</a>
+                    <a href="tel:5172725053" alt="call" target="_blank">Call</a>
                 </li>
                 <li>
                     <a href="https://goo.gl/maps/GGGcXF6xbKG2gVEn8" alt="map directions" target="_blank">Directions</a>
