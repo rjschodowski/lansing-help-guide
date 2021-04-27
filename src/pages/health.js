@@ -91,10 +91,31 @@ const Health = () => {
            <h2>COVID-19</h2>
             <ul>
                 <li>
+                    <IconButton>
+                        <a href="https://www.solvhealth.com/search?cobrandedSrpLocation=MI" alt="COVID-19 testing search for locations website link" target="_blank">
+                            <LanguageIcon />Website
+                        </a>
+                    </IconButton>
+                </li>
+                <li>
                     <a href="https://www.solvhealth.com/search?cobrandedSrpLocation=MI" alt="COVID-19 testing search for locations website link" target="_blank">Testing Site Locator</a>
                 </li>
                 <li>
+                    <IconButton>
+                        <a href="https://vaccinefinder.org/search/" alt="COVID-19 vaccine finder" target="_blank">
+                            <LanguageIcon />Website
+                        </a>
+                    </IconButton>
+                </li>
+                <li>
                     <a href="https://vaccinefinder.org/search/" alt="COVID-19 vaccine finder" target="_blank">Vaccine Finder</a>
+                </li>
+                <li>
+                    <IconButton>
+                        <a href="https://www.michigan.gov/" alt="Michigan.gov COVID-19 Information Website" target="_blank">
+                        <LanguageIcon />Website
+                        </a>
+                    </IconButton>
                 </li>
                 <li>
                     <a href="https://www.michigan.gov/" alt="Michigan.gov COVID-19 Information Website" target="_blank">Michigan.gov COVID-19 Information Website</a>
