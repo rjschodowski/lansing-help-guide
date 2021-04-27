@@ -71,12 +71,22 @@ const Health = () => {
                    </IconButton>
                </li>
                <li>
-                   <a href="https://goo.gl/maps/MLDaRQ9nnyWvwPzG7" alt="map directions" target="_blank">Directions</a>
-               </li>
+                   <IconButton>
+                        <a href="https://goo.gl/maps/MLDaRQ9nnyWvwPzG7" alt="map directions" target="_blank">
+                            <DirectionsIcon />Directions
+                        </a>
+                   </IconButton>
+                </li>
                <li>
-                   <a href="https://carefreemedical.com/" alt="Carefree Medical website link" target="_blank">Website</a>
-               </li>
-                   <a href="https://carefreemedical.com/" alt="Carefree Medical website link" target="_blank">Carefree Medical</a>
+                   <IconButton>
+                        <a href="https://carefreemedical.com/" alt="Carefree Medical website link" target="_blank">
+                            <LanguageIcon />Website
+                        </a>
+                    </IconButton>
+                </li>
+                <li>
+                    <a href="https://carefreemedical.com/" alt="Carefree Medical website link" target="_blank">Carefree Medical</a>
+                </li>
            </ul>
            <h2>COVID-19</h2>
             <ul>
@@ -100,7 +110,11 @@ const Health = () => {
                     </IconButton>
                 </li>
                 <li>
-                    <a href="https://goo.gl/maps/GGGcXF6xbKG2gVEn8" alt="map directions" target="_blank">Directions</a>
+                    <IconButton>
+                        <a href="https://goo.gl/maps/GGGcXF6xbKG2gVEn8" alt="map directions" target="_blank">
+                        <DirectionsIcon />Directions
+                        </a>
+                    </IconButton>
                 </li>
                 <li>
                     <a href="https://carefreemedical.com/dental/" alt="Carefree Dental website link" target="_blank">Website</a>
