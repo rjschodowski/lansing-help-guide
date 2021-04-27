@@ -113,7 +113,7 @@ const Health = () => {
                 <li>
                     <IconButton>
                         <a href="https://www.michigan.gov/" alt="Michigan.gov COVID-19 Information Website" target="_blank">
-                        <LanguageIcon />Website
+                            <LanguageIcon />Website
                         </a>
                     </IconButton>
                 </li>
@@ -133,12 +133,16 @@ const Health = () => {
                 <li>
                     <IconButton>
                         <a href="https://goo.gl/maps/GGGcXF6xbKG2gVEn8" alt="map directions" target="_blank">
-                        <DirectionsIcon />Directions
+                            <DirectionsIcon />Directions
                         </a>
                     </IconButton>
                 </li>
                 <li>
-                    <a href="https://carefreemedical.com/dental/" alt="Carefree Dental website link" target="_blank">Website</a>
+                    <IconButton>
+                        <a href="https://carefreemedical.com/dental/" alt="Carefree Dental website link" target="_blank">
+                            <LanguageIcon />Website
+                        </a>
+                    </IconButton>
                 </li>
                 <li>
                     <a href="https://carefreemedical.com/dental/" alt="Carefree Dental website link" target="_blank">Carefree Dental</a>
