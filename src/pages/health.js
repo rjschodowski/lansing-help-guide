@@ -28,9 +28,9 @@ const Health = () => {
                 </li>
                 <li>
                     <IconButton aria-label="website">
-                    <a href="https://www.sparrow.org/our-hospitals-and-services/sparrow-hospitals/sparrow-hospital" alt="Sparrow Hospital website link" target="_blank">
+                        <a href="https://www.sparrow.org/our-hospitals-and-services/sparrow-hospitals/sparrow-hospital" alt="Sparrow Hospital website link" target="_blank">
                         <LanguageIcon />Website
-                    </a>
+                        </a>
                     </IconButton>
                 </li>
                 <li>
@@ -52,9 +52,9 @@ const Health = () => {
                 </li>
                 <li>
                     <IconButton aria-label="website">
-                    <a href="https://www.mclaren.org/lansing/mclaren-greater-lansing-home" alt="McLaren Greater Lansing Hospital website link" target="_blank">
-                        <LanguageIcon />Website
-                    </a>
+                        <a href="https://www.mclaren.org/lansing/mclaren-greater-lansing-home" alt="McLaren Greater Lansing Hospital website link" target="_blank">
+                            <LanguageIcon />Website
+                        </a>
                     </IconButton>
                 </li>
                 <li>
@@ -64,7 +64,11 @@ const Health = () => {
            <h2>Medical Clinics</h2>
            <ul>
                <li>
-                   <a href="tel:5178875922" alt="call" target="_blank">Call</a>
+                   <IconButton aria-label="Call">
+                        <a href="tel:5178875922" alt="call" target="_blank">
+                            <CallIcon />Call
+                        </a>
+                   </IconButton>
                </li>
                <li>
                    <a href="https://goo.gl/maps/MLDaRQ9nnyWvwPzG7" alt="map directions" target="_blank">Directions</a>
@@ -89,7 +93,11 @@ const Health = () => {
             <h2>Dental</h2>
             <ul>
                 <li>
-                    <a href="tel:5172725053" alt="call" target="_blank">Call</a>
+                    <IconButton aria-label="Call">
+                        <a href="tel:5172725053" alt="call" target="_blank">
+                            <CallIcon />Call
+                        </a>
+                    </IconButton>
                 </li>
                 <li>
                     <a href="https://goo.gl/maps/GGGcXF6xbKG2gVEn8" alt="map directions" target="_blank">Directions</a>
