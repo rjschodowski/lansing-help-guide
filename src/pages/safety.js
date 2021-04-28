@@ -13,6 +13,30 @@ const Safety = () => {
             <ul>
                 <li>
                     <IconButton aria-label="Call">
+                        <a href="tel:18002738255" alt="call" target="_blank">
+                            <CallIcon />Call
+                        </a>
+                   </IconButton>
+                </li>
+                <li>
+                    <IconButton aria-label="Online chat">
+                        <a href="https://suicidepreventionlifeline.org/chat/" alt="online chat" target="_blank">
+                            <SmsIcon />Online Chat
+                        </a>
+                    </IconButton>
+                </li>
+                <li>
+                    <IconButton aria-label="website">
+                        <a href="https://suicidepreventionlifeline.org/" alt="National Suicide Prevention website link" target="_blank">
+                            <LanguageIcon />Website
+                        </a>
+                    </IconButton>
+                </li>
+                <li>
+                    <a href="https://suicidepreventionlifeline.org/">National Suicide Prevention Lifeline</a>
+                </li>
+                <li>
+                    <IconButton aria-label="Call">
                         <a href="tel:5173725572" alt="call" target="_blank">
                             <CallIcon />Call
                         </a>
