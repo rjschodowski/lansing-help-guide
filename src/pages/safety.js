@@ -4,7 +4,7 @@ import IconButton from '@material-ui/core/IconButton';
 import CallIcon from '@material-ui/icons/Call';
 import DirectionsIcon from '@material-ui/icons/Directions';
 import LanguageIcon from '@material-ui/icons/Language';
-import QuestionAnswerOutlinedIcon from '@material-ui/icons/QuestionAnswerOutlined';
+import SmsIcon from '@material-ui/icons/Sms';
 
 const Safety = () => {
     return (
@@ -21,7 +21,7 @@ const Safety = () => {
                 <li>
                     <IconButton aria-label="Online chat">
                         <a href="https://www.resourceconnect.com/eve/chat" alt="online chat" target="_blank">
-                            <QuestionAnswerOutlinedIcon />Online Chat
+                            <SmsIcon />Online Chat
                         </a>
                     </IconButton>
                 </li>    
