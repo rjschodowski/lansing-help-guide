@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'gatsby'
 import Layout from "../components/layout"
 import IconButton from '@material-ui/core/IconButton';
 import CallIcon from '@material-ui/icons/Call';
