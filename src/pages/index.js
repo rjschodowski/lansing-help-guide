@@ -8,27 +8,33 @@ const IndexPage = () => {
   return (
     <div>
       <HeaderHome />
-      <nav>
-        <Button variant="contained">
-          <Link to="/food">
-            <StaticImage src="../images/food_bank-24px.svg" 
-              width={40}
-              alt="food icon"
-              placeholder="tracedSVG"
-              quality="40" />
-              Food
-            </Link>
-        </Button>
-        <Button variant="contained">
-          <Link to="/health">
-            <StaticImage src="../images/health_and_safety-24px.svg" 
-              width={40}
-              alt="health icon"
-              placeholder="tracedSVG"
-              quality="40" />
-              Health
-            </Link>
-        </Button>
+      <div>
+        <div>
+          <div>
+            <Button variant="contained">
+              <Link to="/food">
+                <StaticImage src="../images/food_bank-24px.svg" 
+                  width={40}
+                  alt="food icon"
+                  placeholder="tracedSVG"
+                  quality="40" />
+                  Food
+                </Link>
+            </Button>
+          </div>
+          <div>
+            <Button variant="contained">
+              <Link to="/health">
+                <StaticImage src="../images/health_and_safety-24px.svg" 
+                  width={40}
+                  alt="health icon"
+                  placeholder="tracedSVG"
+                  quality="40" />
+                  Health
+                </Link>
+            </Button>
+          </div>
+        </div>
         <Button variant="contained">
           <Link to="/shelter">
             <StaticImage src="../images/night_shelter-24px.svg" 
@@ -49,7 +55,7 @@ const IndexPage = () => {
               Safety
             </Link>
         </Button>
-      </nav>
+      </div>
     </div>
   )
 }
