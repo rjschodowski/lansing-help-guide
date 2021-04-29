@@ -48,7 +48,8 @@ const IndexPage = () => {
                 </Button>
               </Link>
             </div>
-            <div>Shelter</div>
+            <div>
+            </div>
           </div>
           <div>
             <Button variant="contained">
