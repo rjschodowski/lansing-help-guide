@@ -35,26 +35,29 @@ const IndexPage = () => {
             </Button>
           </div>
         </div>
-        <Button variant="contained">
-          <Link to="/shelter">
-            <StaticImage src="../images/night_shelter-24px.svg" 
-              width={40}
-              alt="shelter icon"
-              placeholder="tracedSVG"
-              quality="40" />
-              Shelter
-            </Link>
-        </Button>
-        <Button variant="contained">
-          <Link to="/safety">
-            <StaticImage src="../images/support-24px.svg" 
-              width={40}
-              alt="safety icon"
-              placeholder="tracedSVG"
-              quality="40" />
-              Safety
-            </Link>
-        </Button>
+        <div>
+          <div>
+            <Button variant="contained">
+              <Link to="/shelter">
+                <StaticImage src="../images/night_shelter-24px.svg" 
+                  width={40}
+                  alt="shelter icon"
+                  placeholder="tracedSVG"
+                  quality="40" />
+                  Shelter
+                </Link>
+            </Button></div>
+            <Button variant="contained">
+              <Link to="/safety">
+                <StaticImage src="../images/support-24px.svg" 
+                  width={40}
+                  alt="safety icon"
+                  placeholder="tracedSVG"
+                  quality="40" />
+                  Safety
+                </Link>
+            </Button>
+        </div>
       </div>
     </div>
   )
