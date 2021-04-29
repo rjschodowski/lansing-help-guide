@@ -37,16 +37,18 @@ const IndexPage = () => {
         </div>
         <div>
           <div>
-            <Button variant="contained">
+            <div>
               <Link to="/shelter">
-                <StaticImage src="../images/night_shelter-24px.svg" 
-                  width={40}
-                  alt="shelter icon"
-                  placeholder="tracedSVG"
-                  quality="40" />
-                  Shelter
-                </Link>
-            </Button>
+                <Button variant="contained">               
+                  <StaticImage src="../images/night_shelter-24px.svg" 
+                    width={40}
+                    alt="shelter icon"
+                    placeholder="tracedSVG"
+                    quality="40" />               
+                </Button>
+              </Link>
+            </div>
+            <div>Shelter</div>
           </div>
           <div>
             <Button variant="contained">
