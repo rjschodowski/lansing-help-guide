@@ -46,7 +46,9 @@ const IndexPage = () => {
                   quality="40" />
                   Shelter
                 </Link>
-            </Button></div>
+            </Button>
+          </div>
+          <div>
             <Button variant="contained">
               <Link to="/safety">
                 <StaticImage src="../images/support-24px.svg" 
@@ -57,6 +59,7 @@ const IndexPage = () => {
                   Safety
                 </Link>
             </Button>
+          </div>
         </div>
       </div>
     </div>
