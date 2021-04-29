@@ -11,30 +11,35 @@ const IndexPage = () => {
       <div>
         <div>
           <div>
-            <Button variant="contained">
-              <Link to="/food">
-                <StaticImage src="../images/food_bank-24px.svg" 
-                  width={40}
-                  alt="food icon"
-                  placeholder="tracedSVG"
-                  quality="40" />
-                  Food
-                </Link>
-            </Button>
+            <div>
+              <Link to="/shelter">
+                <Button variant="contained">               
+                  <StaticImage src="../images/night_shelter-24px.svg" 
+                    width={40}
+                    alt="shelter icon"
+                    placeholder="tracedSVG"
+                    quality="40" />               
+                </Button>
+              </Link>
+            </div>
+            <div>Shelter</div>
           </div>
           <div>
-            <Button variant="contained">
-              <Link to="/health">
-                <StaticImage src="../images/health_and_safety-24px.svg" 
-                  width={40}
-                  alt="health icon"
-                  placeholder="tracedSVG"
-                  quality="40" />
-                  Health
-                </Link>
-            </Button>
+            <div>
+              <Link to="/shelter">
+                <Button variant="contained">               
+                  <StaticImage src="../images/night_shelter-24px.svg" 
+                    width={40}
+                    alt="shelter icon"
+                    placeholder="tracedSVG"
+                    quality="40" />               
+                </Button>
+              </Link>
+            </div>
+            <div>Shelter</div>
           </div>
         </div>
+
         <div>
           <div>
             <div>
@@ -51,18 +56,21 @@ const IndexPage = () => {
             <div>Shelter</div>
           </div>
           <div>
-            <Button variant="contained">
-              <Link to="/safety">
-                <StaticImage src="../images/support-24px.svg" 
-                  width={40}
-                  alt="safety icon"
-                  placeholder="tracedSVG"
-                  quality="40" />
-                  Safety
-                </Link>
-            </Button>
+            <div>
+              <Link to="/shelter">
+                <Button variant="contained">               
+                  <StaticImage src="../images/night_shelter-24px.svg" 
+                    width={40}
+                    alt="shelter icon"
+                    placeholder="tracedSVG"
+                    quality="40" />               
+                </Button>
+              </Link>
+            </div>
+            <div>Shelter</div>
           </div>
         </div>
+
       </div>
     </div>
   )
