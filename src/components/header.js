@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'gatsby'
+import { Link,graphql, useStaticQuery } from 'gatsby'
 import { makeStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
@@ -19,6 +19,17 @@ const useStyles = makeStyles((theme) => ({
 
 export default function ButtonAppBar() {
   const classes = useStyles();
+  const data = useStaticQuery(graphql`
+  query MyQuery {
+    allSitePage {
+      edges {
+        node {
+          id
+        }
+      }
+    }
+  }  
+  `)
 
   return (
     <div className={classes.root}>
@@ -29,6 +40,8 @@ export default function ButtonAppBar() {
             </IconButton>
             <Typography variant="h6" className={classes.title}>
             SOS LANSING
+            </Typography>
+            <Typography variant="h6">{data.allSitePage.edges.node.id}
             </Typography>
         </Toolbar>
       </AppBar>
