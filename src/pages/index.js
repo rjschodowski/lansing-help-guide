@@ -12,48 +12,48 @@ const IndexPage = () => {
         <div>
           <div>
             <div>
-              <Link to="/shelter">
+              <Link to="/health">
                 <Button variant="contained">               
-                  <StaticImage src="../images/night_shelter-24px.svg" 
+                  <StaticImage src="../images/health_and_safety-24px.svg" 
                     width={40}
-                    alt="shelter icon"
+                    alt="health icon"
                     placeholder="tracedSVG"
                     quality="40" />               
                 </Button>
               </Link>
             </div>
-            <div>Shelter</div>
+            <div>Health</div>
           </div>
           <div>
             <div>
-              <Link to="/shelter">
+              <Link to="/safety">
                 <Button variant="contained">               
-                  <StaticImage src="../images/night_shelter-24px.svg" 
+                  <StaticImage src="../images/support-24px.svg" 
                     width={40}
-                    alt="shelter icon"
+                    alt="safety icon"
                     placeholder="tracedSVG"
                     quality="40" />               
                 </Button>
               </Link>
             </div>
-            <div>Shelter</div>
+            <div>Safety</div>
           </div>
         </div>
 
         <div>
           <div>
             <div>
-              <Link to="/shelter">
+              <Link to="/food">
                 <Button variant="contained">               
-                  <StaticImage src="../images/night_shelter-24px.svg" 
+                  <StaticImage src="../images/food_bank-24px.svg" 
                     width={40}
-                    alt="shelter icon"
+                    alt="food icon"
                     placeholder="tracedSVG"
                     quality="40" />               
                 </Button>
               </Link>
             </div>
-            <div>Shelter</div>
+            <div>Food</div>
           </div>
           <div>
             <div>
