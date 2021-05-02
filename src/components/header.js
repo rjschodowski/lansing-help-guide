@@ -31,6 +31,8 @@ export default function ButtonAppBar() {
   }  
   `)
 
+  const { title } = data.allSitePage.edges.node
+
   return (
     <div className={classes.root}>
       <AppBar position="static">
@@ -41,7 +43,7 @@ export default function ButtonAppBar() {
             <Typography variant="h6" className={classes.title}>
             SOS LANSING
             </Typography>
-            <Typography variant="h6">{data.allSitePage.edges.node.id}
+            <Typography variant="h6">{ title }
             </Typography>
         </Toolbar>
       </AppBar>
