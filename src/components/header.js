@@ -6,7 +6,7 @@ import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import 'fontsource-roboto';
 import IconButton from '@material-ui/core/IconButton';
-import HomeIcon from '@material-ui/icons/Home';
+import ArrowBackIosIcon from '@material-ui/icons/ArrowBackIos';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -19,31 +19,16 @@ const useStyles = makeStyles((theme) => ({
 
 export default function ButtonAppBar() {
   const classes = useStyles();
-  const data = useStaticQuery(graphql`
-  query MyQuery {
-    allSitePage {
-      edges {
-        node {
-          id
-        }
-      }
-    }
-  }  
-  `)
-
-  const { title } = data.allSitePage.edges.node
 
   return (
     <div className={classes.root}>
       <AppBar position="static">
         <Toolbar>
             <IconButton>
-                <Link to="/"><HomeIcon /></Link>
+                <Link to="/"><ArrowBackIosIcon /></Link>
             </IconButton>
             <Typography variant="h6" className={classes.title}>
-            EMERGENCY SERVICES LANSING
-            </Typography>
-            <Typography variant="h6">{ title }
+            LANSING EMERGENCY SERVICES
             </Typography>
         </Toolbar>
       </AppBar>
