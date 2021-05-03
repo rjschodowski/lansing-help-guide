@@ -8,7 +8,6 @@ import LanguageIcon from '@material-ui/icons/Language';
 const Food = () => {
     return (
        <Layout>
-        <h1>Food</h1>
         <ul>
             <li>
                 <IconButton aria-label="Call">

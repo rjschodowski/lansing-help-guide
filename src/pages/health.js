@@ -8,7 +8,6 @@ import LanguageIcon from '@material-ui/icons/Language';
 const Health = () => {
     return (
         <Layout>
-            <h1>Health</h1>
             <h2>Hospitals</h2>
             <ul>
                 <li>

@@ -9,7 +9,6 @@ import SmsIcon from '@material-ui/icons/Sms';
 const Safety = () => {
     return (
         <Layout>
-            <h1>Safety</h1>
             <ul>
                 <li>
                     <IconButton aria-label="Call">

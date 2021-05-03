@@ -9,7 +9,6 @@ import LanguageIcon from '@material-ui/icons/Language';
 const Shelter = () => {
     return (
         <Layout>
-            <h1>Shelters</h1>
             <ul>
                 <li>
                    <IconButton aria-label="Call">
