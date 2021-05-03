@@ -41,7 +41,7 @@ export default function ButtonAppBar() {
                 <Link to="/"><HomeIcon /></Link>
             </IconButton>
             <Typography variant="h6" className={classes.title}>
-            SOS LANSING
+            EMERGENCY SERVICES LANSING
             </Typography>
             <Typography variant="h6">{ title }
             </Typography>
