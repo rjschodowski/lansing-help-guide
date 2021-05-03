@@ -22,7 +22,7 @@ export default function ButtonAppBar() {
       <AppBar position="static">
         <Toolbar>
           <Typography variant="h6" className={classes.title}>
-            EMERGENCY SERVICES LANSING
+          LANSING EMERGENCY SERVICES 
           </Typography>
         </Toolbar>
       </AppBar>

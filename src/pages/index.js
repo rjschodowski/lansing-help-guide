@@ -7,7 +7,7 @@ import Button from '@material-ui/core/Button'
 const IndexPage = () => {
   return (
     <div>
-      <HeaderHome />
+      <HeaderHome.js />
       <div>
         <div>
           <div>
