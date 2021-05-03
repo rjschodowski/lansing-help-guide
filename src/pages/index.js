@@ -13,8 +13,8 @@ const IndexPage = () => {
           <div>
             <div>
               <Link to="/health">
-                <Button variant="contained">               
-                  <StaticImage src="../images/health_and_safety-24px.svg" 
+                <Button variant="contained" color="secondary">               
+                  <StaticImage src="../images/medical_services_white_24dp.svg" 
                     width={40}
                     alt="health icon"
                     placeholder="tracedSVG"
@@ -27,8 +27,8 @@ const IndexPage = () => {
           <div>
             <div>
               <Link to="/safety">
-                <Button variant="contained">               
-                  <StaticImage src="../images/support-24px.svg" 
+                <Button variant="contained" color="secondary">               
+                  <StaticImage src="../images/security_white_24dp.svg" 
                     width={40}
                     alt="safety icon"
                     placeholder="tracedSVG"
@@ -44,8 +44,8 @@ const IndexPage = () => {
           <div>
             <div>
               <Link to="/food">
-                <Button variant="contained">               
-                  <StaticImage src="../images/food_bank-24px.svg" 
+                <Button variant="contained" color="secondary">               
+                  <StaticImage src="../images/food_bank_white_24dp.svg" 
                     width={40}
                     alt="food icon"
                     placeholder="tracedSVG"
@@ -58,8 +58,8 @@ const IndexPage = () => {
           <div>
             <div>
               <Link to="/shelter">
-                <Button variant="contained">               
-                  <StaticImage src="../images/night_shelter-24px.svg" 
+                <Button variant="contained" color="secondary">               
+                  <StaticImage src="../images/night_shelter_white_24dp.svg" 
                     width={40}
                     alt="shelter icon"
                     placeholder="tracedSVG"
