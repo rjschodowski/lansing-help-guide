@@ -11,6 +11,9 @@ const Shelter = () => {
         <Layout>
             <ul>
                 <li>
+                    <a href="https://bearescuer.org" alt="City Rescue Mission website link" target="_blank">City Rescue Mission</a>
+                </li>
+                <li>
                    <IconButton aria-label="Call">
                         <a href="tel:5174850145" alt="call" target="_blank">
                             <CallIcon />Call
@@ -30,9 +33,6 @@ const Shelter = () => {
                             <LanguageIcon />Website
                         </a>
                     </IconButton>
-                </li>
-                <li>
-                    <a href="https://bearescuer.org" alt="City Rescue Mission website link" target="_blank">City Rescue Mission</a>
                 </li>
             </ul>
         </Layout>
