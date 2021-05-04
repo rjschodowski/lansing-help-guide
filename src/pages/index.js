@@ -24,6 +24,8 @@ const IndexPage = () => {
             </div>
             <div>Health</div>
           </div>
+          <hr></hr>
+
           <div>
             <div>
               <Link to="/safety">
@@ -39,6 +41,7 @@ const IndexPage = () => {
             <div>Safety</div>
           </div>
         </div>
+        <hr></hr>
 
         <div>
           <div>
@@ -55,6 +58,8 @@ const IndexPage = () => {
             </div>
             <div>Food</div>
           </div>
+          <hr></hr>
+
           <div>
             <div>
               <Link to="/shelter">
@@ -69,8 +74,9 @@ const IndexPage = () => {
             </div>
             <div>Shelter</div>
           </div>
-        </div>
+          <hr></hr>
 
+        </div>
       </div>
     </div>
   )

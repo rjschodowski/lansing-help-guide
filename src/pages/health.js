@@ -11,6 +11,9 @@ const Health = () => {
             <h2>Hospitals</h2>
             <ul>
                 <li>
+                    <a href="https://www.sparrow.org/our-hospitals-and-services/sparrow-hospitals/sparrow-hospital" alt="Sparrow Hospital website link" target="_blank">Sparrow Hospital</a>
+                </li>
+                <li>
                     <IconButton aria-label="Call">
                         <a href="tel:5173641000" alt="call" target="_blank">
                             <CallIcon />Call
@@ -31,10 +34,10 @@ const Health = () => {
                         </a>
                     </IconButton>
                 </li>
-                <li>
-                    <a href="https://www.sparrow.org/our-hospitals-and-services/sparrow-hospitals/sparrow-hospital" alt="Sparrow Hospital website link" target="_blank">Sparrow Hospital</a>
-                </li>
 
+                <li>
+                    <a href="https://www.mclaren.org/lansing/mclaren-greater-lansing-home" alt="Sparrow Hospital website link" target="_blank">McLaren Greater Lansing Hospital</a>
+                </li>
                 <li>
                     <IconButton aria-label="Call">
                         <a href="tel:5179756000" alt="call" target="_blank">
@@ -56,13 +59,13 @@ const Health = () => {
                         </a>
                     </IconButton>
                 </li>
-                <li>
-                    <a href="https://www.mclaren.org/lansing/mclaren-greater-lansing-home" alt="Sparrow Hospital website link" target="_blank">McLaren Greater Lansing Hospital</a>
-                </li>
            </ul>
 
            <h2>Medical Clinics</h2>
            <ul>
+                <li>
+                    <a href="https://carefreemedical.com/" alt="Carefree Medical website link" target="_blank">Carefree Medical</a>
+                </li>
                <li>
                    <IconButton aria-label="Call">
                         <a href="tel:5178875922" alt="call" target="_blank">
@@ -84,13 +87,13 @@ const Health = () => {
                         </a>
                     </IconButton>
                 </li>
-                <li>
-                    <a href="https://carefreemedical.com/" alt="Carefree Medical website link" target="_blank">Carefree Medical</a>
-                </li>
            </ul>
 
            <h2>COVID-19</h2>
             <ul>
+                <li>
+                    <a href="https://www.solvhealth.com/search?cobrandedSrpLocation=MI" alt="COVID-19 testing search for locations website link" target="_blank">Testing Site Locator</a>
+                </li>
                 <li>
                     <IconButton>
                         <a href="https://www.solvhealth.com/search?cobrandedSrpLocation=MI" alt="COVID-19 testing search for locations website link" target="_blank">
@@ -98,10 +101,10 @@ const Health = () => {
                         </a>
                     </IconButton>
                 </li>
-                <li>
-                    <a href="https://www.solvhealth.com/search?cobrandedSrpLocation=MI" alt="COVID-19 testing search for locations website link" target="_blank">Testing Site Locator</a>
-                </li>
 
+                <li>
+                    <a href="https://vaccinefinder.org/search/" alt="COVID-19 vaccine finder" target="_blank">Vaccine Finder</a>
+                </li>
                 <li>
                     <IconButton>
                         <a href="https://vaccinefinder.org/search/" alt="COVID-19 vaccine finder" target="_blank">
@@ -109,10 +112,10 @@ const Health = () => {
                         </a>
                     </IconButton>
                 </li>
-                <li>
-                    <a href="https://vaccinefinder.org/search/" alt="COVID-19 vaccine finder" target="_blank">Vaccine Finder</a>
-                </li>
 
+                <li>
+                    <a href="https://www.michigan.gov/" alt="Michigan.gov COVID-19 Information Website" target="_blank">Michigan.gov COVID-19 Information Website</a>
+                </li>
                 <li>
                     <IconButton>
                         <a href="https://www.michigan.gov/" alt="Michigan.gov COVID-19 Information Website" target="_blank">
@@ -120,13 +123,13 @@ const Health = () => {
                         </a>
                     </IconButton>
                 </li>
-                <li>
-                    <a href="https://www.michigan.gov/" alt="Michigan.gov COVID-19 Information Website" target="_blank">Michigan.gov COVID-19 Information Website</a>
-                </li>
             </ul>
 
             <h2>Mental Health</h2>   
             <ul>
+                <li>
+                    <a href="http://www.ceicmh.org/services/cs" alt="Community Mental Health 24-Hour Crisis Services website link" target="_blank">Community Mental Health 24-Hour Crisis Services</a>
+                </li>
                 <li>
                     <IconButton aria-label="Call">
                         <a href="tel:5173468460" alt="call" target="_blank">
@@ -148,10 +151,10 @@ const Health = () => {
                         </a>
                     </IconButton>
                 </li>
-                <li>
-                    <a href="http://www.ceicmh.org/services/cs" alt="Community Mental Health 24-Hour Crisis Services website link" target="_blank">Community Mental Health 24-Hour Crisis Services</a>
-                </li>
                 
+                <li>
+                    <a href="http://www.ceicmh.org/services/amhs" alt="Community Mental Health Adult Mental Health Services" target="_blank">Community Mental Health Adult Mental Health Services</a>
+                </li>
                 <li>
                     <IconButton aria-label="Call">
                         <a href="tel:5173468318" alt="call" target="_blank">
@@ -173,13 +176,13 @@ const Health = () => {
                         </a>
                     </IconButton>
                 </li>
-                <li>
-                    <a href="http://www.ceicmh.org/services/amhs" alt="Community Mental Health Adult Mental Health Services" target="_blank">Community Mental Health Adult Mental Health Services</a>
-                </li>
             </ul>
 
             <h2>Dental</h2>
             <ul>
+                <li>
+                    <a href="https://carefreemedical.com/dental/" alt="Carefree Dental website link" target="_blank">Carefree Dental</a>
+                </li>
                 <li>
                     <IconButton aria-label="Call">
                         <a href="tel:5172725053" alt="call" target="_blank">
@@ -200,9 +203,6 @@ const Health = () => {
                             <LanguageIcon />Website
                         </a>
                     </IconButton>
-                </li>
-                <li>
-                    <a href="https://carefreemedical.com/dental/" alt="Carefree Dental website link" target="_blank">Carefree Dental</a>
                 </li>
             </ul>     
         </Layout>
