@@ -10,6 +10,9 @@ const Food = () => {
        <Layout>
         <ul>
             <li>
+                <a href="https://www.lansingmi.gov/530/Mobile-Food-Pantry" alt="Mobile Food Pantry website link" target="_blank">Mobile Food Pantry</a>
+            </li>
+            <li>
                 <IconButton aria-label="Call">
                     <a href="tel:5173641000" alt="call" target="_blank">
                         <CallIcon />Call
@@ -22,9 +25,6 @@ const Food = () => {
                         <LanguageIcon />Website
                     </a>
                 </IconButton>
-            </li>
-            <li>
-                <a href="https://www.lansingmi.gov/530/Mobile-Food-Pantry" alt="Mobile Food Pantry website link" target="_blank">Mobile Food Pantry</a>
             </li>
         </ul>
        </Layout>
