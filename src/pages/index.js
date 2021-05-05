@@ -7,12 +7,13 @@ import { makeStyles } from '@material-ui/core'
 
 const useStyles = makeStyles({
   btn: {
-    borderRadius: 800,
+    borderRadius: 15
   }
 })
 
 const IndexPage = () => {
   const classes = useStyles()
+
   return (
     <div>
       <HeaderHome />
