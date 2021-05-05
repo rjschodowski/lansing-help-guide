@@ -14,7 +14,7 @@ const IndexPage = () => {
           <div>
             <div>
               <Link to="/health">
-                <Button variant="contained" color="secondary">               
+                <Button variant="contained" color="secondary" disabledElevation>               
                   <StaticImage src="../images/medical_services_white_24dp.svg" 
                     width={40}
                     alt="health icon"
@@ -30,7 +30,7 @@ const IndexPage = () => {
           <div>
             <div>
               <Link to="/safety">
-                <Button variant="contained" color="secondary">               
+                <Button variant="contained" color="secondary" disabledElevation>               
                   <StaticImage src="../images/security_white_24dp.svg" 
                     width={40}
                     alt="safety icon"
@@ -48,7 +48,7 @@ const IndexPage = () => {
           <div>
             <div>
               <Link to="/food">
-                <Button variant="contained" color="secondary">               
+                <Button variant="contained" color="secondary" disabledElevation>               
                   <StaticImage src="../images/food_bank_white_24dp.svg" 
                     width={40}
                     alt="food icon"
@@ -64,7 +64,7 @@ const IndexPage = () => {
           <div>
             <div>
               <Link to="/shelter">
-                <Button variant="contained" color="secondary">               
+                <Button variant="contained" color="secondary" disabledElevation>               
                   <StaticImage src="../images/night_shelter_white_24dp.svg" 
                     width={40}
                     alt="shelter icon"
