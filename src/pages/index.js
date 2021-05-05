@@ -1,12 +1,13 @@
 import React from 'react'
 import { StaticImage } from 'gatsby-plugin-image'
 import Link from 'gatsby-link'
+import Layout from '../components/layout'
 import HeaderHome from '../components/headerHome'
 import Button from '@material-ui/core/Button'
 
 const IndexPage = () => {
   return (
-    <div>
+    <Layout>
       <HeaderHome />
       <div>
         <div>
@@ -78,7 +79,7 @@ const IndexPage = () => {
 
         </div>
       </div>
-    </div>
+    </Layout>
   )
 }
 
