@@ -19,7 +19,7 @@ export default function ButtonAppBar() {
 
   return (
     <div className={classes.root}>
-      <AppBar position="static" className={bg-purple-600}>
+      <AppBar position="static" color="secondary">
         <Toolbar>
           <Typography variant="h6" className={classes.title}>
           LANSING EMERGENCY SERVICES 

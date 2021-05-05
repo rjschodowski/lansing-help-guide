@@ -1,13 +1,13 @@
 import React from 'react'
 import { StaticImage } from 'gatsby-plugin-image'
 import Link from 'gatsby-link'
-import Layout from '../components/Layout'
 import HeaderHome from '../components/headerHome'
 import Button from '@material-ui/core/Button'
+import 'fontsource-roboto';
 
 const IndexPage = () => {
   return (
-    <Layout>
+    <div>
       <HeaderHome />
       <div>
         <div>
@@ -23,7 +23,7 @@ const IndexPage = () => {
                 </Button>
               </Link>
             </div>
-            <div>Health</div>
+            <div className="text-gray-600">Health</div>
           </div>
           <hr></hr>
 
@@ -79,7 +79,7 @@ const IndexPage = () => {
 
         </div>
       </div>
-    </Layout>
+    </div>
   )
 }
 

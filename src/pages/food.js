@@ -1,5 +1,5 @@
 import React from 'react'
-import Layout from ''../components/Layout'
+import Layout from '../components/Layout'
 import IconButton from '@material-ui/core/IconButton';
 import CallIcon from '@material-ui/icons/Call';
 import DirectionsIcon from '@material-ui/icons/Directions';
