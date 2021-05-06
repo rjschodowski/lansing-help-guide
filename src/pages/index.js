@@ -8,8 +8,8 @@ import { makeStyles } from '@material-ui/core'
 
 const useStyles = makeStyles({
   btn: {
-    width: '3.25rem',
-    height: '3.25rem',
+    width: '3.5rem',
+    height: '3.5rem',
     borderRadius: '50%',
   }
 })
@@ -20,7 +20,7 @@ const IndexPage = () => {
   return (
     <div>
       <HeaderHome />
-      <div>
+      <div className="mt-8 mb-8 ml-4 mr-4">
         <div>
           <div>
             <div>
