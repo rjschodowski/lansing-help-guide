@@ -8,8 +8,8 @@ import LanguageIcon from '@material-ui/icons/Language';
 const Health = () => {
     return (
         <Layout>
-            <h4 className="ml-4 mr-4">Hospitals</h4>
-            <div className="location-wrapper">
+            <h4 className="ml-4 mr-4 mb-2">Hospitals</h4>
+            <div className="location-wrapper -mb-10">
                 <ul className="flex items-baseline">
                     <li className="flex-grow">
                         <a href="https://www.sparrow.org/our-hospitals-and-services/sparrow-hospitals/sparrow-hospital" alt="Sparrow Hospital website link" target="_blank" className="text-sm">Sparrow Hospital</a>
@@ -38,7 +38,7 @@ const Health = () => {
                 </ul>
             </div>
 
-            <div className="location-wrapper">
+            <div className="location-wrapper -mb-8">
                 <ul className="flex items-baseline">
                     <li className="flex-grow">
                         <a href="https://www.mclaren.org/lansing/mclaren-greater-lansing-home" alt="Sparrow Hospital website link" target="_blank" className="text-sm">McLaren Greater Lansing Hospital</a>
@@ -67,8 +67,8 @@ const Health = () => {
                 </ul>
            </div>
 
-           <h4 className="ml-4 mr-4">Medical Clinics</h4>
-           <div className="location-wrapper">
+           <h4 className="ml-4 mr-4 mb-2">Medical Clinics</h4>
+           <div className="location-wrapper -mb-10">
                 <ul className="flex items-baseline">
                     <li className="flex-grow">
                         <a href="https://carefreemedical.com/" alt="Carefree Medical website link" target="_blank" className="text-sm">Carefree Medical</a>
@@ -97,8 +97,8 @@ const Health = () => {
                 </ul>
             </div>
 
-           <h4 className="ml-4 mr-4">COVID-19</h4>
-           <div className="location-wrapper">
+           <h4 className="ml-4 mr-4 mt-8 mb-2">COVID-19</h4>
+           <div className="location-wrapper -mb-10">
                 <ul className="flex items-baseline">
                     <li className="flex-grow">
                         <a href="https://www.solvhealth.com/search?cobrandedSrpLocation=MI" alt="COVID-19 testing search for locations website link" target="_blank" className="text-sm">Testing Site Locator</a>
@@ -113,7 +113,7 @@ const Health = () => {
                 </ul>
             </div>
 
-            <div className="location-wrapper">
+            <div className="location-wrapper -mb-10">
                 <ul className="flex items-baseline">
                     <li className="flex-grow">
                         <a href="https://vaccinefinder.org/search/" alt="COVID-19 vaccine finder" target="_blank" className="text-sm">Vaccine Finder</a>
@@ -128,7 +128,7 @@ const Health = () => {
                 </ul>
             </div>
             
-            <div className="location-wrapper">
+            <div className="location-wrapper -mb-10">
                 <ul className="flex items-baseline">
                     <li className="flex-grow">
                         <a href="https://www.michigan.gov/" alt="Michigan.gov COVID-19 Information Website" target="_blank" className="text-sm">Michigan.gov COVID-19 Information Website</a>
@@ -143,8 +143,8 @@ const Health = () => {
                 </ul>
             </div>
 
-            <h4 className="ml-4 mr-4">Mental Health</h4>
-            <div className="location-wrapper">   
+            <h4 className="ml-4 mr-4 mb-2">Mental Health</h4>
+            <div className="location-wrapper -mb-10">   
                 <ul className="flex items-baseline">
                     <li className="flex-grow">
                         <a href="http://www.ceicmh.org/services/cs" alt="Community Mental Health 24-Hour Crisis Services website link" target="_blank" className="text-sm">Community Mental Health 24-Hour Crisis Services</a>
@@ -173,7 +173,7 @@ const Health = () => {
                 </ul>
             </div>
 
-            <div>    
+            <div className="location-wrapper -mb-10">    
                 <ul className="flex items-baseline">
                     <li className="flex-grow">
                         <a href="http://www.ceicmh.org/services/amhs" alt="Community Mental Health Adult Mental Health Services" target="_blank" className="text-sm">Community Mental Health Adult Mental Health Services</a>
@@ -202,8 +202,8 @@ const Health = () => {
                 </ul>
             </div>
 
-            <h4 className="ml-4 mr-4">Dental</h4>
-            <div className="location-wrapper">
+            <h4 className="ml-4 mr-4 mb-2">Dental</h4>
+            <div className="location-wrapper -mb-10">
                 <ul className="flex items-baseline">
                     <li className="flex-grow">
                         <a href="https://carefreemedical.com/dental/" alt="Carefree Dental website link" target="_blank" className="text-sm">Carefree Dental</a>
