@@ -8,60 +8,59 @@ import LanguageIcon from '@material-ui/icons/Language';
 const Health = () => {
     return (
         <Layout>
-            <h2>Hospitals</h2>
-            <ul>
-                <li>
-                    <a href="https://www.sparrow.org/our-hospitals-and-services/sparrow-hospitals/sparrow-hospital" alt="Sparrow Hospital website link" target="_blank">Sparrow Hospital</a>
-                </li>
-                <li>
-                    <IconButton aria-label="Call">
-                        <a href="tel:5173641000" alt="call" target="_blank">
-                            <CallIcon />Call
-                        </a>
-                    </IconButton>
-                </li>
-                <li>
-                    <IconButton aria-label="Directions">
-                        <a href="https://goo.gl/maps/DBHUJ9jPWNPYEoTFA" alt="map directions" target="_blank">
-                            <DirectionsIcon />Directions
-                        </a>
-                    </IconButton>
-                </li>
-                <li>
-                    <IconButton aria-label="website">
-                        <a href="https://www.sparrow.org/our-hospitals-and-services/sparrow-hospitals/sparrow-hospital" alt="Sparrow Hospital website link" target="_blank">
-                        <LanguageIcon />Website
-                        </a>
-                    </IconButton>
-                </li>
-
-                <li>
-                    <a href="https://www.mclaren.org/lansing/mclaren-greater-lansing-home" alt="Sparrow Hospital website link" target="_blank">McLaren Greater Lansing Hospital</a>
-                </li>
-                <li>
-                    <IconButton aria-label="Call">
-                        <a href="tel:5179756000" alt="call" target="_blank">
-                            <CallIcon />Call
-                        </a>
-                    </IconButton>
-                </li>
-                <li>
-                    <IconButton aria-label="Directions">
-                        <a href="https://goo.gl/maps/XG6nho3HYy1RHdHL8" alt="map directions" target="_blank">
-                            <DirectionsIcon />Directions
-                        </a>
-                    </IconButton>
-                </li>
-                <li>
-                    <IconButton aria-label="website">
-                        <a href="https://www.mclaren.org/lansing/mclaren-greater-lansing-home" alt="McLaren Greater Lansing Hospital website link" target="_blank">
+            <h4 className="ml-4 mr-4">Hospitals</h4>
+            <div className="location-wrapper">
+                <p>Sparrow Hospital</p>
+                <ul className="flex">
+                    <li>
+                        <IconButton aria-label="Call">
+                            <a href="tel:5173641000" alt="call" target="_blank">
+                                <CallIcon />Call
+                            </a>
+                        </IconButton>
+                    </li>
+                    <li>
+                        <IconButton aria-label="Directions">
+                            <a href="https://goo.gl/maps/DBHUJ9jPWNPYEoTFA" alt="map directions" target="_blank">
+                                <DirectionsIcon />Directions
+                            </a>
+                        </IconButton>
+                    </li>
+                    <li>
+                        <IconButton aria-label="website">
+                            <a href="https://www.sparrow.org/our-hospitals-and-services/sparrow-hospitals/sparrow-hospital" alt="Sparrow Hospital website link" target="_blank">
                             <LanguageIcon />Website
-                        </a>
-                    </IconButton>
-                </li>
-           </ul>
-
-           <h2>Medical Clinics</h2>
+                            </a>
+                        </IconButton>
+                    </li>
+            
+                    <li>
+                        <a href="https://www.mclaren.org/lansing/mclaren-greater-lansing-home" alt="Sparrow Hospital website link" target="_blank">McLaren Greater Lansing Hospital</a>
+                    </li>
+                    <li>
+                        <IconButton aria-label="Call">
+                            <a href="tel:5179756000" alt="call" target="_blank">
+                                <CallIcon />Call
+                            </a>
+                        </IconButton>
+                    </li>
+                    <li>
+                        <IconButton aria-label="Directions">
+                            <a href="https://goo.gl/maps/XG6nho3HYy1RHdHL8" alt="map directions" target="_blank">
+                                <DirectionsIcon />Directions
+                            </a>
+                        </IconButton>
+                    </li>
+                    <li>
+                        <IconButton aria-label="website">
+                            <a href="https://www.mclaren.org/lansing/mclaren-greater-lansing-home" alt="McLaren Greater Lansing Hospital website link" target="_blank">
+                                <LanguageIcon />Website
+                            </a>
+                        </IconButton>
+                    </li>
+                </ul>
+           </div>
+           <h4 className="ml-4 mr-4">Medical Clinics</h4>
            <ul>
                 <li>
                     <a href="https://carefreemedical.com/" alt="Carefree Medical website link" target="_blank">Carefree Medical</a>
@@ -89,7 +88,7 @@ const Health = () => {
                 </li>
            </ul>
 
-           <h2>COVID-19</h2>
+           <h4 className="ml-4 mr-4">COVID-19</h4>
             <ul>
                 <li>
                     <a href="https://www.solvhealth.com/search?cobrandedSrpLocation=MI" alt="COVID-19 testing search for locations website link" target="_blank">Testing Site Locator</a>
@@ -125,7 +124,7 @@ const Health = () => {
                 </li>
             </ul>
 
-            <h2>Mental Health</h2>   
+            <h4 className="ml-4 mr-4">Mental Health</h4>   
             <ul>
                 <li>
                     <a href="http://www.ceicmh.org/services/cs" alt="Community Mental Health 24-Hour Crisis Services website link" target="_blank">Community Mental Health 24-Hour Crisis Services</a>
@@ -178,7 +177,7 @@ const Health = () => {
                 </li>
             </ul>
 
-            <h2>Dental</h2>
+            <h4 className="ml-4 mr-4">Dental</h4>
             <ul>
                 <li>
                     <a href="https://carefreemedical.com/dental/" alt="Carefree Dental website link" target="_blank">Carefree Dental</a>
