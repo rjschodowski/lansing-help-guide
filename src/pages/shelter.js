@@ -9,32 +9,34 @@ import LanguageIcon from '@material-ui/icons/Language';
 const Shelter = () => {
     return (
         <Layout>
-            <ul>
-                <li>
-                    <a href="https://bearescuer.org" alt="City Rescue Mission website link" target="_blank">City Rescue Mission</a>
-                </li>
-                <li>
-                   <IconButton aria-label="Call">
-                        <a href="tel:5174850145" alt="call" target="_blank">
-                            <CallIcon />Call
-                        </a>
-                   </IconButton>
-               </li>
-               <li>
-                   <IconButton>
-                        <a href="https://goo.gl/maps/BkwfojRACQ7NWCGJA" alt="map directions" target="_blank">
-                            <DirectionsIcon />Directions
-                        </a>
-                   </IconButton>
-                </li>
-               <li>
-                   <IconButton>
-                        <a href="https://bearescuer.org" alt="City Rescue Mission website link" target="_blank">
-                            <LanguageIcon />Website
-                        </a>
+            <div className="location-wrapper">
+                <ul className="flex items-baseline">
+                    <li>
+                        <a href="https://bearescuer.org" alt="City Rescue Mission website link" target="_blank">City Rescue Mission</a>
+                    </li>
+                    <li>
+                    <IconButton aria-label="Call">
+                            <a href="tel:5174850145" alt="call" target="_blank">
+                                <CallIcon />Call
+                            </a>
                     </IconButton>
                 </li>
-            </ul>
+                <li>
+                    <IconButton>
+                            <a href="https://goo.gl/maps/BkwfojRACQ7NWCGJA" alt="map directions" target="_blank">
+                                <DirectionsIcon />Directions
+                            </a>
+                    </IconButton>
+                    </li>
+                <li>
+                    <IconButton>
+                            <a href="https://bearescuer.org" alt="City Rescue Mission website link" target="_blank">
+                                <LanguageIcon />Website
+                            </a>
+                        </IconButton>
+                    </li>
+                </ul>
+            </div>
         </Layout>
     )
 }

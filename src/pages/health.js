@@ -12,26 +12,26 @@ const Health = () => {
             <div className="location-wrapper">
                 <ul className="flex items-baseline">
                     <li>
-                        <a href="https://www.sparrow.org/our-hospitals-and-services/sparrow-hospitals/sparrow-hospital" alt="Sparrow Hospital website link" target="_blank">Sparrow Hospital</a>
+                        <a href="https://www.sparrow.org/our-hospitals-and-services/sparrow-hospitals/sparrow-hospital" alt="Sparrow Hospital website link" target="_blank" className="text-sm">Sparrow Hospital</a>
                     </li>
                     <li>
                         <IconButton aria-label="Call">
-                            <a href="tel:5173641000" alt="call" target="_blank">
-                                <CallIcon />Call
+                            <a href="tel:5173641000" className="text-xs" alt="call" target="_blank">
+                                <CallIcon />
                             </a>
                         </IconButton>
                     </li>
                     <li>
                         <IconButton aria-label="Directions">
-                            <a href="https://goo.gl/maps/DBHUJ9jPWNPYEoTFA" alt="map directions" target="_blank">
-                                <DirectionsIcon />Directions
+                            <a href="https://goo.gl/maps/DBHUJ9jPWNPYEoTFA" className="text-xs" alt="map directions" target="_blank">
+                                <DirectionsIcon />
                             </a>
                         </IconButton>
                     </li>
                     <li>
                         <IconButton aria-label="website">
-                            <a href="https://www.sparrow.org/our-hospitals-and-services/sparrow-hospitals/sparrow-hospital" alt="Sparrow Hospital website link" target="_blank">
-                            <LanguageIcon />Website
+                            <a href="https://www.sparrow.org/our-hospitals-and-services/sparrow-hospitals/sparrow-hospital" className="text-xs" alt="Sparrow Hospital website link" target="_blank">
+                            <LanguageIcon />
                             </a>
                         </IconButton>
                     </li>
