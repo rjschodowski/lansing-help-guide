@@ -5,9 +5,12 @@ import HeaderHome from '../components/headerHome'
 import Button from '@material-ui/core/Button'
 import { makeStyles } from '@material-ui/core'
 
+
 const useStyles = makeStyles({
   btn: {
-    borderRadius: 15
+    width: '3.25rem',
+    height: '3.25rem',
+    borderRadius: '50%',
   }
 })
 
@@ -38,7 +41,7 @@ const IndexPage = () => {
           <div>
             <div>
               <Link to="/safety">
-                <Button variant="contained" color="secondary">               
+                <Button className={classes.btn} variant="contained" color="secondary">               
                   <StaticImage src="../images/security_white_24dp.svg" 
                     width={40}
                     alt="safety icon"
@@ -56,7 +59,7 @@ const IndexPage = () => {
           <div>
             <div>
               <Link to="/food">
-                <Button variant="contained" color="secondary">               
+                <Button className={classes.btn} variant="contained" color="secondary">               
                   <StaticImage src="../images/food_bank_white_24dp.svg" 
                     width={40}
                     alt="food icon"
@@ -72,7 +75,7 @@ const IndexPage = () => {
           <div>
             <div>
               <Link to="/shelter">
-                <Button variant="contained" color="secondary">               
+                <Button className={classes.btn} variant="contained" color="secondary">               
                   <StaticImage src="../images/night_shelter_white_24dp.svg" 
                     width={40}
                     alt="shelter icon"
