@@ -7,7 +7,9 @@ const Layout = (props) => {
         <div>
             <div>
                 <Header />
+                <div className="mt-8 mb-8">
                 {props.children}
+                </div>
             </div>
         </div>
     )

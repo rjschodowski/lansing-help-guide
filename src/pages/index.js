@@ -36,7 +36,7 @@ const IndexPage = () => {
             </div>
             <div className="text-gray-600">Health</div>
           </div>
-          <hr className="bg-gray-200"></hr>
+          <hr className="bg-gray-200 mt-4"></hr>
 
           <div>
             <div>
@@ -53,7 +53,7 @@ const IndexPage = () => {
             <div className="text-gray-600">Safety</div>
           </div>
         </div>
-        <hr className="bg-gray-200"></hr>
+        <hr className="bg-gray-200 mt-4"></hr>
 
         <div>
           <div>
@@ -70,7 +70,7 @@ const IndexPage = () => {
             </div>
             <div className="text-gray-600">Food</div>
           </div>
-          <hr className="bg-gray-200"></hr>
+          <hr className="bg-gray-200 mt-4"></hr>
 
           <div>
             <div>
@@ -86,7 +86,7 @@ const IndexPage = () => {
             </div>
             <div className="text-gray-600">Shelter</div>
           </div>
-          <hr className="bg-gray-200"></hr>
+          <hr className="bg-gray-200 mt-4"></hr>
 
         </div>
       </div>
