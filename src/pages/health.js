@@ -10,8 +10,10 @@ const Health = () => {
         <Layout>
             <h4 className="ml-4 mr-4">Hospitals</h4>
             <div className="location-wrapper">
-                <p>Sparrow Hospital</p>
-                <ul className="flex">
+                <ul className="flex items-baseline">
+                    <li>
+                        <a href="https://www.sparrow.org/our-hospitals-and-services/sparrow-hospitals/sparrow-hospital" alt="Sparrow Hospital website link" target="_blank">Sparrow Hospital</a>
+                    </li>
                     <li>
                         <IconButton aria-label="Call">
                             <a href="tel:5173641000" alt="call" target="_blank">
@@ -33,7 +35,11 @@ const Health = () => {
                             </a>
                         </IconButton>
                     </li>
-            
+                </ul>
+            </div>
+
+            <div className="location-wrapper">
+                <ul className="flex items-baseline">
                     <li>
                         <a href="https://www.mclaren.org/lansing/mclaren-greater-lansing-home" alt="Sparrow Hospital website link" target="_blank">McLaren Greater Lansing Hospital</a>
                     </li>
@@ -60,69 +66,77 @@ const Health = () => {
                     </li>
                 </ul>
            </div>
+
            <h4 className="ml-4 mr-4">Medical Clinics</h4>
-           <ul>
+           <div className="location-wrapper">
+                <ul className="flex items-baseline">
+                    <li>
+                        <a href="https://carefreemedical.com/" alt="Carefree Medical website link" target="_blank">Carefree Medical</a>
+                    </li>
                 <li>
-                    <a href="https://carefreemedical.com/" alt="Carefree Medical website link" target="_blank">Carefree Medical</a>
-                </li>
-               <li>
-                   <IconButton aria-label="Call">
-                        <a href="tel:5178875922" alt="call" target="_blank">
-                            <CallIcon />Call
-                        </a>
-                   </IconButton>
-               </li>
-               <li>
-                   <IconButton>
-                        <a href="https://goo.gl/maps/MLDaRQ9nnyWvwPzG7" alt="map directions" target="_blank">
-                            <DirectionsIcon />Directions
-                        </a>
-                   </IconButton>
-                </li>
-               <li>
-                   <IconButton>
-                        <a href="https://carefreemedical.com/" alt="Carefree Medical website link" target="_blank">
-                            <LanguageIcon />Website
-                        </a>
+                    <IconButton aria-label="Call">
+                            <a href="tel:5178875922" alt="call" target="_blank">
+                                <CallIcon />Call
+                            </a>
                     </IconButton>
                 </li>
-           </ul>
+                <li>
+                    <IconButton>
+                            <a href="https://goo.gl/maps/MLDaRQ9nnyWvwPzG7" alt="map directions" target="_blank">
+                                <DirectionsIcon />Directions
+                            </a>
+                    </IconButton>
+                    </li>
+                <li>
+                    <IconButton>
+                            <a href="https://carefreemedical.com/" alt="Carefree Medical website link" target="_blank">
+                                <LanguageIcon />Website
+                            </a>
+                        </IconButton>
+                    </li>
+                </ul>
+            </div>
 
            <h4 className="ml-4 mr-4">COVID-19</h4>
-            <ul>
-                <li>
-                    <a href="https://www.solvhealth.com/search?cobrandedSrpLocation=MI" alt="COVID-19 testing search for locations website link" target="_blank">Testing Site Locator</a>
-                </li>
-                <li>
-                    <IconButton>
-                        <a href="https://www.solvhealth.com/search?cobrandedSrpLocation=MI" alt="COVID-19 testing search for locations website link" target="_blank">
-                            <LanguageIcon />Website
-                        </a>
-                    </IconButton>
-                </li>
+           <div className="location-wrapper"></div>
+                <ul className="flex items-baseline">
+                    <li>
+                        <a href="https://www.solvhealth.com/search?cobrandedSrpLocation=MI" alt="COVID-19 testing search for locations website link" target="_blank">Testing Site Locator</a>
+                    </li>
+                    <li>
+                        <IconButton>
+                            <a href="https://www.solvhealth.com/search?cobrandedSrpLocation=MI" alt="COVID-19 testing search for locations website link" target="_blank">
+                                <LanguageIcon />Website
+                            </a>
+                        </IconButton>
+                    </li>
+                </ul>
 
-                <li>
-                    <a href="https://vaccinefinder.org/search/" alt="COVID-19 vaccine finder" target="_blank">Vaccine Finder</a>
-                </li>
-                <li>
-                    <IconButton>
-                        <a href="https://vaccinefinder.org/search/" alt="COVID-19 vaccine finder" target="_blank">
-                            <LanguageIcon />Website
-                        </a>
-                    </IconButton>
-                </li>
+                <ul className="flex items-baseline">
+                    <li>
+                        <a href="https://vaccinefinder.org/search/" alt="COVID-19 vaccine finder" target="_blank">Vaccine Finder</a>
+                    </li>
+                    <li>
+                        <IconButton>
+                            <a href="https://vaccinefinder.org/search/" alt="COVID-19 vaccine finder" target="_blank">
+                                <LanguageIcon />Website
+                            </a>
+                        </IconButton>
+                    </li>
+                </ul>
 
-                <li>
-                    <a href="https://www.michigan.gov/" alt="Michigan.gov COVID-19 Information Website" target="_blank">Michigan.gov COVID-19 Information Website</a>
-                </li>
-                <li>
-                    <IconButton>
-                        <a href="https://www.michigan.gov/" alt="Michigan.gov COVID-19 Information Website" target="_blank">
-                            <LanguageIcon />Website
-                        </a>
-                    </IconButton>
-                </li>
-            </ul>
+                <ul className="flex items-baseline">
+                    <li>
+                        <a href="https://www.michigan.gov/" alt="Michigan.gov COVID-19 Information Website" target="_blank">Michigan.gov COVID-19 Information Website</a>
+                    </li>
+                    <li>
+                        <IconButton>
+                            <a href="https://www.michigan.gov/" alt="Michigan.gov COVID-19 Information Website" target="_blank">
+                                <LanguageIcon />Website
+                            </a>
+                        </IconButton>
+                    </li>
+                </ul>
 
             <h4 className="ml-4 mr-4">Mental Health</h4>   
             <ul>
