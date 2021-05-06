@@ -22,7 +22,7 @@ export default function ButtonAppBar() {
 
   return (
     <div className={classes.root}>
-      <AppBar position="static" color="secondary">
+      <AppBar className="max-w-full" position="static" color="secondary">
         <Toolbar>
             <IconButton>
                 <Link to="/"><ArrowBackIosIcon /></Link>
