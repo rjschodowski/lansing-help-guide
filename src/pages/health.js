@@ -98,7 +98,7 @@ const Health = () => {
             </div>
 
            <h4 className="ml-4 mr-4">COVID-19</h4>
-           <div className="location-wrapper"></div>
+           <div className="location-wrapper">
                 <ul className="flex items-baseline">
                     <li>
                         <a href="https://www.solvhealth.com/search?cobrandedSrpLocation=MI" alt="COVID-19 testing search for locations website link" target="_blank">Testing Site Locator</a>
@@ -111,7 +111,9 @@ const Health = () => {
                         </IconButton>
                     </li>
                 </ul>
+            </div>
 
+            <div className="location-wrapper">
                 <ul className="flex items-baseline">
                     <li>
                         <a href="https://vaccinefinder.org/search/" alt="COVID-19 vaccine finder" target="_blank">Vaccine Finder</a>
@@ -124,7 +126,9 @@ const Health = () => {
                         </IconButton>
                     </li>
                 </ul>
-
+            </div>
+            
+            <div className="location-wrapper">
                 <ul className="flex items-baseline">
                     <li>
                         <a href="https://www.michigan.gov/" alt="Michigan.gov COVID-19 Information Website" target="_blank">Michigan.gov COVID-19 Information Website</a>
@@ -137,87 +141,96 @@ const Health = () => {
                         </IconButton>
                     </li>
                 </ul>
+            </div>
 
-            <h4 className="ml-4 mr-4">Mental Health</h4>   
-            <ul>
-                <li>
-                    <a href="http://www.ceicmh.org/services/cs" alt="Community Mental Health 24-Hour Crisis Services website link" target="_blank">Community Mental Health 24-Hour Crisis Services</a>
-                </li>
-                <li>
-                    <IconButton aria-label="Call">
-                        <a href="tel:5173468460" alt="call" target="_blank">
-                            <CallIcon />Call
-                        </a>
-                    </IconButton>
-                </li>
-                <li>
-                <IconButton>
-                        <a href="https://goo.gl/maps/Nji9RRuAzsKZMWXd7" alt="map directions" target="_blank">
-                            <DirectionsIcon />Directions
-                        </a>
-                    </IconButton>
-                </li>
-                <li>
+            <h4 className="ml-4 mr-4">Mental Health</h4>
+            <div className="location-wrapper">   
+                <ul className="flex items-baseline">
+                    <li>
+                        <a href="http://www.ceicmh.org/services/cs" alt="Community Mental Health 24-Hour Crisis Services website link" target="_blank">Community Mental Health 24-Hour Crisis Services</a>
+                    </li>
+                    <li>
+                        <IconButton aria-label="Call">
+                            <a href="tel:5173468460" alt="call" target="_blank">
+                                <CallIcon />Call
+                            </a>
+                        </IconButton>
+                    </li>
+                    <li>
                     <IconButton>
-                        <a href="http://www.ceicmh.org/services/cs" alt="Community Mental Health 24-Hour Crisis Services website link" target="_blank">
-                            <LanguageIcon />Website
-                        </a>
-                    </IconButton>
-                </li>
-                
-                <li>
-                    <a href="http://www.ceicmh.org/services/amhs" alt="Community Mental Health Adult Mental Health Services" target="_blank">Community Mental Health Adult Mental Health Services</a>
-                </li>
-                <li>
-                    <IconButton aria-label="Call">
-                        <a href="tel:5173468318" alt="call" target="_blank">
-                            <CallIcon />Call
-                        </a>
-                    </IconButton>
-                </li>
-                <li>
-                <IconButton>
-                        <a href="https://goo.gl/maps/Nji9RRuAzsKZMWXd7" alt="map directions" target="_blank">
-                            <DirectionsIcon />Directions
-                        </a>
-                    </IconButton>
-                </li>
-                <li>
+                            <a href="https://goo.gl/maps/Nji9RRuAzsKZMWXd7" alt="map directions" target="_blank">
+                                <DirectionsIcon />Directions
+                            </a>
+                        </IconButton>
+                    </li>
+                    <li>
+                        <IconButton>
+                            <a href="http://www.ceicmh.org/services/cs" alt="Community Mental Health 24-Hour Crisis Services website link" target="_blank">
+                                <LanguageIcon />Website
+                            </a>
+                        </IconButton>
+                    </li>
+                </ul>
+            </div>
+
+            <div>    
+                <ul className="flex items-baseline">
+                    <li>
+                        <a href="http://www.ceicmh.org/services/amhs" alt="Community Mental Health Adult Mental Health Services" target="_blank">Community Mental Health Adult Mental Health Services</a>
+                    </li>
+                    <li>
+                        <IconButton aria-label="Call">
+                            <a href="tel:5173468318" alt="call" target="_blank">
+                                <CallIcon />Call
+                            </a>
+                        </IconButton>
+                    </li>
+                    <li>
                     <IconButton>
-                        <a href="http://www.ceicmh.org/services/amhs" alt="Community Mental Health Adult Mental Health Services" target="_blank">
-                            <LanguageIcon />Website
-                        </a>
-                    </IconButton>
-                </li>
-            </ul>
+                            <a href="https://goo.gl/maps/Nji9RRuAzsKZMWXd7" alt="map directions" target="_blank">
+                                <DirectionsIcon />Directions
+                            </a>
+                        </IconButton>
+                    </li>
+                    <li>
+                        <IconButton>
+                            <a href="http://www.ceicmh.org/services/amhs" alt="Community Mental Health Adult Mental Health Services" target="_blank">
+                                <LanguageIcon />Website
+                            </a>
+                        </IconButton>
+                    </li>
+                </ul>
+            </div>
 
             <h4 className="ml-4 mr-4">Dental</h4>
-            <ul>
-                <li>
-                    <a href="https://carefreemedical.com/dental/" alt="Carefree Dental website link" target="_blank">Carefree Dental</a>
-                </li>
-                <li>
-                    <IconButton aria-label="Call">
-                        <a href="tel:5172725053" alt="call" target="_blank">
-                            <CallIcon />Call
-                        </a>
-                    </IconButton>
-                </li>
-                <li>
-                    <IconButton>
-                        <a href="https://goo.gl/maps/GGGcXF6xbKG2gVEn8" alt="map directions" target="_blank">
-                            <DirectionsIcon />Directions
-                        </a>
-                    </IconButton>
-                </li>
-                <li>
-                    <IconButton>
-                        <a href="https://carefreemedical.com/dental/" alt="Carefree Dental website link" target="_blank">
-                            <LanguageIcon />Website
-                        </a>
-                    </IconButton>
-                </li>
-            </ul>     
+            <div className="location-wrapper">
+                <ul className="flex items-baseline">
+                    <li>
+                        <a href="https://carefreemedical.com/dental/" alt="Carefree Dental website link" target="_blank">Carefree Dental</a>
+                    </li>
+                    <li>
+                        <IconButton aria-label="Call">
+                            <a href="tel:5172725053" alt="call" target="_blank">
+                                <CallIcon />Call
+                            </a>
+                        </IconButton>
+                    </li>
+                    <li>
+                        <IconButton>
+                            <a href="https://goo.gl/maps/GGGcXF6xbKG2gVEn8" alt="map directions" target="_blank">
+                                <DirectionsIcon />Directions
+                            </a>
+                        </IconButton>
+                    </li>
+                    <li>
+                        <IconButton>
+                            <a href="https://carefreemedical.com/dental/" alt="Carefree Dental website link" target="_blank">
+                                <LanguageIcon />Website
+                            </a>
+                        </IconButton>
+                    </li>
+                </ul>
+            </div>     
         </Layout>
     )
 }
