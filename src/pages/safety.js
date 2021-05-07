@@ -9,7 +9,7 @@ import SmsIcon from '@material-ui/icons/Sms';
 const Safety = () => {
     return (
         <Layout>
-            <div className="location-wrapper -mb-4">
+            <div className="location-wrapper -mb-10">
                 <ul className="flex items-baseline">
                     <li className="flex-grow pr-8">
                         <a href="https://suicidepreventionlifeline.org/" alt="National Suicide Prevention website link" target="_blank" className="text-sm">National Suicide Prevention Lifeline</a>
