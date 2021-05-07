@@ -21,7 +21,7 @@ export default function ButtonAppBar() {
     <div className={classes.root}>
       <AppBar className="max-w-full" position="static" color="secondary">
         <Toolbar>
-          <Typography variant="h6" className={classes.title}>
+          <Typography variant="p" className={classes.title}>
           LANSING EMERGENCY SERVICES 
           </Typography>
         </Toolbar>

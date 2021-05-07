@@ -27,7 +27,7 @@ export default function ButtonAppBar() {
             <IconButton>
                 <Link to="/"><ArrowBackIosIcon /></Link>
             </IconButton>
-            <Typography variant="h6" className={classes.title}>
+            <Typography variant="p" className={classes.title}>
             LANSING EMERGENCY SERVICES
             </Typography>
         </Toolbar>
