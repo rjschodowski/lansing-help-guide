@@ -38,7 +38,7 @@ const Health = () => {
                 </ul>
             </div>
 
-            <div className="location-wrapper -mb-8">
+            <div className="location-wrapper -mb-4">
                 <ul className="flex items-baseline">
                     <li className="flex-grow">
                         <a href="https://www.mclaren.org/lansing/mclaren-greater-lansing-home" alt="Sparrow Hospital website link" target="_blank" className="text-sm">McLaren Greater Lansing Hospital</a>
@@ -128,9 +128,9 @@ const Health = () => {
                 </ul>
             </div>
             
-            <div className="location-wrapper -mb-10">
+            <div className="location-wrapper -mb-4">
                 <ul className="flex items-baseline">
-                    <li className="flex-grow">
+                    <li className="flex-grow pr-8">
                         <a href="https://www.michigan.gov/" alt="Michigan.gov COVID-19 Information Website" target="_blank" className="text-sm">Michigan.gov COVID-19 Information Website</a>
                     </li>
                     <li>
@@ -173,7 +173,7 @@ const Health = () => {
                 </ul>
             </div>
 
-            <div className="location-wrapper -mb-10">    
+            <div className="location-wrapper -mb-4">    
                 <ul className="flex items-baseline">
                     <li className="flex-grow">
                         <a href="http://www.ceicmh.org/services/amhs" alt="Community Mental Health Adult Mental Health Services" target="_blank" className="text-sm">Community Mental Health Adult Mental Health Services</a>
