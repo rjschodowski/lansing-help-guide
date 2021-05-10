@@ -8,22 +8,22 @@ import LanguageIcon from '@material-ui/icons/Language';
 const Food = () => {
     return (
        <Layout>
-           <div className="location-wrapper">
+           <div className="location-wrapper -mb-10">
                 <ul className="flex items-baseline">
-                    <li>
-                        <a href="https://www.lansingmi.gov/530/Mobile-Food-Pantry" alt="Mobile Food Pantry website link" target="_blank">Mobile Food Pantry</a>
+                    <li  className="flex-grow pr-8">
+                        <a href="https://www.lansingmi.gov/530/Mobile-Food-Pantry" alt="Mobile Food Pantry website link" target="_blank" className="text-sm">Mobile Food Pantry</a>
                     </li>
                     <li>
                         <IconButton aria-label="Call">
                             <a href="tel:5173641000" alt="call" target="_blank">
-                                <CallIcon />Call
+                                <CallIcon />
                             </a>
                         </IconButton>
                     </li>
                     <li>
                         <IconButton>
                             <a href="https://www.lansingmi.gov/530/Mobile-Food-Pantry" alt="Mobile Food Pantry website link" target="_blank">
-                                <LanguageIcon />Website
+                                <LanguageIcon />
                             </a>
                         </IconButton>
                     </li>
