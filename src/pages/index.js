@@ -20,7 +20,7 @@ const IndexPage = () => {
   return (
     <div>
       <HeaderHome />
-      <div className="mt-8 mb-8 sm:flex sm:justify-center sm:space-x-8">
+      <div className="mt-8 mb-8 ml-4 mr-4 sm:flex sm:justify-center">
         <div>
           <div>
             <Link to="/health">
@@ -33,11 +33,11 @@ const IndexPage = () => {
               </Button>
             </Link>
           </div>
-          <div className="text-gray-600 text-center">Health</div>
+          <div className="text-gray-600 sm:text-center">Health</div>
         </div>
         <hr className="bg-gray-200 mt-4"></hr>
 
-        <div>
+        <div className="sm:mx-24">
           <div>
             <Link to="/safety">
               <Button className={classes.btn} variant="contained" color="secondary">               
@@ -49,11 +49,11 @@ const IndexPage = () => {
               </Button>
             </Link>
           </div>
-          <div className="text-gray-600 text-center">Safety</div>
+          <div className="text-gray-600 sm:text-center">Safety</div>
         </div>
         <hr className="bg-gray-200 mt-4"></hr>
 
-        <div>
+        <div className="sm:mr-24">
           <div>
             <Link to="/food">
               <Button className={classes.btn} variant="contained" color="secondary">               
@@ -65,7 +65,7 @@ const IndexPage = () => {
               </Button>
             </Link>
           </div>
-          <div className="text-gray-600 text-center">Food</div>
+          <div className="text-gray-600 sm:text-center">Food</div>
         </div>
         <hr className="bg-gray-200 mt-4"></hr>
 
@@ -81,7 +81,7 @@ const IndexPage = () => {
               </Button>
             </Link>
           </div>
-          <div className="text-gray-600 text-center">Shelter</div>
+          <div className="text-gray-600 sm:text-center">Shelter</div>
         </div>
         <hr className="bg-gray-200 mt-4"></hr>
       </div>
