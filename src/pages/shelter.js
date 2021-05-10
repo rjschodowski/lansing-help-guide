@@ -11,7 +11,7 @@ const Shelter = () => {
         <Layout>
             <div className="location-wrapper -mb-10">
                 <ul className="flex items-baseline">
-                    <li className="flex-grow pr-8">
+                    <li className="flex-grow pr-4">
                         <a href="https://bearescuer.org" alt="City Rescue Mission website link" target="_blank" className="text-sm">City Rescue Mission</a>
                     </li>
                     <li>
