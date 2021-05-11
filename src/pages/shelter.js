@@ -22,14 +22,14 @@ const Shelter = () => {
                         </IconButton>
                     </li>
                     <li>
-                        <IconButton>
+                        <IconButton aria-label="directions">
                                 <a href="https://goo.gl/maps/BkwfojRACQ7NWCGJA" alt="map directions" target="_blank">
                                     <DirectionsIcon />
                                 </a>
                         </IconButton>
                         </li>
                     <li>
-                        <IconButton>
+                        <IconButton aria-label="website">
                             <a href="https://bearescuer.org" alt="City Rescue Mission website link" target="_blank">
                                 <LanguageIcon />
                             </a>
