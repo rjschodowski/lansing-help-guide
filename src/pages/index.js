@@ -34,7 +34,7 @@ const IndexPage = () => {
                 </Button>
               </Link>
             </div>
-            <div className="text-gray-600 px-1 sm:text-center">Health</div>
+            <div className="text-gray-600 px-1 pt-1 sm:text-center">Health</div>
           </div>
           <hr className="bg-gray-200 mt-4"></hr>
 
@@ -50,7 +50,7 @@ const IndexPage = () => {
                 </Button>
               </Link>
             </div>
-            <div className="text-gray-600 px-1 sm:text-center">Safety</div>
+            <div className="text-gray-600 px-1 pt-1 sm:text-center">Safety</div>
           </div>
           <hr className="bg-gray-200 mt-4"></hr>
         </div>
@@ -68,7 +68,7 @@ const IndexPage = () => {
                 </Button>
               </Link>
             </div>
-            <div className="text-gray-600 px-1 sm:text-center">Food</div>
+            <div className="text-gray-600 px-1 pt-1 sm:text-center">Food</div>
           </div>
           <hr className="bg-gray-200 mt-4"></hr>
 
@@ -84,7 +84,7 @@ const IndexPage = () => {
                 </Button>
               </Link>
             </div>
-            <div className="text-gray-600 px-1 sm:text-center">Shelter</div>
+            <div className="text-gray-600 px-1 pt-1 sm:text-center">Shelter</div>
           </div>
           <hr className="bg-gray-200 mt-4"></hr>
         </div>
