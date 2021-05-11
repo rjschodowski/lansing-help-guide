@@ -19,7 +19,8 @@ const Safety = () => {
                             <a href="tel:18002738255" alt="call" target="_blank">
                                 <CallIcon />
                             </a>
-                    </IconButton>
+                        </IconButton>
+                        <p className="text-xs text-center">call</p>
                     </li>
                     <li>
                         <IconButton aria-label="Online chat">
@@ -27,6 +28,7 @@ const Safety = () => {
                                 <SmsIcon />
                             </a>
                         </IconButton>
+                        <p className="text-xs text-center">chat</p>
                     </li>
                     <li>
                         <IconButton aria-label="website">
@@ -34,6 +36,7 @@ const Safety = () => {
                                 <LanguageIcon />
                             </a>
                         </IconButton>
+                        <p className="text-xs text-center">website</p>
                     </li>
                 </ul>
             </div>

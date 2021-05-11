@@ -20,70 +20,74 @@ const IndexPage = () => {
   return (
     <div>
       <HeaderHome />
-      <div className="mt-8 mb-8 ml-4 mr-4 sm:flex sm:justify-center">
-        <div>
+      <div className="mt-8 mb-8 ml-4 mr-4">
+        <div className="sm:flex sm:justify-center sm:mt-48 sm:mb-16">
           <div>
-            <Link to="/health">
-              <Button className={classes.btn} variant="contained" color="secondary">               
-                <StaticImage src="../images/medical_services_white_24dp.svg" 
-                  width={40}
-                  alt="health icon"
-                  placeholder="tracedSVG"
-                  quality="40" />               
-              </Button>
-            </Link>
+            <div>
+              <Link to="/health">
+                <Button className={classes.btn} variant="contained" color="secondary">               
+                  <StaticImage src="../images/medical_services_white_24dp.svg" 
+                    width={40}
+                    alt="health icon"
+                    placeholder="tracedSVG"
+                    quality="40" />               
+                </Button>
+              </Link>
+            </div>
+            <div className="text-gray-600 sm:text-center">Health</div>
           </div>
-          <div className="text-gray-600 sm:text-center">Health</div>
-        </div>
-        <hr className="bg-gray-200 mt-4"></hr>
+          <hr className="bg-gray-200 mt-4"></hr>
 
-        <div className="sm:mx-24">
-          <div>
-            <Link to="/safety">
-              <Button className={classes.btn} variant="contained" color="secondary">               
-                <StaticImage src="../images/security_white_24dp.svg" 
-                  width={40}
-                  alt="safety icon"
-                  placeholder="tracedSVG"
-                  quality="40" />               
-              </Button>
-            </Link>
+          <div className="sm:ml-32">
+            <div>
+              <Link to="/safety">
+                <Button className={classes.btn} variant="contained" color="secondary">               
+                  <StaticImage src="../images/security_white_24dp.svg" 
+                    width={40}
+                    alt="safety icon"
+                    placeholder="tracedSVG"
+                    quality="40" />               
+                </Button>
+              </Link>
+            </div>
+            <div className="text-gray-600 sm:text-center">Safety</div>
           </div>
-          <div className="text-gray-600 sm:text-center">Safety</div>
+          <hr className="bg-gray-200 mt-4"></hr>
         </div>
-        <hr className="bg-gray-200 mt-4"></hr>
 
-        <div className="sm:mr-24">
+        <div className="sm:flex sm:justify-center">
           <div>
-            <Link to="/food">
-              <Button className={classes.btn} variant="contained" color="secondary">               
-                <StaticImage src="../images/food_bank_white_24dp.svg" 
-                  width={40}
-                  alt="food icon"
-                  placeholder="tracedSVG"
-                  quality="40" />               
-              </Button>
-            </Link>
+            <div>
+              <Link to="/food">
+                <Button className={classes.btn} variant="contained" color="secondary">               
+                  <StaticImage src="../images/food_bank_white_24dp.svg" 
+                    width={40}
+                    alt="food icon"
+                    placeholder="tracedSVG"
+                    quality="40" />               
+                </Button>
+              </Link>
+            </div>
+            <div className="text-gray-600 sm:text-center">Food</div>
           </div>
-          <div className="text-gray-600 sm:text-center">Food</div>
-        </div>
-        <hr className="bg-gray-200 mt-4"></hr>
+          <hr className="bg-gray-200 mt-4"></hr>
 
-        <div>
-          <div>
-            <Link to="/shelter">
-              <Button className={classes.btn} variant="contained" color="secondary">               
-                <StaticImage src="../images/night_shelter_white_24dp.svg" 
-                  width={40}
-                  alt="shelter icon"
-                  placeholder="tracedSVG"
-                  quality="40" />               
-              </Button>
-            </Link>
+          <div className="sm:ml-32">
+            <div>
+              <Link to="/shelter">
+                <Button className={classes.btn} variant="contained" color="secondary">               
+                  <StaticImage src="../images/night_shelter_white_24dp.svg" 
+                    width={40}
+                    alt="shelter icon"
+                    placeholder="tracedSVG"
+                    quality="40" />               
+                </Button>
+              </Link>
+            </div>
+            <div className="text-gray-600 sm:text-center">Shelter</div>
           </div>
-          <div className="text-gray-600 sm:text-center">Shelter</div>
+          <hr className="bg-gray-200 mt-4"></hr>
         </div>
-        <hr className="bg-gray-200 mt-4"></hr>
       </div>
     </div>
   )
