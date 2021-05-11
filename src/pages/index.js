@@ -68,7 +68,7 @@ const IndexPage = () => {
                 </Button>
               </Link>
             </div>
-            <div className="text-gray-600 px-1 pt-1 sm:text-center">Food</div>
+            <div className="text-gray-600 px-2 pt-1 sm:text-center">Food</div>
           </div>
           <hr className="bg-gray-200 mt-4"></hr>
 
