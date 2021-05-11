@@ -20,7 +20,7 @@ const IndexPage = () => {
   return (
     <div>
       <HeaderHome />
-      <div className="mt-8 mb-8 ml-4 mr-4">
+      <div className="my-8 mx-4">
         <div className="sm:flex sm:justify-center sm:mt-48 sm:mb-16">
           <div>
             <div>
