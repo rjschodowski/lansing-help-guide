@@ -8,6 +8,17 @@ import LanguageIcon from '@material-ui/icons/Language';
 const Health = () => {
     return (
         <Layout>
+            <div className="flex justify-end">
+                <div>
+                    <p className="text-xs text-center">call</p>
+                </div>
+                <div>
+                    <p className="text-xs text-center px-1.5">directions</p>
+                </div>
+                <div>
+                    <p className="text-xs text-center pr-1">website</p>
+                </div>
+            </div>
             <h4 className="ml-4 mr-4 mb-2">Hospitals</h4>
             <div className="location-wrapper -mb-10">
                 <ul className="flex items-baseline">

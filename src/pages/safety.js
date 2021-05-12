@@ -9,6 +9,17 @@ import SmsIcon from '@material-ui/icons/Sms';
 const Safety = () => {
     return (
         <Layout>
+            <div className="flex justify-end">
+                <div>
+                    <p className="text-xs text-center pr-5">call</p>
+                </div>
+                <div>
+                    <p className="text-xs text-center px-2">chat</p>
+                </div>
+                <div>
+                    <p className="text-xs text-center px-1">website</p>
+                </div>
+            </div>
             <div className="location-wrapper -mb-10">
                 <ul className="flex items-baseline">
                     <li className="flex-grow pr-8">
@@ -20,7 +31,6 @@ const Safety = () => {
                                 <CallIcon />
                             </a>
                         </IconButton>
-                        <p className="text-xs text-center">call</p>
                     </li>
                     <li>
                         <IconButton aria-label="Online chat">
@@ -28,7 +38,6 @@ const Safety = () => {
                                 <SmsIcon />
                             </a>
                         </IconButton>
-                        <p className="text-xs text-center">chat</p>
                     </li>
                     <li>
                         <IconButton aria-label="website">
@@ -36,7 +45,6 @@ const Safety = () => {
                                 <LanguageIcon />
                             </a>
                         </IconButton>
-                        <p className="text-xs text-center">website</p>
                     </li>
                 </ul>
             </div>
