@@ -13,7 +13,7 @@ const Food = () => {
                     <p className="text-xs text-center">call</p>
                 </div>
                 <div>
-                    <p className="text-xs text-center px-4">chat</p>
+                    <p className="text-xs text-center px-2">directions</p>
                 </div>
                 <div>
                     <p className="text-xs text-center pr-1">website</p>
