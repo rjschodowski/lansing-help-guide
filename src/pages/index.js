@@ -21,7 +21,7 @@ const IndexPage = () => {
     <div>
       <HeaderHome />
       <div className="my-8 mx-4">
-        <div className="sm:flex sm:justify-center sm:mt-48 sm:mb-16">
+        <div className="sm:flex sm:justify-center sm:mt-40 sm:mb-16">
           <div className="flex flex-col">
             <div>
               <Link to="/health">
