@@ -19,7 +19,7 @@ const Health = () => {
                     <p className="text-xs text-center pr-1">website</p>
                 </div>
             </div>
-            <h4 className="ml-4 mr-4 mb-2">Hospitals</h4>
+            <h4 className="text-blue-500 ml-4 mr-4 mb-2">Hospitals</h4>
             <div className="location-wrapper -mb-10">
                 <ul className="flex items-baseline">
                     <li className="flex-grow">
@@ -78,7 +78,7 @@ const Health = () => {
                 </ul>
            </div>
 
-           <h4 className="ml-4 mr-4 mb-2">Medical Clinics</h4>
+           <h4 className="text-blue-500 ml-4 mr-4 mb-2">Medical Clinics</h4>
            <div className="location-wrapper -mb-10">
                 <ul className="flex items-baseline">
                     <li className="flex-grow">
@@ -108,7 +108,7 @@ const Health = () => {
                 </ul>
             </div>
 
-           <h4 className="ml-4 mr-4 mt-8 mb-2">COVID-19</h4>
+           <h4 className="text-blue-500 ml-4 mr-4 mt-8 mb-2">COVID-19</h4>
            <div className="location-wrapper -mb-10">
                 <ul className="flex items-baseline">
                     <li className="flex-grow">
@@ -154,7 +154,7 @@ const Health = () => {
                 </ul>
             </div>
 
-            <h4 className="ml-4 mr-4 mb-2">Mental Health</h4>
+            <h4 className="text-blue-500 ml-4 mr-4 mb-2">Mental Health</h4>
             <div className="location-wrapper -mb-10">   
                 <ul className="flex items-baseline">
                     <li className="flex-grow">
@@ -213,7 +213,7 @@ const Health = () => {
                 </ul>
             </div>
 
-            <h4 className="ml-4 mr-4 mb-2">Dental</h4>
+            <h4 className="text-blue-500 ml-4 mr-4 mb-2">Dental</h4>
             <div className="location-wrapper -mb-10">
                 <ul className="flex items-baseline">
                     <li className="flex-grow">
