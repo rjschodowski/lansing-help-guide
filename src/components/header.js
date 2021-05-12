@@ -14,6 +14,7 @@ const useStyles = makeStyles((theme) => ({
   },
   title: {
     flexGrow: 1,
+    textAlign: 'center',
   },
 }));
 
@@ -28,7 +29,7 @@ export default function ButtonAppBar() {
                 <Link to="/"><ArrowBackIosIcon /></Link>
             </IconButton>
             <Typography variant="p" className={classes.title}>
-            LANSING EMERGENCY SERVICES
+            FOOD
             </Typography>
         </Toolbar>
       </AppBar>
