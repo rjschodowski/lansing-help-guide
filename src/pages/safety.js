@@ -52,7 +52,7 @@ const Safety = () => {
             <div className="location-wrapper">    
                 <ul className="flex items-baseline">
                     <li className="flex-grow">
-                        <a href="https://www.eveinc.org/" alt="COVID-19 testing search for locations website link" target="_blank" className="text-sm">End Violent Encounters (EVE) 24 Hour Crisis Line</a>
+                        <a href="https://www.eveinc.org/" alt="End Violent Encounters (EVE) 24 Hour Crisis Line website link" target="_blank" className="text-sm">End Violent Encounters (EVE) 24 Hour Crisis Line</a>
                     </li>
                     <li>
                         <IconButton aria-label="Call">
@@ -61,8 +61,8 @@ const Safety = () => {
                             </a>
                         </IconButton>
                     </li>
-                    <li className="pl-12">
-                        <IconButton>
+                    <li className="pl-11">
+                        <IconButton aria-label="Website">
                             <a href="https://www.eveinc.org/" alt="End Violent Encounters website link" target="_blank">
                                 <LanguageIcon />    
                             </a>

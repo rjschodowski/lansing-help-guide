@@ -10,7 +10,7 @@ const Food = () => {
        <Layout>
            <div className="flex justify-end">
                 <div>
-                    <p className="text-xs text-center px-4">call</p>
+                    <p className="text-xs text-center">call</p>
                 </div>
                 <div>
                     <p className="text-xs text-center px-4">chat</p>
@@ -31,8 +31,8 @@ const Food = () => {
                             </a>
                         </IconButton>
                     </li>
-                    <li>
-                        <IconButton>
+                    <li className="pl-10">
+                        <IconButton aria-label="Website">
                             <a href="https://www.lansingmi.gov/530/Mobile-Food-Pantry" alt="Mobile Food Pantry website link" target="_blank">
                                 <LanguageIcon />
                             </a>
