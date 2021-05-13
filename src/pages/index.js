@@ -31,7 +31,7 @@ const IndexPage = () => {
       <div className="my-12 mx-4">
         <div className="flex items-baseline justify-start sm:flex sm:justify-center mb-12">
           <div>
-            <p className="text-xs">If you have an immediate emergency, dial</p>
+            <p className="text-sm font-bold italic">If you have an immediate emergency, dial</p>
           </div>
           <div>
             <Button className={classes.btn911} size="medium" variant="contained" color="secondary"><a href="tel:911" alt="call" target="_blank">911</a>
