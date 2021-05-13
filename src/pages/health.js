@@ -142,7 +142,7 @@ const Health = () => {
             <div className="location-wrapper -mb-4">
                 <ul className="flex items-baseline">
                     <li className="flex-grow pr-8">
-                        <a href="https://www.michigan.gov/" alt="Michigan.gov COVID-19 Information Website" target="_blank" className="text-sm">Michigan.gov COVID-19 Information Website</a>
+                        <a href="https://www.michigan.gov/" alt="Michigan.gov COVID-19 Information Website" target="_blank" className="text-sm">Michigan.gov COVID-19<br></br>Information Website</a>
                     </li>
                     <li>
                         <IconButton aria-label="Website">
