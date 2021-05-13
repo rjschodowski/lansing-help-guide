@@ -11,7 +11,13 @@ const useStyles = makeStyles({
     width: '3.5rem',
     height: '3.5rem',
     borderRadius: '50%',
-  }
+  },
+  btn911: {
+    width: '2rem',
+    height: '1.5rem',
+    justifyContent: 'center',
+    marginLeft: '20%',
+  },
 })
 
 const IndexPage = () => {
@@ -21,6 +27,15 @@ const IndexPage = () => {
     <div>
       <HeaderHome />
       <div className="my-8 mx-4">
+        <div className="flex">
+          <div>
+            <p classname="text-sm italic">If you have a life-threatening emergency, dial</p>
+          </div>
+          <div>
+            <Button className={classes.btn911} size="medium" variant="outlined" color="secondary"><a href="tel:911" alt="call" target="_blank">911</a>
+            </Button>
+        </div>
+        </div>
         <div className="sm:flex sm:justify-center sm:mt-40 sm:mb-16">
           <div className="flex flex-col">
             <div>
