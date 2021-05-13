@@ -17,6 +17,8 @@ const useStyles = makeStyles({
     height: '1.5rem',
     justifyContent: 'center',
     marginLeft: '20%',
+    fontWeight: '900',
+    borderWidth: 1.5,
   },
 })
 
@@ -27,7 +29,7 @@ const IndexPage = () => {
     <div>
       <HeaderHome />
       <div className="my-8 mx-4">
-        <div className="flex items-baseline justify-start">
+        <div className="flex items-baseline justify-start sm:flex sm:justify-center">
           <div>
             <p className="text-xs">If you have an immediate emergency, dial</p>
           </div>

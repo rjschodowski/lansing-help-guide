@@ -21,17 +21,17 @@ const Food = () => {
             </div>
            <div className="location-wrapper -mb-10">
                 <ul className="flex items-baseline">
-                    <li  className="flex-grow pr-8">
+                    <li className="flex-grow">
                         <a href="https://www.lansingmi.gov/530/Mobile-Food-Pantry" alt="Mobile Food Pantry website link" target="_blank" className="text-sm">Mobile Food Pantry</a>
                     </li>
-                    <li>
+                    <li className="pr-12">
                         <IconButton aria-label="Call">
                             <a href="tel:5173641000" alt="call" target="_blank">
                                 <CallIcon />
                             </a>
                         </IconButton>
                     </li>
-                    <li className="pl-14">
+                    <li>
                         <IconButton aria-label="Website">
                             <a href="https://www.lansingmi.gov/530/Mobile-Food-Pantry" alt="Mobile Food Pantry website link" target="_blank">
                                 <LanguageIcon />
