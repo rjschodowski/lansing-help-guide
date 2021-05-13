@@ -31,7 +31,7 @@ const Food = () => {
                             </a>
                         </IconButton>
                     </li>
-                    <li className="pl-10">
+                    <li className="pl-14">
                         <IconButton aria-label="Website">
                             <a href="https://www.lansingmi.gov/530/Mobile-Food-Pantry" alt="Mobile Food Pantry website link" target="_blank">
                                 <LanguageIcon />
