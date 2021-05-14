@@ -40,7 +40,7 @@ const IndexPage = () => {
           <div className="flex flex-col">
             <div>
               <Link to="/health">
-                <Button className={classes.btn} variant="contained" color="secondary">               
+                <Button className={classes.btn} variant="contained" color="primary">               
                   <StaticImage src="../images/medical_services_white_24dp.svg" 
                     width={40}
                     alt="health icon"
@@ -56,7 +56,7 @@ const IndexPage = () => {
           <div className="sm:ml-32">
             <div>
               <Link to="/safety">
-                <Button className={classes.btn} variant="contained" color="secondary">               
+                <Button className={classes.btn} variant="contained" color="primary">               
                   <StaticImage src="../images/security_white_24dp.svg" 
                     width={40}
                     alt="safety icon"
@@ -74,7 +74,7 @@ const IndexPage = () => {
           <div>
             <div>
               <Link to="/food">
-                <Button className={classes.btn} variant="contained" color="secondary">               
+                <Button className={classes.btn} variant="contained" color="primary">               
                   <StaticImage src="../images/food_bank_white_24dp.svg" 
                     width={40}
                     alt="food icon"
@@ -90,7 +90,7 @@ const IndexPage = () => {
           <div className="sm:ml-32">
             <div>
               <Link to="/shelter">
-                <Button className={classes.btn} variant="contained" color="secondary">               
+                <Button className={classes.btn} variant="contained" color="primary">               
                   <StaticImage src="../images/night_shelter_white_24dp.svg" 
                     width={40}
                     alt="shelter icon"
