@@ -256,7 +256,7 @@ const Health = () => {
                 </li>
                 <li>
                     <IconButton aria-label="Directions">
-                            <a href="https://goo.gl/maps/856EQx1a7gwzn8gk9" alt="map directions" target="_blank">
+                            <a href="https://goo.gl/maps/dzzcGKqrr9G51fd37" alt="map directions" target="_blank">
                                 <DirectionsIcon />
                             </a>
                     </IconButton>
