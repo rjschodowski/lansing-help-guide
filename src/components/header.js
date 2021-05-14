@@ -31,7 +31,7 @@ export default function ButtonAppBar() {
                 <Link to="/"><ArrowBackIosIcon /></Link>
             </IconButton>
             <Typography variant="h6" className={classes.title}>
-            FOOD
+            HEALTH
             </Typography>
         </Toolbar>
       </AppBar>

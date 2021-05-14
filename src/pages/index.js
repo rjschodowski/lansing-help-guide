@@ -28,8 +28,8 @@ const IndexPage = () => {
       <HeaderHome />
       <div className="my-12 mx-4">
         <div className="flex items-baseline justify-evenly sm:flex sm:flex-col sm:items-center mb-12">
-          <div className="mr-8 sm:mr-0">
-            <p className="text-sm italic">If you have an immediate emergency, dial<span /></p>
+          <div>
+            <p className="text-xs italic">For immediate emergencies, push</p>
           </div>
           <div>
             <Button className={classes.btn911} size="medium" variant="contained" color="secondary"><a href="tel:911" alt="call" target="_blank">911</a>
