@@ -15,8 +15,6 @@ const useStyles = makeStyles({
   btn911: {
     width: '5rem',
     height: '2.5rem',
-    justifyContent: 'center',
-    marginLeft: '20%',
     fontWeight: '900',
     borderWidth: 1.5,
   },
@@ -29,9 +27,9 @@ const IndexPage = () => {
     <div>
       <HeaderHome />
       <div className="my-12 mx-4">
-        <div className="flex items-baseline justify-start sm:flex sm:justify-center mb-12">
-          <div>
-            <p className="text-sm font-bold italic">If you have an immediate emergency, dial</p>
+        <div className="flex items-baseline justify-evenly sm:flex sm:flex-col sm:items-center mb-12">
+          <div className="mr-8 sm:mr-0">
+            <p className="text-sm italic">If you have an immediate emergency, dial<span /></p>
           </div>
           <div>
             <Button className={classes.btn911} size="medium" variant="contained" color="secondary"><a href="tel:911" alt="call" target="_blank">911</a>
