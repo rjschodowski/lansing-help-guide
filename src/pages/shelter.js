@@ -48,6 +48,66 @@ const Shelter = () => {
                     </li>
                 </ul>
             </div>
+
+            <div className="location-wrapper -mb-10">
+                <ul className="flex items-baseline">
+                    <li className="flex-grow pr-4">
+                        <a href="https://www.adventhouse.com/?q=day-shelter-and-food" alt="Advent House Day Shelter website link" target="_blank" className="text-sm">Advent House Day Shelter and Food</a>
+                    </li>
+                    <li>
+                        <IconButton aria-label="Call">
+                                <a href="tel:5174854722" alt="call" target="_blank">
+                                    <CallIcon />
+                                </a>
+                        </IconButton>
+                    </li>
+                    <li>
+                        <IconButton aria-label="directions">
+                                <a href="https://goo.gl/maps/nMFWV6SzXYVjWgN88" alt="map directions" target="_blank">
+                                    <DirectionsIcon />
+                                </a>
+                        </IconButton>
+                        </li>
+                    <li>
+                        <IconButton aria-label="website">
+                            <a href="https://www.adventhouse.com/?q=day-shelter-and-food" alt="Advent House Day Shelter website link" target="_blank">
+                                <LanguageIcon />
+                            </a>
+                        </IconButton>
+                    </li>
+                </ul>
+            </div>
+
+            <div className="location-wrapper -mb-10">
+                <ul className="flex items-baseline">
+                    <li className="flex-grow pr-4">
+                        <a href="https://holycrossservices.org/programs/homeless-services/" alt="
+New Hope Community Center of Holy Cross Services website link" target="_blank" className="text-sm">
+New Hope Community Center of Holy Cross Services</a>
+                    </li>
+                    <li>
+                        <IconButton aria-label="Call">
+                                <a href="tel:5174844414" alt="call" target="_blank">
+                                    <CallIcon />
+                                </a>
+                        </IconButton>
+                    </li>
+                    <li>
+                        <IconButton aria-label="directions">
+                                <a href="https://goo.gl/maps/n3myu927AxAvJcQh9" alt="map directions" target="_blank">
+                                    <DirectionsIcon />
+                                </a>
+                        </IconButton>
+                        </li>
+                    <li>
+                        <IconButton aria-label="website">
+                            <a href="https://holycrossservices.org/programs/homeless-services/" alt="Advent House Day Shelter website link" target="_blank">
+                                <LanguageIcon />
+                            </a>
+                        </IconButton>
+                    </li>
+                </ul>
+            </div>
         </Layout>
     )
 }
