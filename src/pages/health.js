@@ -107,8 +107,37 @@ const Health = () => {
                     </li>
                 </ul>
             </div>
+            
+            <div className="location-wrapper -mb-4">
+                <ul className="flex items-baseline">
+                    <li className="flex-grow">
+                        <a href="https://www.cristoreycommunity.org/family-health-center/health-services/health-center/" alt="Cristo Rey Family Health Center website link" target="_blank" className="text-sm">Cristo Rey Family Health Center</a>
+                    </li>
+                <li>
+                    <IconButton aria-label="Call">
+                            <a href="tel:5173711700" alt="call" target="_blank">
+                                <CallIcon />
+                            </a>
+                    </IconButton>
+                </li>
+                <li>
+                    <IconButton aria-label="Directions">
+                            <a href="https://goo.gl/maps/856EQx1a7gwzn8gk9" alt="map directions" target="_blank">
+                                <DirectionsIcon />
+                            </a>
+                    </IconButton>
+                    </li>
+                <li>
+                    <IconButton aria-label="Website">
+                            <a href="https://www.cristoreycommunity.org/family-health-center/health-services/health-center/" alt="Cristo Rey Family Health Center website link" target="_blank">
+                                <LanguageIcon />
+                            </a>
+                        </IconButton>
+                    </li>
+                </ul>
+            </div>
 
-           <h4 className="text-blue-500 ml-4 mr-4 mt-8 mb-2">COVID-19</h4>
+           <h4 className="text-blue-500 ml-4 mr-4 mb-2">COVID-19</h4>
            <div className="location-wrapper -mb-10">
                 <ul className="flex items-baseline">
                     <li className="flex-grow">
@@ -139,7 +168,7 @@ const Health = () => {
                 </ul>
             </div>
             
-            <div className="location-wrapper -mb-4">
+            <div className="location-wrapper -mb-2">
                 <ul className="flex items-baseline">
                     <li className="flex-grow pr-8">
                         <a href="https://www.michigan.gov/" alt="Michigan.gov COVID-19 Information Website" target="_blank" className="text-sm">Michigan.gov COVID-19<br></br>Information Website</a>
@@ -184,7 +213,7 @@ const Health = () => {
                 </ul>
             </div>
 
-            <div className="location-wrapper -mb-4">    
+            <div className="location-wrapper -mb-10">    
                 <ul className="flex items-baseline">
                     <li className="flex-grow">
                         <a href="http://www.ceicmh.org/services/amhs" alt="Community Mental Health Adult Mental Health Services" target="_blank" className="text-sm">Community Mental Health Adult Mental Health Services</a>
@@ -206,6 +235,35 @@ const Health = () => {
                     <li>
                         <IconButton aria-label="Website">
                             <a href="http://www.ceicmh.org/services/amhs" alt="Community Mental Health Adult Mental Health Services" target="_blank">
+                                <LanguageIcon />
+                            </a>
+                        </IconButton>
+                    </li>
+                </ul>
+            </div>
+
+            <div className="location-wrapper -mb-4">
+                <ul className="flex items-baseline">
+                    <li className="flex-grow">
+                        <a href="https://www.cristoreycommunity.org/family-health-center/health-services/health-center/" alt="Cristo Rey Community Center Counseling Programs website link" target="_blank" className="text-sm">Cristo Rey Community Center Counseling Programs</a>
+                    </li>
+                <li>
+                    <IconButton aria-label="Call">
+                            <a href="tel:5173724700" alt="call" target="_blank">
+                                <CallIcon />
+                            </a>
+                    </IconButton>
+                </li>
+                <li>
+                    <IconButton aria-label="Directions">
+                            <a href="https://goo.gl/maps/856EQx1a7gwzn8gk9" alt="map directions" target="_blank">
+                                <DirectionsIcon />
+                            </a>
+                    </IconButton>
+                    </li>
+                <li>
+                    <IconButton aria-label="Website">
+                            <a href="https://www.cristoreycommunity.org/family-health-center/health-services/health-center/" alt="Cristo Rey Community Center Counseling Programs website link" target="_blank">
                                 <LanguageIcon />
                             </a>
                         </IconButton>
