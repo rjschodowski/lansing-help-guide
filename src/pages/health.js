@@ -299,6 +299,35 @@ const Health = () => {
                         </IconButton>
                     </li>
                 </ul>
+            </div>
+
+             <div className="location-wrapper -mb-4">
+                <ul className="flex items-baseline">
+                    <li className="flex-grow">
+                        <a href="https://destinydentalcare.com/" alt="Destiny Dental website link" target="_blank" className="text-sm">Destiny Dental</a>
+                    </li>
+                    <li>
+                        <IconButton aria-label="Call">
+                            <a href="tel:5178820800" alt="call" target="_blank">
+                                <CallIcon />
+                            </a>
+                        </IconButton>
+                    </li>
+                    <li>
+                        <IconButton aria-label="Directions">
+                            <a href="https://goo.gl/maps/dsVAypUVB9mty5xt7" alt="map directions" target="_blank">
+                                <DirectionsIcon />
+                            </a>
+                        </IconButton>
+                    </li>
+                    <li>
+                        <IconButton aria-label="Website">
+                            <a href="https://destinydentalcare.com/" alt="Destiny Dental website link" target="_blank">
+                                <LanguageIcon />
+                            </a>
+                        </IconButton>
+                    </li>
+                </ul>
             </div>     
         </Layout>
     )
