@@ -8,7 +8,7 @@ import LanguageIcon from '@material-ui/icons/Language';
 
 const Shelter = () => {
     return (
-        <Layout>
+        <Layout pageTitle="Shelter">
             <div className="flex justify-end">
                 <div>
                     <p className="text-xs text-center">call</p>

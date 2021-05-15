@@ -7,7 +7,7 @@ import LanguageIcon from '@material-ui/icons/Language';
 
 const Food = () => {
     return (
-       <Layout>
+       <Layout pageTitle="Food">
            <div className="flex justify-end">
                 <div>
                     <p className="text-xs text-center">call</p>

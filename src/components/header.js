@@ -20,7 +20,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function ButtonAppBar() {
+export default function ButtonAppBar(props) {
   const classes = useStyles();
 
   return (
@@ -31,7 +31,7 @@ export default function ButtonAppBar() {
                 <Link to="/"><ArrowBackIosIcon /></Link>
             </IconButton>
             <Typography variant="h6" className={classes.title}>
-            HEALTH
+              {props.pageTitle}
             </Typography>
         </Toolbar>
       </AppBar>
