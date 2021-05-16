@@ -245,7 +245,7 @@ const Health = () => {
             <div className="location-wrapper -mb-4">
                 <ul className="flex items-baseline">
                     <li className="flex-grow">
-                        <a href="https://www.cristoreycommunity.org/family-health-center/health-services/health-center/" alt="Cristo Rey Community Center Counseling Programs website link" target="_blank" className="text-sm">Cristo Rey Community Center Counseling Programs</a>
+                        <a href="https://www.cristoreycommunity.org/family-health-center/health-services/6658-2/" alt="Cristo Rey Community Center Counseling and Substance Abuse Programs website link" target="_blank" className="text-sm">Cristo Rey Community Center Counseling and <br></br>Substance Abuse Programs</a>
                     </li>
                 <li>
                     <IconButton aria-label="Call">
@@ -263,7 +263,7 @@ const Health = () => {
                     </li>
                 <li>
                     <IconButton aria-label="Website">
-                            <a href="https://www.cristoreycommunity.org/family-health-center/health-services/health-center/" alt="Cristo Rey Community Center Counseling Programs website link" target="_blank">
+                            <a href="https://www.cristoreycommunity.org/family-health-center/health-services/6658-2/" alt="Cristo Rey Community Center Counseling and Substance Abuse Programs website link" target="_blank">
                                 <LanguageIcon />
                             </a>
                         </IconButton>

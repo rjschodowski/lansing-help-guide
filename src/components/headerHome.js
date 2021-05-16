@@ -12,7 +12,7 @@ const useStyles = makeStyles((theme) => ({
   title: {
     flexGrow: 1,
     fontWeight: 600,
-    letterSpacing: -0.5,
+    letterSpacing: 1.05,
   },
 }));
 
@@ -24,7 +24,7 @@ export default function ButtonAppBar() {
       <AppBar className="max-w-full" position="static" color="secondary">
         <Toolbar>
           <Typography variant="h6" className={classes.title}>
-          LANSING EMERGENCY SERVICES 
+          LANSING COMMUNITY RESOURCES 
           </Typography>
         </Toolbar>
       </AppBar>
