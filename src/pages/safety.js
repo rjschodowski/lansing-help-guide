@@ -8,7 +8,7 @@ import SmsIcon from "@material-ui/icons/Sms"
 
 const Safety = () => {
   return (
-    <Layout pageTitle="Safety">
+    <Layout pageTitle="SAFETY">
       <div className="flex justify-end">
         <div>
           <p className="text-xs text-center pr-5">call</p>
