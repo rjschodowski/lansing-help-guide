@@ -20,6 +20,8 @@ const Safety = () => {
           <p className="text-xs text-center px-1">website</p>
         </div>
       </div>
+
+      <h4 className="text-blue-500 ml-4 mr-4 mb-2">Mental Health Safety</h4>
       <div className="location-wrapper -mb-10">
         <ul className="flex items-baseline">
           <li className="flex-grow pr-8">
@@ -63,8 +65,8 @@ const Safety = () => {
           </li>
         </ul>
       </div>
-
-      <div className="location-wrapper -mb-10">   
+      
+      <div className="location-wrapper -mb-4">   
                 <ul className="flex items-baseline">
                     <li className="flex-grow">
                         <a href="http://www.ceicmh.org/services/cs" alt="Community Mental Health 24-Hour Crisis Services website link" target="_blank" className="text-sm">Community Mental Health 24-Hour Crisis Services</a>
@@ -93,7 +95,8 @@ const Safety = () => {
                 </ul>
             </div>
 
-      <div className="location-wrapper">
+      <h4 className="text-blue-500 ml-4 mr-4 mb-2">Domestic Violence Help</h4>
+      <div className="location-wrapper -mb-10">
         <ul className="flex items-baseline">
           <li className="flex-grow">
             <a
@@ -117,6 +120,84 @@ const Safety = () => {
               <a
                 href="https://www.eveinc.org/"
                 alt="End Violent Encounters website link"
+                target="_blank"
+              >
+                <LanguageIcon />
+              </a>
+            </IconButton>
+          </li>
+        </ul>
+      </div>
+
+      <div className="location-wrapper -mb-4">
+        <ul className="flex items-baseline">
+          <li className="flex-grow">
+            <a
+              href="https://www.michigan.gov/voices4/"
+              alt="Michigan Sexual Assault Hotline (VOICES4) website link"
+              target="_blank"
+              className="text-sm"
+            >
+              Michigan Sexual Assault Hotline (VOICES4)
+            </a>
+          </li>
+          <li>
+            <IconButton aria-label="Call">
+              <a href="tel:8558642374" alt="call" target="_blank">
+                <CallIcon />
+              </a>
+            </IconButton>
+          </li>
+          <li className="pl-11">
+            <IconButton aria-label="Website">
+              <a
+                href="https://www.michigan.gov/voices4/"
+                alt="Michigan Sexual Assault Hotline (VOICES4) website link"
+                target="_blank"
+              >
+                <LanguageIcon />
+              </a>
+            </IconButton>
+          </li>
+        </ul>
+      </div>
+
+      <h4 className="text-blue-500 ml-4 mr-4 mb-2">Human Trafficking Help</h4>
+      <div className="location-wrapper -mb-10">
+        <ul className="flex items-baseline">
+          <li className="flex-grow">
+            <a
+              href="https://humantraffickinghotline.org/"
+              alt="National Human Trafficking Hotline website link"
+              target="_blank"
+              className="text-sm"
+            >
+              National Human Trafficking Hotline
+            </a>
+          </li>
+          <li>
+            <IconButton aria-label="Call">
+              <a href="tel:18883737888" alt="call" target="_blank">
+                <CallIcon />
+              </a>
+            </IconButton>
+          </li>
+          <li>
+            <IconButton aria-label="Online chat">
+              <a
+                href="https://humantraffickinghotline.org/chat"
+                alt="online chat"
+                target="_blank"
+              >
+                <SmsIcon />
+              </a>
+            </IconButton>
+          </li>
+          <li>
+            <IconButton aria-label="Website">
+              <a
+                href="https://humantraffickinghotline.org/"
+                alt="National Human Trafficking Hotline website link"
                 target="_blank"
               >
                 <LanguageIcon />

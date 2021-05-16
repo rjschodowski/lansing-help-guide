@@ -12,11 +12,12 @@ const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
   },
+
   title: {
     flexGrow: 1,
     textAlign: 'center',
     fontWeight: 600,
-    letterSpacing: 1.05,
+    letterSpacing: 1.15,
   },
 }));
 
@@ -25,7 +26,7 @@ export default function ButtonAppBar(props) {
 
   return (
     <div className={classes.root}>
-      <AppBar className="max-w-full" position="static" color="secondary">
+      <AppBar className="max-w-full" position="fixed" color="primary">
         <Toolbar>
             <IconButton>
                 <Link to="/"><ArrowBackIosIcon /></Link>
