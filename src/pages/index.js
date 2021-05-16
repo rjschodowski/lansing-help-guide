@@ -4,6 +4,7 @@ import Link from 'gatsby-link'
 import HeaderHome from '../components/headerHome'
 import Button from '@material-ui/core/Button'
 import { makeStyles } from '@material-ui/core'
+import 'fontsource-roboto';
 
 
 const useStyles = makeStyles({
@@ -26,8 +27,8 @@ const IndexPage = () => {
   return (
     <div>
       <HeaderHome />
-      <div className="my-12 mx-4">
-        <div className="flex items-baseline justify-evenly sm:flex sm:flex-col sm:items-center mb-12">
+      <div className="my-12 mx-4 flex flex-col">
+        <div className="flex items-baseline justify-evenly sm:flex sm:flex-col sm:items-center sm:self-center mb-12 border-solid border-2 rounded border-red-500 p-4 sm:px-8 sm:py-8 sm:w-1/2">
           <div>
             <p className="text-xs italic">For immediate emergencies, push</p>
           </div>
