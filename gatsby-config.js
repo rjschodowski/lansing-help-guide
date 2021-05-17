@@ -14,5 +14,19 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
     `gatsby-plugin-postcss`,
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Lansing Community Resources`,
+        short_name: `LCR`,
+        start_url: `/`,
+        background_color: `#f7f0eb`,
+        theme_color: `#a2466c`,
+        display: `standalone`,
+        icon: `src/images/security_white_24dp.svg`,
+        include_favicon: false,
+      },
+    },
+    `gatsby-plugin-offline`,
   ],
 }
