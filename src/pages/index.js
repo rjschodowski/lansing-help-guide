@@ -32,7 +32,7 @@ const IndexPage = () => {
             <p className="text-xs sm:font-medium sm:text-sm md:text-base">For immediate emergencies, push</p>
           </div>
           <div>
-            <Button className={classes.btn911} size="medium" variant="contained" color="secondary"><a href="tel:911" alt="call" target="_blank">911</a>
+            <Button className={classes.btn911} size="medium" variant="contained" color="secondary"><a href="tel:911" alt="call" target="_blank" rel="noreferrer">911</a>
             </Button>
         </div>
         </div>
