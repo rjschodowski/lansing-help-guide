@@ -52,7 +52,7 @@ const Shelter = () => {
             <div className="location-wrapper -mb-10">
                 <ul className="flex items-baseline">
                     <li className="flex-grow pr-4">
-                        <a href="https://www.adventhouse.com/?q=day-shelter-and-food" alt="Advent House Day Shelter website link" target="_blank" className="text-sm">Advent House Day Shelter and Food</a>
+                        <a href="https://www.adventhouse.com/?q=day-shelter-and-food" alt="Advent House Day Shelter website link" target="_blank" className="text-sm">Advent House Day Shelter (weekends only)</a>
                     </li>
                     <li>
                         <IconButton aria-label="Call">
@@ -101,11 +101,44 @@ New Hope Community Center of Holy Cross Services</a>
                         </li>
                     <li>
                         <IconButton aria-label="website">
-                            <a href="https://holycrossservices.org/programs/homeless-services/" alt="Advent House Day Shelter website link" target="_blank">
+                            <a href="https://holycrossservices.org/programs/homeless-services/" alt="New Hope Community Center of Holy Cross Services website link website link" target="_blank">
                                 <LanguageIcon />
                             </a>
                         </IconButton>
                     </li>
+                </ul>
+            </div>
+
+            <div className="location-wrapper -mb-10">
+                <ul className="flex items-baseline">
+                <li className="flex-grow">
+                    <a
+                    href="https://www.eveinc.org/"
+                    alt="End Violent Encounters (EVE) website link"
+                    target="_blank"
+                    className="text-sm"
+                    >
+                    End Violent Encounters (EVE) Domestic Violence Emergency Shelter (women and children only)
+                    </a>
+                </li>
+                <li>
+                    <IconButton aria-label="Call">
+                    <a href="tel:5173725572" alt="call" target="_blank">
+                        <CallIcon />
+                    </a>
+                    </IconButton>
+                </li>
+                <li className="pl-11">
+                    <IconButton aria-label="Website">
+                    <a
+                        href="https://www.eveinc.org/"
+                        alt="End Violent Encounters website link"
+                        target="_blank"
+                    >
+                        <LanguageIcon />
+                    </a>
+                    </IconButton>
+                </li>
                 </ul>
             </div>
         </Layout>
