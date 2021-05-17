@@ -23,25 +23,25 @@ const Shelter = () => {
             <div className="location-wrapper -mb-10">
                 <ul className="flex items-baseline">
                     <li className="flex-grow pr-4">
-                        <a href="https://bearescuer.org" alt="City Rescue Mission website link" target="_blank" className="text-sm">City Rescue Mission</a>
+                        <a href="https://bearescuer.org" alt="City Rescue Mission website link" target="_blank" rel="noreferrer" className="text-sm">City Rescue Mission</a>
                     </li>
                     <li>
                         <IconButton aria-label="Call">
-                                <a href="tel:5174850145" alt="call" target="_blank">
+                                <a href="tel:5174850145" alt="call" target="_blank" rel="noreferrer">
                                     <CallIcon />
                                 </a>
                         </IconButton>
                     </li>
                     <li>
                         <IconButton aria-label="directions">
-                                <a href="https://goo.gl/maps/BkwfojRACQ7NWCGJA" alt="map directions" target="_blank">
+                                <a href="https://goo.gl/maps/BkwfojRACQ7NWCGJA" alt="map directions" target="_blank" rel="noreferrer">
                                     <DirectionsIcon />
                                 </a>
                         </IconButton>
                         </li>
                     <li>
                         <IconButton aria-label="website">
-                            <a href="https://bearescuer.org" alt="City Rescue Mission website link" target="_blank">
+                            <a href="https://bearescuer.org" alt="City Rescue Mission website link" target="_blank" rel="noreferrer">
                                 <LanguageIcon />
                             </a>
                         </IconButton>
@@ -52,25 +52,25 @@ const Shelter = () => {
             <div className="location-wrapper -mb-10">
                 <ul className="flex items-baseline">
                     <li className="flex-grow pr-4">
-                        <a href="https://www.adventhouse.com/?q=day-shelter-and-food" alt="Advent House Day Shelter website link" target="_blank" className="text-sm">Advent House Day Shelter (weekends only)</a>
+                        <a href="https://www.adventhouse.com/?q=day-shelter-and-food" alt="Advent House Day Shelter website link" target="_blank" rel="noreferrer" className="text-sm">Advent House Day Shelter (weekends only)</a>
                     </li>
                     <li>
                         <IconButton aria-label="Call">
-                                <a href="tel:5174854722" alt="call" target="_blank">
+                                <a href="tel:5174854722" alt="call" target="_blank" rel="noreferrer">
                                     <CallIcon />
                                 </a>
                         </IconButton>
                     </li>
                     <li>
                         <IconButton aria-label="directions">
-                                <a href="https://goo.gl/maps/nMFWV6SzXYVjWgN88" alt="map directions" target="_blank">
+                                <a href="https://goo.gl/maps/nMFWV6SzXYVjWgN88" alt="map directions" target="_blank" rel="noreferrer">
                                     <DirectionsIcon />
                                 </a>
                         </IconButton>
                         </li>
                     <li>
                         <IconButton aria-label="website">
-                            <a href="https://www.adventhouse.com/?q=day-shelter-and-food" alt="Advent House Day Shelter website link" target="_blank">
+                            <a href="https://www.adventhouse.com/?q=day-shelter-and-food" alt="Advent House Day Shelter website link" target="_blank" rel="noreferrer">
                                 <LanguageIcon />
                             </a>
                         </IconButton>
@@ -82,26 +82,26 @@ const Shelter = () => {
                 <ul className="flex items-baseline">
                     <li className="flex-grow pr-4">
                         <a href="https://holycrossservices.org/programs/homeless-services/" alt="
-New Hope Community Center of Holy Cross Services website link" target="_blank" className="text-sm">
+New Hope Community Center of Holy Cross Services website link" target="_blank" rel="noreferrer" className="text-sm">
 New Hope Community Center of Holy Cross Services</a>
                     </li>
                     <li>
                         <IconButton aria-label="Call">
-                                <a href="tel:5174844414" alt="call" target="_blank">
+                                <a href="tel:5174844414" alt="call" target="_blank" rel="noreferrer">
                                     <CallIcon />
                                 </a>
                         </IconButton>
                     </li>
                     <li>
                         <IconButton aria-label="directions">
-                                <a href="https://goo.gl/maps/n3myu927AxAvJcQh9" alt="map directions" target="_blank">
+                                <a href="https://goo.gl/maps/n3myu927AxAvJcQh9" alt="map directions" target="_blank" rel="noreferrer">
                                     <DirectionsIcon />
                                 </a>
                         </IconButton>
                         </li>
                     <li>
                         <IconButton aria-label="website">
-                            <a href="https://holycrossservices.org/programs/homeless-services/" alt="New Hope Community Center of Holy Cross Services website link website link" target="_blank">
+                            <a href="https://holycrossservices.org/programs/homeless-services/" alt="New Hope Community Center of Holy Cross Services website link website link" target="_blank" rel="noreferrer">
                                 <LanguageIcon />
                             </a>
                         </IconButton>
@@ -115,7 +115,7 @@ New Hope Community Center of Holy Cross Services</a>
                     <a
                     href="https://www.eveinc.org/"
                     alt="End Violent Encounters (EVE) website link"
-                    target="_blank"
+                    target="_blank" rel="noreferrer"
                     className="text-sm"
                     >
                     End Violent Encounters (EVE) Domestic Violence Emergency Shelter (women and children only)
@@ -123,7 +123,7 @@ New Hope Community Center of Holy Cross Services</a>
                 </li>
                 <li>
                     <IconButton aria-label="Call">
-                    <a href="tel:5173725572" alt="call" target="_blank">
+                    <a href="tel:5173725572" alt="call" target="_blank" rel="noreferrer">
                         <CallIcon />
                     </a>
                     </IconButton>
@@ -133,7 +133,7 @@ New Hope Community Center of Holy Cross Services</a>
                     <a
                         href="https://www.eveinc.org/"
                         alt="End Violent Encounters website link"
-                        target="_blank"
+                        target="_blank" rel="noreferrer"
                     >
                         <LanguageIcon />
                     </a>
