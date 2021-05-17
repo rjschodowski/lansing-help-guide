@@ -102,7 +102,7 @@ const Safety = () => {
             <a
               href="https://www.eveinc.org/"
               alt="End Violent Encounters (EVE) 24 Hour Crisis Line website link"
-              target="_blank"
+              target="_blank" rel="noreferrer"
               className="text-sm"
             >
               End Violent Encounters (EVE) 24 Hour Crisis Line
@@ -110,7 +110,7 @@ const Safety = () => {
           </li>
           <li>
             <IconButton aria-label="Call">
-              <a href="tel:5173725572" alt="call" target="_blank">
+              <a href="tel:5173725572" alt="call" target="_blank" rel="noreferrer">
                 <CallIcon />
               </a>
             </IconButton>
@@ -120,7 +120,7 @@ const Safety = () => {
               <a
                 href="https://www.eveinc.org/"
                 alt="End Violent Encounters website link"
-                target="_blank"
+                target="_blank" rel="noreferrer"
               >
                 <LanguageIcon />
               </a>
@@ -135,7 +135,7 @@ const Safety = () => {
             <a
               href="https://www.michigan.gov/voices4/"
               alt="Michigan Sexual Assault Hotline (VOICES4) website link"
-              target="_blank"
+              target="_blank" rel="noreferrer"
               className="text-sm"
             >
               Michigan Sexual Assault Hotline (VOICES4)
@@ -143,7 +143,7 @@ const Safety = () => {
           </li>
           <li>
             <IconButton aria-label="Call">
-              <a href="tel:8558642374" alt="call" target="_blank">
+              <a href="tel:8558642374" alt="call" target="_blank" rel="noreferrer">
                 <CallIcon />
               </a>
             </IconButton>
@@ -153,7 +153,7 @@ const Safety = () => {
               <a
                 href="https://www.michigan.gov/voices4/"
                 alt="Michigan Sexual Assault Hotline (VOICES4) website link"
-                target="_blank"
+                target="_blank" rel="noreferrer"
               >
                 <LanguageIcon />
               </a>
@@ -169,7 +169,7 @@ const Safety = () => {
             <a
               href="https://humantraffickinghotline.org/"
               alt="National Human Trafficking Hotline website link"
-              target="_blank"
+              target="_blank" rel="noreferrer"
               className="text-sm"
             >
               National Human Trafficking Hotline
@@ -177,7 +177,7 @@ const Safety = () => {
           </li>
           <li>
             <IconButton aria-label="Call">
-              <a href="tel:18883737888" alt="call" target="_blank">
+              <a href="tel:18883737888" alt="call" target="_blank" rel="noreferrer">
                 <CallIcon />
               </a>
             </IconButton>
@@ -187,7 +187,7 @@ const Safety = () => {
               <a
                 href="https://humantraffickinghotline.org/chat"
                 alt="online chat"
-                target="_blank"
+                target="_blank" rel="noreferrer"
               >
                 <SmsIcon />
               </a>
@@ -198,7 +198,7 @@ const Safety = () => {
               <a
                 href="https://humantraffickinghotline.org/"
                 alt="National Human Trafficking Hotline website link"
-                target="_blank"
+                target="_blank" rel="noreferrer"
               >
                 <LanguageIcon />
               </a>
