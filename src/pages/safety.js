@@ -28,7 +28,7 @@ const Safety = () => {
             <a
               href="https://suicidepreventionlifeline.org/"
               alt="National Suicide Prevention website link"
-              target="_blank"
+              target="_blank" rel="noreferrer"
               className="text-sm"
             >
               National Suicide Prevention Lifeline
@@ -36,7 +36,7 @@ const Safety = () => {
           </li>
           <li>
             <IconButton aria-label="Call">
-              <a href="tel:18002738255" alt="call" target="_blank">
+              <a href="tel:18002738255" alt="call" target="_blank" rel="noreferrer">
                 <CallIcon />
               </a>
             </IconButton>
@@ -46,7 +46,7 @@ const Safety = () => {
               <a
                 href="https://suicidepreventionlifeline.org/chat/"
                 alt="online chat"
-                target="_blank"
+                target="_blank" rel="noreferrer"
               >
                 <SmsIcon />
               </a>
@@ -57,7 +57,7 @@ const Safety = () => {
               <a
                 href="https://suicidepreventionlifeline.org/"
                 alt="National Suicide Prevention website link"
-                target="_blank"
+                target="_blank" rel="noreferrer"
               >
                 <LanguageIcon />
               </a>
@@ -69,25 +69,25 @@ const Safety = () => {
       <div className="location-wrapper -mb-4">   
                 <ul className="flex items-baseline">
                     <li className="flex-grow">
-                        <a href="http://www.ceicmh.org/services/cs" alt="Community Mental Health 24-Hour Crisis Services website link" target="_blank" className="text-sm">Community Mental Health 24-Hour Crisis Services</a>
+                        <a href="http://www.ceicmh.org/services/cs" alt="Community Mental Health 24-Hour Crisis Services website link" target="_blank" rel="noreferrer" className="text-sm">Community Mental Health 24-Hour Crisis Services</a>
                     </li>
                     <li>
                         <IconButton aria-label="Call">
-                            <a href="tel:5173468460" alt="call" target="_blank">
+                            <a href="tel:5173468460" alt="call" target="_blank" rel="noreferrer">
                                 <CallIcon />
                             </a>
                         </IconButton>
                     </li>
                     <li>
                     <IconButton aria-label="Directions">
-                            <a href="https://goo.gl/maps/Nji9RRuAzsKZMWXd7" alt="map directions" target="_blank">
+                            <a href="https://goo.gl/maps/Nji9RRuAzsKZMWXd7" alt="map directions" target="_blank" rel="noreferrer">
                                 <DirectionsIcon />
                             </a>
                         </IconButton>
                     </li>
                     <li>
                         <IconButton aria-label="Website">
-                            <a href="http://www.ceicmh.org/services/cs" alt="Community Mental Health 24-Hour Crisis Services website link" target="_blank">
+                            <a href="http://www.ceicmh.org/services/cs" alt="Community Mental Health 24-Hour Crisis Services website link" target="_blank" rel="noreferrer">
                                 <LanguageIcon />
                             </a>
                         </IconButton>
