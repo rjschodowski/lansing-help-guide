@@ -21,7 +21,7 @@ module.exports = {
         short_name: `LCR`,
         start_url: `/`,
         background_color: `#f7f0eb`,
-        theme_color: `#a2466c`,
+        theme_color: `#3f51b5`,
         display: `standalone`,
         icon: `src/images/security_white_24dp.svg`,
         include_favicon: false,
