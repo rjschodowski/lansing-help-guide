@@ -23,7 +23,7 @@ const Shelter = () => {
             <div className="location-wrapper -mb-10">
                 <ul className="flex items-baseline">
                     <li className="flex-grow pr-4">
-                        <a href="https://bearescuer.org" alt="City Rescue Mission website link" target="_blank" rel="noreferrer" className="text-sm">City Rescue Mission</a>
+                        <a href="https://bearescuer.org" alt="City Rescue Mission website link" target="_blank" rel="noreferrer" className="text-base sm:text-sm">City Rescue Mission</a>
                     </li>
                     <li>
                         <IconButton aria-label="Call">
@@ -52,7 +52,7 @@ const Shelter = () => {
             <div className="location-wrapper -mb-10">
                 <ul className="flex items-baseline">
                     <li className="flex-grow pr-4">
-                        <a href="https://www.adventhouse.com/?q=day-shelter-and-food" alt="Advent House Day Shelter website link" target="_blank" rel="noreferrer" className="text-sm">Advent House Day Shelter (weekends only)</a>
+                        <a href="https://www.adventhouse.com/?q=day-shelter-and-food" alt="Advent House Day Shelter website link" target="_blank" rel="noreferrer" className="text-base sm:text-sm">Advent House Day Shelter (weekends only)</a>
                     </li>
                     <li>
                         <IconButton aria-label="Call">
@@ -82,7 +82,7 @@ const Shelter = () => {
                 <ul className="flex items-baseline">
                     <li className="flex-grow pr-4">
                         <a href="https://holycrossservices.org/programs/homeless-services/" alt="
-New Hope Community Center of Holy Cross Services website link" target="_blank" rel="noreferrer" className="text-sm">
+New Hope Community Center of Holy Cross Services website link" target="_blank" rel="noreferrer" className="text-base sm:text-sm">
 New Hope Community Center of Holy Cross Services</a>
                     </li>
                     <li>
@@ -116,7 +116,7 @@ New Hope Community Center of Holy Cross Services</a>
                     href="https://www.eveinc.org/"
                     alt="End Violent Encounters (EVE) website link"
                     target="_blank" rel="noreferrer"
-                    className="text-sm"
+                    className="text-base sm:text-sm"
                     >
                     End Violent Encounters (EVE) Domestic Violence Emergency Shelter (women and children only)
                     </a>
