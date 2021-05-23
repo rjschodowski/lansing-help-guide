@@ -4,23 +4,12 @@ import IconButton from '@material-ui/core/IconButton';
 import CallIcon from '@material-ui/icons/Call';
 import DirectionsIcon from '@material-ui/icons/Directions';
 import LanguageIcon from '@material-ui/icons/Language';
-import iconCategories from '../components/iconcategories'
+import IconCategories from '../components/iconcategories'
 
 const Health = () => {
     return (
         <Layout pageTitle="HEALTH">
-            <iconCategories />
-            <div className="flex justify-end mt-20">
-                <div>
-                    <p className="text-xs text-center">call</p>
-                </div>
-                <div>
-                    <p className="text-xs text-center px-1.5">directions</p>
-                </div>
-                <div>
-                    <p className="text-xs text-center pr-1">website</p>
-                </div>
-            </div>
+            <IconCategories />
             <h4 className="text-blue-500 ml-4 mr-4 mb-2">Hospitals</h4>
             <div className="location-wrapper -mb-10">
                 <ul className="flex items-baseline">

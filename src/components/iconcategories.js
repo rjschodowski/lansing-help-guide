@@ -1,6 +1,6 @@
 import React from 'react'
 
-const iconCategories = () => {
+const IconCategories = () => {
     return (
         <div className="flex justify-end mt-20">
             <div>
@@ -16,4 +16,4 @@ const iconCategories = () => {
     )
 }
 
-export default iconCategories
+export default IconCategories
