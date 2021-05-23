@@ -52,7 +52,7 @@ const Health = () => {
             <div className="location-wrapper -mb-4">
                 <ul className="flex items-baseline">
                     <li className="flex-grow">
-                        <a href="https://www.mclaren.org/lansing/mclaren-greater-lansing-home" alt="Sparrow Hospital website link" target="_blank" rel="noreferrer" className="text-base">McLaren Greater Lansing Hospital</a>
+                        <a href="https://www.mclaren.org/lansing/mclaren-greater-lansing-home" alt="Sparrow Hospital website link" target="_blank" rel="noreferrer" className="text-base sm:text-sm">McLaren Greater Lansing Hospital</a>
                     </li>
                     <li>
                         <IconButton aria-label="Call">
@@ -82,7 +82,7 @@ const Health = () => {
            <div className="location-wrapper -mb-10">
                 <ul className="flex items-baseline">
                     <li className="flex-grow">
-                        <a href="https://carefreemedical.com/" alt="Carefree Medical website link" target="_blank" rel="noreferrer" className="text-sm">Carefree Medical</a>
+                        <a href="https://carefreemedical.com/" alt="Carefree Medical website link" target="_blank" rel="noreferrer" className="text-base sm:text-sm">Carefree Medical</a>
                     </li>
                 <li>
                     <IconButton aria-label="Call">
@@ -111,7 +111,7 @@ const Health = () => {
             <div className="location-wrapper -mb-4">
                 <ul className="flex items-baseline">
                     <li className="flex-grow">
-                        <a href="https://www.cristoreycommunity.org/family-health-center/health-services/health-center/" alt="Cristo Rey Family Health Center website link" target="_blank" rel="noreferrer" className="text-sm">Cristo Rey Family Health Center</a>
+                        <a href="https://www.cristoreycommunity.org/family-health-center/health-services/health-center/" alt="Cristo Rey Family Health Center website link" target="_blank" rel="noreferrer" className="text-base sm:text-sm">Cristo Rey Family Health Center</a>
                     </li>
                 <li>
                     <IconButton aria-label="Call">
@@ -141,7 +141,7 @@ const Health = () => {
            <div className="location-wrapper -mb-10">
                 <ul className="flex items-baseline">
                     <li className="flex-grow">
-                        <a href="https://www.solvhealth.com/search?cobrandedSrpLocation=MI" alt="COVID-19 testing search for locations website link" target="_blank" rel="noreferrer" className="text-sm">Testing Site Locator</a>
+                        <a href="https://www.solvhealth.com/search?cobrandedSrpLocation=MI" alt="COVID-19 testing search for locations website link" target="_blank" rel="noreferrer" className="text-base sm:text-sm">Testing Site Locator</a>
                     </li>
                     <li>
                         <IconButton aria-label="Website">
@@ -156,7 +156,7 @@ const Health = () => {
             <div className="location-wrapper -mb-10">
                 <ul className="flex items-baseline">
                     <li className="flex-grow">
-                        <a href="https://vaccinefinder.org/search/" alt="COVID-19 vaccine finder" target="_blank" rel="noreferrer" className="text-sm">Vaccine Finder</a>
+                        <a href="https://vaccinefinder.org/search/" alt="COVID-19 vaccine finder" target="_blank" rel="noreferrer" className="text-base sm:text-sm">Vaccine Finder</a>
                     </li>
                     <li>
                         <IconButton aria-label="Website">
@@ -171,7 +171,7 @@ const Health = () => {
             <div className="location-wrapper -mb-2">
                 <ul className="flex items-baseline">
                     <li className="flex-grow pr-8">
-                        <a href="https://www.michigan.gov/" alt="Michigan.gov COVID-19 Information Website" target="_blank" rel="noreferrer" className="text-sm">Michigan.gov COVID-19<br></br>Information Website</a>
+                        <a href="https://www.michigan.gov/" alt="Michigan.gov COVID-19 Information Website" target="_blank" rel="noreferrer" className="text-base sm:text-sm">Michigan.gov COVID-19<br></br>Information Website</a>
                     </li>
                     <li>
                         <IconButton aria-label="Website">
@@ -187,7 +187,7 @@ const Health = () => {
             <div className="location-wrapper -mb-10">   
                 <ul className="flex items-baseline">
                     <li className="flex-grow">
-                        <a href="http://www.ceicmh.org/services/cs" alt="Community Mental Health 24-Hour Crisis Services website link" target="_blank" rel="noreferrer" className="text-sm">Community Mental Health 24-Hour Crisis Services</a>
+                        <a href="http://www.ceicmh.org/services/cs" alt="Community Mental Health 24-Hour Crisis Services website link" target="_blank" rel="noreferrer" className="text-base sm:text-sm">Community Mental Health 24-Hour Crisis Services</a>
                     </li>
                     <li>
                         <IconButton aria-label="Call">
@@ -216,7 +216,7 @@ const Health = () => {
             <div className="location-wrapper -mb-10">    
                 <ul className="flex items-baseline">
                     <li className="flex-grow">
-                        <a href="http://www.ceicmh.org/services/amhs" alt="Community Mental Health Adult Mental Health Services" target="_blank" rel="noreferrer" className="text-sm">Community Mental Health Adult Mental Health Services</a>
+                        <a href="http://www.ceicmh.org/services/amhs" alt="Community Mental Health Adult Mental Health Services" target="_blank" rel="noreferrer" className="text-base sm:text-sm">Community Mental Health Adult Mental Health Services</a>
                     </li>
                     <li>
                         <IconButton aria-label="Call">
@@ -245,7 +245,7 @@ const Health = () => {
             <div className="location-wrapper -mb-4">
                 <ul className="flex items-baseline">
                     <li className="flex-grow">
-                        <a href="https://www.cristoreycommunity.org/family-health-center/health-services/6658-2/" alt="Cristo Rey Community Center Counseling and Substance Abuse Programs website link" target="_blank" rel="noreferrer" className="text-sm">Cristo Rey Community Center Counseling and <br></br>Substance Abuse Programs</a>
+                        <a href="https://www.cristoreycommunity.org/family-health-center/health-services/6658-2/" alt="Cristo Rey Community Center Counseling and Substance Abuse Programs website link" target="_blank" rel="noreferrer" className="text-base sm:text-sm">Cristo Rey Community Center Counseling and <br></br>Substance Abuse Programs</a>
                     </li>
                 <li>
                     <IconButton aria-label="Call">
@@ -275,7 +275,7 @@ const Health = () => {
             <div className="location-wrapper -mb-10">
                 <ul className="flex items-baseline">
                     <li className="flex-grow">
-                        <a href="https://carefreemedical.com/dental/" alt="Carefree Dental website link" target="_blank" rel="noreferrer" className="text-sm">Carefree Dental</a>
+                        <a href="https://carefreemedical.com/dental/" alt="Carefree Dental website link" target="_blank" rel="noreferrer" className="text-base sm:text-sm">Carefree Dental</a>
                     </li>
                     <li>
                         <IconButton aria-label="Call">
@@ -304,7 +304,7 @@ const Health = () => {
              <div className="location-wrapper -mb-4">
                 <ul className="flex items-baseline">
                     <li className="flex-grow">
-                        <a href="https://destinydentalcare.com/" alt="Destiny Dental website link" target="_blank" rel="noreferrer" className="text-sm">Destiny Dental</a>
+                        <a href="https://destinydentalcare.com/" alt="Destiny Dental website link" target="_blank" rel="noreferrer" className="text-base sm:text-sm">Destiny Dental</a>
                     </li>
                     <li>
                         <IconButton aria-label="Call">
