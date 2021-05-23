@@ -1,9 +1,9 @@
 import React from 'react'
 import Layout from '../components/layout'
-import IconButton from '@material-ui/core/IconButton';
-import CallIcon from '@material-ui/icons/Call';
-import DirectionsIcon from '@material-ui/icons/Directions';
-import LanguageIcon from '@material-ui/icons/Language';
+import IconButton from '@material-ui/core/IconButton'
+import CallIcon from '@material-ui/icons/Call'
+import DirectionsIcon from '@material-ui/icons/Directions'
+import LanguageIcon from '@material-ui/icons/Language'
 import IconCategories from '../components/iconcategories'
 
 const Food = () => {
