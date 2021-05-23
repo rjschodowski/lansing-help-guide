@@ -29,7 +29,7 @@ const Safety = () => {
               href="https://suicidepreventionlifeline.org/"
               alt="National Suicide Prevention website link"
               target="_blank" rel="noreferrer"
-              className="text-sm"
+              className="text-base sm:text-sm"
             >
               National Suicide Prevention Lifeline
             </a>
@@ -69,7 +69,7 @@ const Safety = () => {
       <div className="location-wrapper -mb-4">   
                 <ul className="flex items-baseline">
                     <li className="flex-grow">
-                        <a href="http://www.ceicmh.org/services/cs" alt="Community Mental Health 24-Hour Crisis Services website link" target="_blank" rel="noreferrer" className="text-sm">Community Mental Health 24-Hour Crisis Services</a>
+                        <a href="http://www.ceicmh.org/services/cs" alt="Community Mental Health 24-Hour Crisis Services website link" target="_blank" rel="noreferrer" className="text-base sm:text-sm">Community Mental Health 24-Hour Crisis Services</a>
                     </li>
                     <li>
                         <IconButton aria-label="Call">
@@ -103,7 +103,7 @@ const Safety = () => {
               href="https://www.eveinc.org/"
               alt="End Violent Encounters (EVE) 24 Hour Crisis Line website link"
               target="_blank" rel="noreferrer"
-              className="text-sm"
+              className="text-base sm:text-sm"
             >
               End Violent Encounters (EVE) 24 Hour Crisis Line
             </a>
@@ -136,7 +136,7 @@ const Safety = () => {
               href="https://www.michigan.gov/voices4/"
               alt="Michigan Sexual Assault Hotline (VOICES4) website link"
               target="_blank" rel="noreferrer"
-              className="text-sm"
+              className="text-base sm:text-sm"
             >
               Michigan Sexual Assault Hotline (VOICES4)
             </a>
@@ -170,7 +170,7 @@ const Safety = () => {
               href="https://humantraffickinghotline.org/"
               alt="National Human Trafficking Hotline website link"
               target="_blank" rel="noreferrer"
-              className="text-sm"
+              className="text-base sm:text-sm"
             >
               National Human Trafficking Hotline
             </a>

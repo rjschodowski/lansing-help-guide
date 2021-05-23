@@ -4,10 +4,12 @@ import IconButton from '@material-ui/core/IconButton';
 import CallIcon from '@material-ui/icons/Call';
 import DirectionsIcon from '@material-ui/icons/Directions';
 import LanguageIcon from '@material-ui/icons/Language';
+import iconCategories from '../components/iconcategories'
 
 const Health = () => {
     return (
         <Layout pageTitle="HEALTH">
+            <iconCategories />
             <div className="flex justify-end mt-20">
                 <div>
                     <p className="text-xs text-center">call</p>
