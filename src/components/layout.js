@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from './header'
-import IconCategories from './inconcategories'
+import IconCategories from './iconcategories'
 import '../styles/global.css'
 
 const Layout = (props) => {
