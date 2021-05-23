@@ -52,7 +52,7 @@ const Health = () => {
             <div className="location-wrapper -mb-4">
                 <ul className="flex items-baseline">
                     <li className="flex-grow">
-                        <a href="https://www.mclaren.org/lansing/mclaren-greater-lansing-home" alt="Sparrow Hospital website link" target="_blank" rel="noreferrer" className="text-sm">McLaren Greater Lansing Hospital</a>
+                        <a href="https://www.mclaren.org/lansing/mclaren-greater-lansing-home" alt="Sparrow Hospital website link" target="_blank" rel="noreferrer" className="text-sm font-medium">McLaren Greater Lansing Hospital</a>
                     </li>
                     <li>
                         <IconButton aria-label="Call">
