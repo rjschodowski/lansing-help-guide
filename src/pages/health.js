@@ -4,12 +4,10 @@ import IconButton from '@material-ui/core/IconButton'
 import CallIcon from '@material-ui/icons/Call'
 import DirectionsIcon from '@material-ui/icons/Directions'
 import LanguageIcon from '@material-ui/icons/Language'
-import IconCategories from '../components/iconcategories'
 
 const Health = () => {
     return (
         <Layout pageTitle="HEALTH">
-            <IconCategories />
             <h4 className="text-blue-500 ml-4 mr-4 mb-2">Hospitals</h4>
             <div className="location-wrapper -mb-10">
                 <ul className="flex items-baseline">

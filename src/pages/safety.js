@@ -5,12 +5,10 @@ import CallIcon from '@material-ui/icons/Call'
 import DirectionsIcon from '@material-ui/icons/Directions'
 import LanguageIcon from '@material-ui/icons/Language'
 import SmsIcon from '@material-ui/icons/Sms'
-import IconCategories from '../components/iconcategories'
 
 const Safety = () => {
   return (
     <Layout pageTitle="SAFETY">
-      <IconCategories />
       <h4 className="text-blue-500 ml-4 mr-4 mb-2">Mental Health Safety</h4>
       <div className="location-wrapper -mb-10">
         <ul className="flex items-baseline">

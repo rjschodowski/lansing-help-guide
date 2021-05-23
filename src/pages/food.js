@@ -4,12 +4,10 @@ import IconButton from '@material-ui/core/IconButton'
 import CallIcon from '@material-ui/icons/Call'
 import DirectionsIcon from '@material-ui/icons/Directions'
 import LanguageIcon from '@material-ui/icons/Language'
-import IconCategories from '../components/iconcategories'
 
 const Food = () => {
     return (
        <Layout pageTitle="FOOD">
-           <IconCategories />
            <div className="location-wrapper -mb-10">
                 <ul className="flex items-baseline">
                     <li className="flex-grow">
