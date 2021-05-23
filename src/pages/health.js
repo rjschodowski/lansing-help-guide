@@ -8,7 +8,7 @@ import LanguageIcon from '@material-ui/icons/Language';
 const Health = () => {
     return (
         <Layout pageTitle="HEALTH">
-            <div className="flex justify-end">
+            <div className="flex justify-end mt-12">
                 <div>
                     <p className="text-xs text-center">call</p>
                 </div>
