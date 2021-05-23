@@ -14,7 +14,7 @@ const Health = () => {
             <div className="location-wrapper -mb-10">
                 <ul className="flex items-baseline">
                     <li className="flex-grow">
-                        <a href="https://www.sparrow.org/our-hospitals-and-services/sparrow-hospitals/sparrow-hospital" alt="Sparrow Hospital website link" target="_blank" rel="noreferrer" className="text-sm">Sparrow Hospital</a>
+                        <a href="https://www.sparrow.org/our-hospitals-and-services/sparrow-hospitals/sparrow-hospital" alt="Sparrow Hospital website link" target="_blank" rel="noreferrer" className="text-base sm:text-sm">Sparrow Hospital</a>
                     </li>
                     <li>
                         <IconButton aria-label="Call">
