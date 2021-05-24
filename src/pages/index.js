@@ -29,7 +29,7 @@ const IndexPage = () => {
       <div className="my-12 mx-4 flex flex-col">
         <div className="flex items-baseline justify-evenly sm:flex sm:flex-col sm:items-center sm:self-center mb-12 border-solid border-2 rounded border-red-500 p-4 sm:px-8 md:py-6 sm:w-1/2">
           <div>
-            <p className="text-xs sm:font-medium sm:text-sm md:text-base">For immediate emergencies, push</p>
+            <p className="font-medium sm:text-sm md:text-base">For emergencies, push</p>
           </div>
           <div>
             <Button className={classes.btn911} size="medium" variant="contained" color="secondary"><a href="tel:911" alt="call" target="_blank" rel="noreferrer">911</a>
