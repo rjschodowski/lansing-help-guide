@@ -3,7 +3,7 @@ import 'fontsource-roboto'
 
 const IconCategories = () => {
     return (
-        <div className="flex justify-end mt-40">
+        <div className="flex justify-end mt-20">
             <div>
                 <p className="text-xs text-center">call</p>
             </div>

@@ -8,8 +8,8 @@ import LanguageIcon from '@material-ui/icons/Language'
 const Health = () => {
     return (
         <Layout pageTitle="HEALTH">
-            <h4 className="text-blue-500 ml-4 mr-4 mb-2">Hospitals</h4>
-            <div className="location-wrapper -mb-10">
+            <h4 className="text-blue-500 ml-4 mr-4 mb-4">Hospitals</h4>
+            <div className="location-wrapper -mb-5">
                 <ul className="flex items-baseline">
                     <li className="flex-grow">
                         <a href="https://www.sparrow.org/our-hospitals-and-services/sparrow-hospitals/sparrow-hospital" alt="Sparrow Hospital website link" target="_blank" rel="noreferrer" className="text-base sm:text-sm">Sparrow Hospital</a>
@@ -38,7 +38,7 @@ const Health = () => {
                 </ul>
             </div>
 
-            <div className="location-wrapper -mb-4">
+            <div className="location-wrapper mb-4">
                 <ul className="flex items-baseline">
                     <li className="flex-grow">
                         <a href="https://www.mclaren.org/lansing/mclaren-greater-lansing-home" alt="Sparrow Hospital website link" target="_blank" rel="noreferrer" className="text-base sm:text-sm">McLaren Greater Lansing Hospital</a>
@@ -67,8 +67,8 @@ const Health = () => {
                 </ul>
            </div>
 
-           <h4 className="text-blue-500 ml-4 mr-4 mb-2">Medical Clinics</h4>
-           <div className="location-wrapper -mb-10">
+           <h4 className="text-blue-500 ml-4 mr-4 mb-4">Medical Clinics</h4>
+           <div className="location-wrapper -mb-5">
                 <ul className="flex items-baseline">
                     <li className="flex-grow">
                         <a href="https://carefreemedical.com/" alt="Carefree Medical website link" target="_blank" rel="noreferrer" className="text-base sm:text-sm">Carefree Medical</a>
@@ -97,7 +97,7 @@ const Health = () => {
                 </ul>
             </div>
             
-            <div className="location-wrapper -mb-4">
+            <div className="location-wrapper mb-4">
                 <ul className="flex items-baseline">
                     <li className="flex-grow">
                         <a href="https://www.cristoreycommunity.org/family-health-center/health-services/health-center/" alt="Cristo Rey Family Health Center website link" target="_blank" rel="noreferrer" className="text-base sm:text-sm">Cristo Rey Family Health Center</a>
