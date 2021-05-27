@@ -25,7 +25,7 @@ export default function ButtonAppBar() {
       <AppBar className="max-w-full" position="static" color="primary">
         <Toolbar>
           <Typography variant="h6" className={classes.title}>
-          LANSING COMMUNITY RESOURCES 
+          LANSING HELP GUIDE 
           </Typography>
         </Toolbar>
       </AppBar>

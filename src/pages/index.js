@@ -16,6 +16,7 @@ const useStyles = makeStyles({
     width: '5rem',
     height: '2.5rem',
     fontWeight: '900',
+    fontSize: '1.75rem',
     borderWidth: 1.5,
   },
 })
