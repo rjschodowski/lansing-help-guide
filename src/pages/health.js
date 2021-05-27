@@ -172,7 +172,7 @@ const Health = () => {
                 </ul>
             </div>
 
-            <h4 className="text-blue-500 ml-4 mb-4">Mental Health</h4>
+            <h4 className="text-blue-500 ml-4 mb-4">Mental Health and Substance Abuse</h4>
             <div className="location-wrapper -mb-5">   
                 <ul className="flex items-baseline">
                     <li className="flex-grow">
