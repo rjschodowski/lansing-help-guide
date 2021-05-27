@@ -106,7 +106,7 @@ New Hope Community Center of Holy Cross Services</a>
                     target="_blank" rel="noreferrer"
                     className="text-base sm:text-sm"
                     >
-                    End Violent Encounters (EVE) Domestic Violence Emergency Shelter (women and children only)
+                    End Violent Encounters (EVE) Domestic Violence <br></br>Emergency Shelter (women and children only)
                     </a>
                 </li>
                 <li>
