@@ -9,8 +9,8 @@ import SmsIcon from '@material-ui/icons/Sms'
 const Safety = () => {
   return (
     <Layout pageTitle="SAFETY">
-      <h4 className="text-blue-500 ml-4 mb-2">Mental Health Safety</h4>
-      <div className="location-wrapper -mb-10">
+      <h4 className="text-blue-500 ml-4 mb-4">Mental Health Safety</h4>
+      <div className="location-wrapper -mb-5">
         <ul className="flex items-baseline">
           <li className="flex-grow pr-8">
             <a
@@ -83,8 +83,8 @@ const Safety = () => {
                 </ul>
             </div>
 
-      <h4 className="text-blue-500 ml-4 mb-2">Domestic Violence Help</h4>
-      <div className="location-wrapper -mb-10">
+      <h4 className="text-blue-500 ml-4 mb-4">Domestic Violence Help</h4>
+      <div className="location-wrapper -mb-5">
         <ul className="flex items-baseline">
           <li className="flex-grow">
             <a
@@ -150,8 +150,8 @@ const Safety = () => {
         </ul>
       </div>
 
-      <h4 className="text-blue-500 ml-4 mb-2">Human Trafficking Help</h4>
-      <div className="location-wrapper -mb-10">
+      <h4 className="text-blue-500 ml-4 mb-4">Human Trafficking Help</h4>
+      <div className="location-wrapper -mb-5">
         <ul className="flex items-baseline">
           <li className="flex-grow">
             <a
