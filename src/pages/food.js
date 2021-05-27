@@ -117,7 +117,7 @@ const Food = () => {
                 </ul>
             </div>
 
-            <div className="location-wrapper -mb-4">
+            <div className="location-wrapper mb-4">
                 <ul className="flex items-baseline">
                     <li className="flex-grow">
                         <a href="http://www.oursaviorlansing.org/food-bank/" alt="Our Savior Food Bank website link" target="_blank" rel="noreferrer" className="text-base sm:text-sm">Our Savior Food Bank</a>

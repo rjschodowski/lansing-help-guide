@@ -157,7 +157,7 @@ const Health = () => {
                 </ul>
             </div>
             
-            <div className="location-wrapper -mb-4">
+            <div className="location-wrapper mb-4">
                 <ul className="flex items-baseline">
                     <li className="flex-grow pr-8">
                         <a href="https://www.michigan.gov/" alt="Michigan.gov COVID-19 Information Website" target="_blank" rel="noreferrer" className="text-base sm:text-sm">Michigan.gov COVID-19<br></br>Information Website</a>
@@ -231,7 +231,7 @@ const Health = () => {
                 </ul>
             </div>
 
-            <div className="location-wrapper -mb-4">
+            <div className="location-wrapper mb-4">
                 <ul className="flex items-baseline">
                     <li className="flex-grow">
                         <a href="https://www.cristoreycommunity.org/family-health-center/health-services/6658-2/" alt="Cristo Rey Community Center Counseling and Substance Abuse Programs website link" target="_blank" rel="noreferrer" className="text-base sm:text-sm">Cristo Rey Community Center Counseling and <br></br>Substance Abuse Programs</a>
@@ -290,7 +290,7 @@ const Health = () => {
                 </ul>
             </div>
 
-             <div className="location-wrapper -mb-4">
+             <div className="location-wrapper mb-4">
                 <ul className="flex items-baseline">
                     <li className="flex-grow">
                         <a href="https://destinydentalcare.com/" alt="Destiny Dental website link" target="_blank" rel="noreferrer" className="text-base sm:text-sm">Destiny Dental</a>

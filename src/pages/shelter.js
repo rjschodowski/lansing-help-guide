@@ -97,7 +97,7 @@ New Hope Community Center of Holy Cross Services</a>
                 </ul>
             </div>
 
-            <div className="location-wrapper -mb-4">
+            <div className="location-wrapper mb-4">
                 <ul className="flex items-baseline">
                 <li className="flex-grow">
                     <a

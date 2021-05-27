@@ -54,7 +54,7 @@ const Safety = () => {
         </ul>
       </div>
       
-      <div className="location-wrapper -mb-4">   
+      <div className="location-wrapper mb-4">   
                 <ul className="flex items-baseline">
                     <li className="flex-grow">
                         <a href="http://www.ceicmh.org/services/cs" alt="Community Mental Health 24-Hour Crisis Services website link" target="_blank" rel="noreferrer" className="text-base sm:text-sm">Community Mental Health 24-Hour Crisis Services</a>
@@ -117,7 +117,7 @@ const Safety = () => {
         </ul>
       </div>
 
-      <div className="location-wrapper -mb-4">
+      <div className="location-wrapper mb-4">
         <ul className="flex items-baseline">
           <li className="flex-grow">
             <a
