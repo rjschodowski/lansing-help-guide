@@ -8,7 +8,7 @@ import LanguageIcon from '@material-ui/icons/Language'
 const Food = () => {
     return (
        <Layout pageTitle="FOOD">
-           <div className="location-wrapper -mb-10">
+           <div className="location-wrapper -mb-5">
                 <ul className="flex items-baseline">
                     <li className="flex-grow">
                         <a href="https://www.lansingmi.gov/530/Mobile-Food-Pantry" alt="Mobile Food Pantry website link" target="_blank" rel="noreferrer" className="text-base sm:text-sm">Mobile Food Pantry</a>
@@ -30,7 +30,7 @@ const Food = () => {
                 </ul>
             </div>
 
-            <div className="location-wrapper -mb-10">
+            <div className="location-wrapper -mb-5">
                 <ul className="flex items-baseline">
                     <li className="flex-grow pr-4">
                         <a href="https://www.adventhouse.com/?q=day-shelter-and-food" alt="Advent House Day Shelter website link" target="_blank" rel="noreferrer" className="text-base sm:text-sm">Advent House Day Shelter and Food</a>
@@ -59,7 +59,7 @@ const Food = () => {
                 </ul>
             </div>
 
-            <div className="location-wrapper -mb-10">
+            <div className="location-wrapper -mb-5">
                 <ul className="flex items-baseline">
                     <li className="flex-grow">
                         <a href="https://www.cristoreycommunity.org/family-health-center/6593-2/" alt="Cristo Rey Food Access Programs website link" target="_blank" rel="noreferrer" className="text-base sm:text-sm">Cristo Rey Food Access Programs</a>
@@ -88,7 +88,7 @@ const Food = () => {
                 </ul>
             </div>
 
-            <div className="location-wrapper -mb-10">
+            <div className="location-wrapper -mb-5">
                 <ul className="flex items-baseline">
                     <li className="flex-grow">
                         <a href="https://greaterlansingfoodbank.org/" alt="Greater Lansing Food Bank website link" target="_blank" rel="noreferrer" className="text-base sm:text-sm">Greater Lansing Food Bank</a>
@@ -117,7 +117,7 @@ const Food = () => {
                 </ul>
             </div>
 
-            <div className="location-wrapper -mb-10">
+            <div className="location-wrapper -mb-4">
                 <ul className="flex items-baseline">
                     <li className="flex-grow">
                         <a href="http://www.oursaviorlansing.org/food-bank/" alt="Our Savior Food Bank website link" target="_blank" rel="noreferrer" className="text-base sm:text-sm">Our Savior Food Bank</a>

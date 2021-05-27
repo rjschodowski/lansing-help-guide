@@ -8,7 +8,7 @@ import LanguageIcon from '@material-ui/icons/Language';
 const Shelter = () => {
     return (
         <Layout pageTitle="SHELTER">
-            <div className="location-wrapper -mb-10">
+            <div className="location-wrapper -mb-5">
                 <ul className="flex items-baseline">
                     <li className="flex-grow pr-4">
                         <a href="https://bearescuer.org" alt="City Rescue Mission website link" target="_blank" rel="noreferrer" className="text-base sm:text-sm">City Rescue Mission</a>
@@ -37,7 +37,7 @@ const Shelter = () => {
                 </ul>
             </div>
 
-            <div className="location-wrapper -mb-10">
+            <div className="location-wrapper -mb-5">
                 <ul className="flex items-baseline">
                     <li className="flex-grow pr-4">
                         <a href="https://www.adventhouse.com/?q=day-shelter-and-food" alt="Advent House Day Shelter website link" target="_blank" rel="noreferrer" className="text-base sm:text-sm">Advent House Day Shelter (weekends only)</a>
@@ -66,7 +66,7 @@ const Shelter = () => {
                 </ul>
             </div>
 
-            <div className="location-wrapper -mb-10">
+            <div className="location-wrapper -mb-5">
                 <ul className="flex items-baseline">
                     <li className="flex-grow pr-4">
                         <a href="https://holycrossservices.org/programs/homeless-services/" alt="
@@ -97,7 +97,7 @@ New Hope Community Center of Holy Cross Services</a>
                 </ul>
             </div>
 
-            <div className="location-wrapper -mb-10">
+            <div className="location-wrapper -mb-4">
                 <ul className="flex items-baseline">
                 <li className="flex-grow">
                     <a
