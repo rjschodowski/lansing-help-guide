@@ -50,7 +50,7 @@ const Health = () => {
                             </a>
                         </IconButton>
                     </li>
-                    <li>
+                    <li className="lg:mx-8">
                         <IconButton aria-label="Directions">
                             <a href="https://goo.gl/maps/XG6nho3HYy1RHdHL8" alt="map directions" target="_blank" rel="noreferrer">
                                 <DirectionsIcon />
@@ -80,7 +80,7 @@ const Health = () => {
                             </a>
                     </IconButton>
                 </li>
-                <li>
+                <li className="lg:mx-8">
                     <IconButton aria-label="Directions">
                             <a href="https://goo.gl/maps/MLDaRQ9nnyWvwPzG7" alt="map directions" target="_blank" rel="noreferrer">
                                 <DirectionsIcon />
@@ -109,7 +109,7 @@ const Health = () => {
                             </a>
                     </IconButton>
                 </li>
-                <li>
+                <li className="lg:mx-8">
                     <IconButton aria-label="Directions">
                             <a href="https://goo.gl/maps/856EQx1a7gwzn8gk9" alt="map directions" target="_blank" rel="noreferrer">
                                 <DirectionsIcon />
@@ -185,7 +185,7 @@ const Health = () => {
                             </a>
                         </IconButton>
                     </li>
-                    <li>
+                    <li className="lg:mx-8">
                     <IconButton aria-label="Directions">
                             <a href="https://goo.gl/maps/Nji9RRuAzsKZMWXd7" alt="map directions" target="_blank" rel="noreferrer">
                                 <DirectionsIcon />
@@ -214,7 +214,7 @@ const Health = () => {
                             </a>
                         </IconButton>
                     </li>
-                    <li>
+                    <li className="lg:mx-8">
                     <IconButton aria-label="Directions">
                             <a href="https://goo.gl/maps/Nji9RRuAzsKZMWXd7" alt="map directions" target="_blank" rel="noreferrer">
                                 <DirectionsIcon />
@@ -243,7 +243,7 @@ const Health = () => {
                                 </a>
                         </IconButton>
                     </li>
-                    <li>
+                    <li className="lg:mx-8">
                         <IconButton aria-label="Directions">
                                 <a href="https://goo.gl/maps/dzzcGKqrr9G51fd37" alt="map directions" target="_blank" rel="noreferrer">
                                     <DirectionsIcon />
@@ -273,7 +273,7 @@ const Health = () => {
                             </a>
                         </IconButton>
                     </li>
-                    <li>
+                    <li className="lg:mx-8">
                         <IconButton aria-label="Directions">
                             <a href="https://goo.gl/maps/GGGcXF6xbKG2gVEn8" alt="map directions" target="_blank" rel="noreferrer">
                                 <DirectionsIcon />
@@ -302,7 +302,7 @@ const Health = () => {
                             </a>
                         </IconButton>
                     </li>
-                    <li>
+                    <li className="lg:mx-8">
                         <IconButton aria-label="Directions">
                             <a href="https://goo.gl/maps/dsVAypUVB9mty5xt7" alt="map directions" target="_blank" rel="noreferrer">
                                 <DirectionsIcon />
