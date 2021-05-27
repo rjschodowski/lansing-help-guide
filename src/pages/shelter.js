@@ -20,7 +20,7 @@ const Shelter = () => {
                                 </a>
                         </IconButton>
                     </li>
-                    <li>
+                    <li className="lg:mx-8">
                         <IconButton aria-label="directions">
                                 <a href="https://goo.gl/maps/BkwfojRACQ7NWCGJA" alt="map directions" target="_blank" rel="noreferrer">
                                     <DirectionsIcon />
@@ -49,7 +49,7 @@ const Shelter = () => {
                                 </a>
                         </IconButton>
                     </li>
-                    <li>
+                    <li className="lg:mx-8">
                         <IconButton aria-label="directions">
                                 <a href="https://goo.gl/maps/nMFWV6SzXYVjWgN88" alt="map directions" target="_blank" rel="noreferrer">
                                     <DirectionsIcon />
@@ -80,7 +80,7 @@ New Hope Community Center of Holy Cross Services</a>
                                 </a>
                         </IconButton>
                     </li>
-                    <li>
+                    <li className="lg:mx-8">
                         <IconButton aria-label="directions">
                                 <a href="https://goo.gl/maps/n3myu927AxAvJcQh9" alt="map directions" target="_blank" rel="noreferrer">
                                     <DirectionsIcon />
@@ -109,7 +109,7 @@ New Hope Community Center of Holy Cross Services</a>
                     End Violent Encounters (EVE) Domestic Violence <br></br>Emergency Shelter (women and children only)
                     </a>
                 </li>
-                <li>
+                <li className="lg:mr-16">
                     <IconButton aria-label="Call">
                     <a href="tel:5173725572" alt="call" target="_blank" rel="noreferrer">
                         <CallIcon />

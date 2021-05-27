@@ -13,7 +13,7 @@ const Food = () => {
                     <li className="flex-grow">
                         <a href="https://www.lansingmi.gov/530/Mobile-Food-Pantry" alt="Mobile Food Pantry website link" target="_blank" rel="noreferrer" className="text-base sm:text-sm">Mobile Food Pantry</a>
                     </li>
-                    <li className="pr-12">
+                    <li className="pr-12 lg:mr-16">
                         <IconButton aria-label="Call">
                             <a href="tel:5173641000" alt="call" target="_blank" rel="noreferrer">
                                 <CallIcon />
@@ -42,7 +42,7 @@ const Food = () => {
                                 </a>
                         </IconButton>
                     </li>
-                    <li>
+                    <li className="lg:mx-8">
                         <IconButton aria-label="directions">
                                 <a href="https://goo.gl/maps/nMFWV6SzXYVjWgN88" alt="map directions" target="_blank" rel="noreferrer">
                                     <DirectionsIcon />
@@ -71,7 +71,7 @@ const Food = () => {
                             </a>
                     </IconButton>
                 </li>
-                <li>
+                <li className="lg:mx-8">
                     <IconButton aria-label="Directions">
                             <a href="https://goo.gl/maps/dzzcGKqrr9G51fd37" alt="map directions" target="_blank" rel="noreferrer">
                                 <DirectionsIcon />
@@ -100,7 +100,7 @@ const Food = () => {
                             </a>
                         </IconButton>
                     </li>
-                    <li>
+                    <li className="lg:mx-8">
                         <IconButton aria-label="Directions">
                             <a href="https://goo.gl/maps/RZiESf2BtrceJQQYA" alt="map directions" target="_blank" rel="noreferrer">
                                 <DirectionsIcon />
@@ -129,7 +129,7 @@ const Food = () => {
                             </a>
                         </IconButton>
                     </li>
-                    <li>
+                    <li className="lg:mx-8">
                         <IconButton aria-label="Directions">
                             <a href="https://goo.gl/maps/88FAQHL5JTtWYAWY8" alt="map directions" target="_blank" rel="noreferrer">
                                 <DirectionsIcon />

@@ -29,7 +29,7 @@ const Safety = () => {
               </a>
             </IconButton>
           </li>
-          <li>
+          <li className="lg:mx-8">
             <IconButton aria-label="Online chat">
               <a
                 href="https://suicidepreventionlifeline.org/chat/"
@@ -66,7 +66,7 @@ const Safety = () => {
                             </a>
                         </IconButton>
                     </li>
-                    <li>
+                    <li className="lg:mx-8">
                     <IconButton aria-label="Directions">
                             <a href="https://goo.gl/maps/Nji9RRuAzsKZMWXd7" alt="map directions" target="_blank" rel="noreferrer">
                                 <DirectionsIcon />
@@ -96,7 +96,7 @@ const Safety = () => {
               End Violent Encounters (EVE) 24 Hour Crisis Line
             </a>
           </li>
-          <li>
+          <li className="lg:mr-16">
             <IconButton aria-label="Call">
               <a href="tel:5173725572" alt="call" target="_blank" rel="noreferrer">
                 <CallIcon />
@@ -129,7 +129,7 @@ const Safety = () => {
               Michigan Sexual Assault Hotline (VOICES4)
             </a>
           </li>
-          <li>
+          <li className="lg:mr-16">
             <IconButton aria-label="Call">
               <a href="tel:8558642374" alt="call" target="_blank" rel="noreferrer">
                 <CallIcon />
@@ -170,7 +170,7 @@ const Safety = () => {
               </a>
             </IconButton>
           </li>
-          <li>
+          <li className="lg:mx-8">
             <IconButton aria-label="Online chat">
               <a
                 href="https://humantraffickinghotline.org/chat"
