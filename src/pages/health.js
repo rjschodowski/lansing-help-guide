@@ -8,7 +8,7 @@ import LanguageIcon from '@material-ui/icons/Language'
 const Health = () => {
     return (
         <Layout pageTitle="HEALTH">
-            <h4 className="text-blue-500 ml-4 mr-4 mb-4">Hospitals</h4>
+            <h4 className="text-blue-500 ml-4 mb-4">Hospitals</h4>
             <div className="location-wrapper -mb-5">
                 <ul className="flex items-baseline">
                     <li className="flex-grow">
@@ -67,7 +67,7 @@ const Health = () => {
                 </ul>
            </div>
 
-           <h4 className="text-blue-500 ml-4 mr-4 mb-4">Medical Clinics</h4>
+           <h4 className="text-blue-500 ml-4 mb-4">Medical Clinics</h4>
            <div className="location-wrapper -mb-5">
                 <ul className="flex items-baseline">
                     <li className="flex-grow">
@@ -126,8 +126,8 @@ const Health = () => {
                 </ul>
             </div>
 
-           <h4 className="text-blue-500 ml-4 mr-4 mb-2">COVID-19</h4>
-           <div className="location-wrapper -mb-10">
+           <h4 className="text-blue-500 ml-4 mb-4">COVID-19</h4>
+           <div className="location-wrapper -mb-5">
                 <ul className="flex items-baseline">
                     <li className="flex-grow">
                         <a href="https://www.solvhealth.com/search?cobrandedSrpLocation=MI" alt="COVID-19 testing search for locations website link" target="_blank" rel="noreferrer" className="text-base sm:text-sm">Testing Site Locator</a>
@@ -142,7 +142,7 @@ const Health = () => {
                 </ul>
             </div>
 
-            <div className="location-wrapper -mb-10">
+            <div className="location-wrapper -mb-5">
                 <ul className="flex items-baseline">
                     <li className="flex-grow">
                         <a href="https://vaccinefinder.org/search/" alt="COVID-19 vaccine finder" target="_blank" rel="noreferrer" className="text-base sm:text-sm">Vaccine Finder</a>
@@ -157,7 +157,7 @@ const Health = () => {
                 </ul>
             </div>
             
-            <div className="location-wrapper -mb-2">
+            <div className="location-wrapper -mb-4">
                 <ul className="flex items-baseline">
                     <li className="flex-grow pr-8">
                         <a href="https://www.michigan.gov/" alt="Michigan.gov COVID-19 Information Website" target="_blank" rel="noreferrer" className="text-base sm:text-sm">Michigan.gov COVID-19<br></br>Information Website</a>
@@ -172,8 +172,8 @@ const Health = () => {
                 </ul>
             </div>
 
-            <h4 className="text-blue-500 ml-4 mr-4 mb-2">Mental Health</h4>
-            <div className="location-wrapper -mb-10">   
+            <h4 className="text-blue-500 ml-4 mb-4">Mental Health</h4>
+            <div className="location-wrapper -mb-5">   
                 <ul className="flex items-baseline">
                     <li className="flex-grow">
                         <a href="http://www.ceicmh.org/services/cs" alt="Community Mental Health 24-Hour Crisis Services website link" target="_blank" rel="noreferrer" className="text-base sm:text-sm">Community Mental Health 24-Hour Crisis Services</a>
@@ -202,7 +202,7 @@ const Health = () => {
                 </ul>
             </div>
 
-            <div className="location-wrapper -mb-10">    
+            <div className="location-wrapper -mb-5">    
                 <ul className="flex items-baseline">
                     <li className="flex-grow">
                         <a href="http://www.ceicmh.org/services/amhs" alt="Community Mental Health Adult Mental Health Services" target="_blank" rel="noreferrer" className="text-base sm:text-sm">Community Mental Health Adult Mental Health Services</a>
@@ -260,8 +260,8 @@ const Health = () => {
                 </ul>
             </div>
 
-            <h4 className="text-blue-500 ml-4 mr-4 mb-2">Dental</h4>
-            <div className="location-wrapper -mb-10">
+            <h4 className="text-blue-500 ml-4 mb-4">Dental</h4>
+            <div className="location-wrapper -mb-5">
                 <ul className="flex items-baseline">
                     <li className="flex-grow">
                         <a href="https://carefreemedical.com/dental/" alt="Carefree Dental website link" target="_blank" rel="noreferrer" className="text-base sm:text-sm">Carefree Dental</a>
