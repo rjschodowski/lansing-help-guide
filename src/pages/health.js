@@ -236,25 +236,25 @@ const Health = () => {
                     <li className="flex-grow">
                         <a href="https://www.cristoreycommunity.org/family-health-center/health-services/6658-2/" alt="Cristo Rey Community Center Counseling and Substance Abuse Programs website link" target="_blank" rel="noreferrer" className="text-base sm:text-sm">Cristo Rey Community Center Counseling and <br></br>Substance Abuse Programs</a>
                     </li>
-                <li>
-                    <IconButton aria-label="Call">
-                            <a href="tel:5173724700" alt="call" target="_blank" rel="noreferrer">
-                                <CallIcon />
-                            </a>
-                    </IconButton>
-                </li>
-                <li>
-                    <IconButton aria-label="Directions">
-                            <a href="https://goo.gl/maps/dzzcGKqrr9G51fd37" alt="map directions" target="_blank" rel="noreferrer">
-                                <DirectionsIcon />
-                            </a>
-                    </IconButton>
+                    <li>
+                        <IconButton aria-label="Call">
+                                <a href="tel:5173724700" alt="call" target="_blank" rel="noreferrer">
+                                    <CallIcon />
+                                </a>
+                        </IconButton>
                     </li>
-                <li>
-                    <IconButton aria-label="Website">
-                            <a href="https://www.cristoreycommunity.org/family-health-center/health-services/6658-2/" alt="Cristo Rey Community Center Counseling and Substance Abuse Programs website link" target="_blank" rel="noreferrer">
-                                <LanguageIcon />
-                            </a>
+                    <li>
+                        <IconButton aria-label="Directions">
+                                <a href="https://goo.gl/maps/dzzcGKqrr9G51fd37" alt="map directions" target="_blank" rel="noreferrer">
+                                    <DirectionsIcon />
+                                </a>
+                        </IconButton>
+                        </li>
+                    <li>
+                        <IconButton aria-label="Website">
+                                <a href="https://www.cristoreycommunity.org/family-health-center/health-services/6658-2/" alt="Cristo Rey Community Center Counseling and Substance Abuse Programs website link" target="_blank" rel="noreferrer">
+                                    <LanguageIcon />
+                                </a>
                         </IconButton>
                     </li>
                 </ul>
