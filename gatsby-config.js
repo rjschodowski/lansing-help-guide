@@ -17,8 +17,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Lansing Community Resources`,
-        short_name: `Lansing Resources`,
+        name: `Lansing Help Guide`,
+        short_name: `Lansing Help Guide`,
         start_url: `/`,
         background_color: `#f7f0eb`,
         theme_color: `#3f51b5`,
