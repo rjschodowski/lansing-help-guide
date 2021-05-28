@@ -1,0 +1,37 @@
+{
+  "packageId": "app.netlify.lansing_community_resources.twa",
+  "host": "netlify.app",
+  "name": "Lansing Help Guide",
+  "launcherName": "Lansing Help",
+  "display": "standalone",
+  "themeColor": "#3F51B5",
+  "navigationColor": "#000000",
+  "navigationColorDark": "#000000",
+  "navigationDividerColor": "#000000",
+  "navigationDividerColorDark": "#000000",
+  "backgroundColor": "#F7F0EB",
+  "enableNotifications": true,
+  "startUrl": "https://lansing-community-resources.netlify.app/",
+  "iconUrl": "https://lansing-community-resources.netlify.app/icons/icon-512x512.png?v=00da539b09ad91b802b8ad72af4a2830",
+  "splashScreenFadeOutDuration": 300,
+  "signingKey": {
+    "path": "C:\\Users\\HPS\\gatsby-projects\\help-pwa\\android.keystore",
+    "alias": "android"
+  },
+  "appVersionName": "1",
+  "appVersionCode": 1,
+  "shortcuts": [],
+  "generatorApp": "bubblewrap-cli",
+  "webManifestUrl": "https://lansing-community-resources.netlify.app/manifest.webmanifest",
+  "fallbackType": "customtabs",
+  "features": {},
+  "alphaDependencies": {
+    "enabled": false
+  },
+  "enableSiteSettingsShortcut": true,
+  "isChromeOSOnly": false,
+  "orientation": "default",
+  "fingerprints": [],
+  "additionalTrustedOrigins": [],
+  "appVersion": "1"
+}
