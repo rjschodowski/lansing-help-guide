@@ -23,8 +23,8 @@ plugins {
 
 def twaManifest = [
     applicationId: 'app.netlify.lansing_community_resources.twa',
-    hostName: 'netlify.app', // The domain being opened in the TWA.
-    launchUrl: 'https://lansing-community-resources.netlify.app/', // The start path for the TWA. Must be relative to the domain.
+    hostName: 'lansing-community-resources.netlify.app', // The domain being opened in the TWA.
+    launchUrl: '/', // The start path for the TWA. Must be relative to the domain.
     name: 'Lansing Help Guide', // The application name.
     launcherName: 'Lansing Help', // The name shown on the Android Launcher.
     themeColor: '#3F51B5', // The color used for the status bar.

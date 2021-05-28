@@ -28,7 +28,7 @@
         \"relation\": [\"delegate_permission/common.handle_all_urls\"],
         \"target\": {
             \"namespace\": \"web\",
-            \"site\": \"https://netlify.app\"
+            \"site\": \"https://lansing-community-resources.netlify.app\"
         }
     }]
     
