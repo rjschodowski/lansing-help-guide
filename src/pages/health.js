@@ -105,6 +105,35 @@ export default function HealthPage() {
                     </li>
                 </ul>
             </div>
+
+            <div className="location-wrapper -mb-5">
+                <ul className="flex items-baseline">
+                    <li className="flex-grow">
+                        <a href="https://hd.ingham.org/seekingcare/communityhealthcenters/LocationsHours/WillowHealthCenter.aspx" alt="Willow Health Center website link" target="_blank" rel="noreferrer" className="text-base sm:text-sm">Willow Health Center</a>
+                    </li>
+                <li>
+                    <IconButton aria-label="Call">
+                            <a href="tel:5177023500" alt="call" target="_blank" rel="noreferrer">
+                                <CallIcon />
+                            </a>
+                    </IconButton>
+                </li>
+                <li className="lg:mx-8">
+                    <IconButton aria-label="Directions">
+                            <a href="https://goo.gl/maps/vGwHDpmsFQUJEiKD7" alt="map directions" target="_blank" rel="noreferrer">
+                                <DirectionsIcon />
+                            </a>
+                    </IconButton>
+                    </li>
+                <li>
+                    <IconButton className={classes.root} aria-label="Website">
+                            <a href="https://hd.ingham.org/seekingcare/communityhealthcenters/LocationsHours/WillowHealthCenter.aspx" alt="Willow Health Center website link" target="_blank" rel="noreferrer">
+                                <LanguageIcon />
+                            </a>
+                        </IconButton>
+                    </li>
+                </ul>
+            </div>
             
             <div className="location-wrapper mb-4">
                 <ul className="flex items-baseline">
@@ -292,6 +321,35 @@ export default function HealthPage() {
                     <li>
                         <IconButton className={classes.root} aria-label="Website">
                             <a href="https://carefreemedical.com/dental/" alt="Carefree Dental website link" target="_blank" rel="noreferrer">
+                                <LanguageIcon />
+                            </a>
+                        </IconButton>
+                    </li>
+                </ul>
+            </div>
+
+            <div className="location-wrapper -mb-5">
+                <ul className="flex items-baseline">
+                    <li className="flex-grow">
+                        <a href="https://www.facebook.com/CFD.Lansing" alt="Cedar Family Dental Facebook website link" target="_blank" rel="noreferrer" className="text-base sm:text-sm">Cedar Family Dental</a>
+                    </li>
+                    <li>
+                        <IconButton aria-label="Call">
+                            <a href="tel:5173942226" alt="call" target="_blank" rel="noreferrer">
+                                <CallIcon />
+                            </a>
+                        </IconButton>
+                    </li>
+                    <li className="lg:mx-8">
+                        <IconButton aria-label="Directions">
+                            <a href="https://goo.gl/maps/F44U7eV6ZseEGEsb6" alt="map directions" target="_blank" rel="noreferrer">
+                                <DirectionsIcon />
+                            </a>
+                        </IconButton>
+                    </li>
+                    <li>
+                        <IconButton className={classes.root} aria-label="Website">
+                            <a href="https://www.facebook.com/CFD.Lansing" alt="Cedar Family Dental Facebook website link" target="_blank" rel="noreferrer">
                                 <LanguageIcon />
                             </a>
                         </IconButton>
