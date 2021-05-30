@@ -23,7 +23,7 @@ const Health = () => {
                     </li>
                     <li className="lg:mx-8">
                         <IconButton aria-label="Directions">
-                            <a href="https://goo.gl/maps/DBHUJ9jPWNPYEoTFA" alt="map directions" target="_blank" rel="noreferrer">
+                            <a href="https://goo.gl/maps/6qW9rouF4SS9QD9R9" alt="map directions" target="_blank" rel="noreferrer">
                                 <DirectionsIcon />
                             </a>
                         </IconButton>

@@ -15,7 +15,7 @@ const Food = () => {
                     </li>
                     <li className="pr-12 lg:mr-16">
                         <IconButton aria-label="Call">
-                            <a href="tel:5173641000" alt="call" target="_blank" rel="noreferrer">
+                            <a href="tel:5174834477" alt="call" target="_blank" rel="noreferrer">
                                 <CallIcon />
                             </a>
                         </IconButton>
