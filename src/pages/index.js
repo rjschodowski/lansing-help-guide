@@ -27,8 +27,8 @@ const IndexPage = () => {
   return (
     <div>
       <HeaderHome />
-      <div className="my-12 mx-4 flex flex-col">
-        <div className="flex items-baseline justify-evenly sm:flex sm:flex-col sm:items-center sm:self-center mb-12 border-solid border-2 rounded-lg border-red-500 p-4 sm:px-8 md:py-6 sm:w-1/2">
+      <div className="my-12 mx-12 flex flex-col">
+        <div className="flex items-baseline justify-evenly sm:flex sm:flex-col sm:items-center sm:self-center mb-12 border-solid border-2 rounded-lg border-red-500 p-4 sm:px-8 md:py-6 sm:max-w-xs">
           <div>
             <p className="font-medium sm:text-sm md:text-base">For emergencies push</p>
           </div>

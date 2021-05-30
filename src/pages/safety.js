@@ -5,11 +5,19 @@ import CallIcon from '@material-ui/icons/Call'
 import DirectionsIcon from '@material-ui/icons/Directions'
 import LanguageIcon from '@material-ui/icons/Language'
 import SmsIcon from '@material-ui/icons/Sms'
+import { makeStyles } from '@material-ui/core/styles'
 
-const Safety = () => {
+const useStyles = makeStyles((theme) => ({
+  root: {
+      paddingRight: 0,
+  },
+}));
+
+export default function SafetyPage() {
+  const classes = useStyles();
   return (
     <Layout pageTitle="SAFETY">
-      <h4 className="text-blue-500 ml-4 mb-4">Mental Health Safety</h4>
+      <h4 className="text-blue-500 mb-4">Mental Health Safety</h4>
       <div className="location-wrapper -mb-5">
         <ul className="flex items-baseline">
           <li className="flex-grow pr-8">
@@ -41,7 +49,7 @@ const Safety = () => {
             </IconButton>
           </li>
           <li>
-            <IconButton aria-label="website">
+            <IconButton className={classes.root} aria-label="website">
               <a
                 href="https://suicidepreventionlifeline.org/"
                 alt="National Suicide Prevention website link"
@@ -74,7 +82,7 @@ const Safety = () => {
                         </IconButton>
                     </li>
                     <li>
-                        <IconButton aria-label="Website">
+                        <IconButton className={classes.root} aria-label="Website">
                             <a href="http://www.ceicmh.org/services/cs" alt="Community Mental Health 24-Hour Crisis Services website link" target="_blank" rel="noreferrer">
                                 <LanguageIcon />
                             </a>
@@ -83,7 +91,7 @@ const Safety = () => {
                 </ul>
             </div>
 
-      <h4 className="text-blue-500 ml-4 mb-4">Domestic Violence Help</h4>
+      <h4 className="text-blue-500 mb-4">Domestic Violence Help</h4>
       <div className="location-wrapper -mb-5">
         <ul className="flex items-baseline">
           <li className="flex-grow">
@@ -104,7 +112,7 @@ const Safety = () => {
             </IconButton>
           </li>
           <li className="pl-11">
-            <IconButton aria-label="Website">
+            <IconButton className={classes.root} aria-label="Website">
               <a
                 href="https://www.eveinc.org/"
                 alt="End Violent Encounters website link"
@@ -137,7 +145,7 @@ const Safety = () => {
             </IconButton>
           </li>
           <li className="pl-11">
-            <IconButton aria-label="Website">
+            <IconButton className={classes.root} aria-label="Website">
               <a
                 href="https://www.michigan.gov/voices4/"
                 alt="Michigan Sexual Assault Hotline (VOICES4) website link"
@@ -150,7 +158,7 @@ const Safety = () => {
         </ul>
       </div>
 
-      <h4 className="text-blue-500 ml-4 mb-4">Human Trafficking Help</h4>
+      <h4 className="text-blue-500 mb-4">Human Trafficking Help</h4>
       <div className="location-wrapper -mb-5">
         <ul className="flex items-baseline">
           <li className="flex-grow">
@@ -182,7 +190,7 @@ const Safety = () => {
             </IconButton>
           </li>
           <li>
-            <IconButton aria-label="Website">
+            <IconButton className={classes.root} aria-label="Website">
               <a
                 href="https://humantraffickinghotline.org/"
                 alt="National Human Trafficking Hotline website link"
@@ -198,4 +206,4 @@ const Safety = () => {
   )
 }
 
-export default Safety
+

@@ -14,6 +14,7 @@ const useStyles = makeStyles((theme) => ({
     flexGrow: 1,
     fontWeight: 600,
     letterSpacing: 1.15,
+    textAlign: 'center',
   },
 }));
 

@@ -4,8 +4,16 @@ import IconButton from '@material-ui/core/IconButton';
 import CallIcon from '@material-ui/icons/Call';
 import DirectionsIcon from '@material-ui/icons/Directions';
 import LanguageIcon from '@material-ui/icons/Language';
+import { makeStyles } from '@material-ui/core/styles'
 
-const Shelter = () => {
+const useStyles = makeStyles((theme) => ({
+    root: {
+        paddingRight: 0,
+    },
+  }));
+
+  export default function ShelterPage() {
+    const classes = useStyles();
     return (
         <Layout pageTitle="SHELTER">
             <div className="location-wrapper -mb-5">
@@ -28,7 +36,7 @@ const Shelter = () => {
                         </IconButton>
                         </li>
                     <li>
-                        <IconButton aria-label="website">
+                        <IconButton className={classes.root} aria-label="website">
                             <a href="https://bearescuer.org" alt="City Rescue Mission website link" target="_blank" rel="noreferrer">
                                 <LanguageIcon />
                             </a>
@@ -57,7 +65,7 @@ const Shelter = () => {
                         </IconButton>
                         </li>
                     <li>
-                        <IconButton aria-label="website">
+                        <IconButton className={classes.root} aria-label="website">
                             <a href="https://www.adventhouse.com/?q=day-shelter-and-food" alt="Advent House Day Shelter website link" target="_blank" rel="noreferrer">
                                 <LanguageIcon />
                             </a>
@@ -88,7 +96,7 @@ New Hope Community Center of Holy Cross Services</a>
                         </IconButton>
                         </li>
                     <li>
-                        <IconButton aria-label="website">
+                        <IconButton className={classes.root} aria-label="website">
                             <a href="https://holycrossservices.org/programs/homeless-services/" alt="New Hope Community Center of Holy Cross Services website link website link" target="_blank" rel="noreferrer">
                                 <LanguageIcon />
                             </a>
@@ -117,7 +125,7 @@ New Hope Community Center of Holy Cross Services</a>
                     </IconButton>
                 </li>
                 <li className="pl-11">
-                    <IconButton aria-label="Website">
+                    <IconButton className={classes.root} aria-label="Website">
                     <a
                         href="https://www.eveinc.org/"
                         alt="End Violent Encounters website link"
@@ -133,4 +141,3 @@ New Hope Community Center of Holy Cross Services</a>
     )
 }
 
-export default Shelter

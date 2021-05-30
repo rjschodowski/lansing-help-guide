@@ -4,8 +4,16 @@ import IconButton from '@material-ui/core/IconButton'
 import CallIcon from '@material-ui/icons/Call'
 import DirectionsIcon from '@material-ui/icons/Directions'
 import LanguageIcon from '@material-ui/icons/Language'
+import { makeStyles } from '@material-ui/core/styles'
 
-const Food = () => {
+const useStyles = makeStyles((theme) => ({
+    root: {
+        paddingRight: 0,
+    },
+  }));
+
+export default function FoodPage() {
+    const classes = useStyles();
     return (
        <Layout pageTitle="FOOD">
            <div className="location-wrapper -mb-5">
@@ -21,7 +29,7 @@ const Food = () => {
                         </IconButton>
                     </li>
                     <li>
-                        <IconButton aria-label="Website">
+                        <IconButton className={classes.root} aria-label="Website">
                             <a href="https://www.lansingmi.gov/530/Mobile-Food-Pantry" alt="Mobile Food Pantry website link" target="_blank" rel="noreferrer">
                                 <LanguageIcon />
                             </a>
@@ -50,7 +58,7 @@ const Food = () => {
                         </IconButton>
                         </li>
                     <li>
-                        <IconButton aria-label="website">
+                        <IconButton className={classes.root} aria-label="website">
                             <a href="https://www.adventhouse.com/?q=day-shelter-and-food" alt="Advent House Day Shelter website link" target="_blank" rel="noreferrer">
                                 <LanguageIcon />
                             </a>
@@ -64,22 +72,22 @@ const Food = () => {
                     <li className="flex-grow">
                         <a href="https://www.cristoreycommunity.org/family-health-center/6593-2/" alt="Cristo Rey Food Access Programs website link" target="_blank" rel="noreferrer" className="text-base sm:text-sm">Cristo Rey Food Access Programs</a>
                     </li>
-                <li className="pr-1">
-                    <IconButton aria-label="Call">
+                    <li className="pr-1">
+                        <IconButton aria-label="Call">
                             <a href="tel:5173724700" alt="call" target="_blank" rel="noreferrer">
-                                <CallIcon />
+                                    <CallIcon />
                             </a>
-                    </IconButton>
-                </li>
-                <li className="lg:mx-8">
-                    <IconButton aria-label="Directions">
-                            <a href="https://goo.gl/maps/dzzcGKqrr9G51fd37" alt="map directions" target="_blank" rel="noreferrer">
-                                <DirectionsIcon />
-                            </a>
-                    </IconButton>
+                        </IconButton>
                     </li>
-                <li>
-                    <IconButton aria-label="Website">
+                    <li className="lg:mx-8">
+                        <IconButton aria-label="Directions">
+                            <a href="https://goo.gl/maps/dzzcGKqrr9G51fd37" alt="map directions" target="_blank" rel="noreferrer">
+                                    <DirectionsIcon />
+                            </a>
+                        </IconButton>
+                        </li>
+                    <li>
+                        <IconButton className={classes.root} aria-label="Website">
                             <a href="https://www.cristoreycommunity.org/family-health-center/6593-2/" alt="Cristo Rey Food Access Programs website link" target="_blank" rel="noreferrer">
                                 <LanguageIcon />
                             </a>
@@ -108,7 +116,7 @@ const Food = () => {
                         </IconButton>
                     </li>
                     <li>
-                        <IconButton aria-label="Website">
+                        <IconButton className={classes.root} aria-label="Website">
                             <a href="https://greaterlansingfoodbank.org/" alt="Greater Lansing Food Bank website link" target="_blank" rel="noreferrer">
                                 <LanguageIcon />
                             </a>
@@ -137,7 +145,7 @@ const Food = () => {
                         </IconButton>
                     </li>
                     <li>
-                        <IconButton aria-label="Website">
+                        <IconButton className={classes.root} aria-label="Website">
                             <a href="http://www.oursaviorlansing.org/food-bank/" alt="Our Savior Food Bank website link" target="_blank" rel="noreferrer">
                                 <LanguageIcon />
                             </a>
@@ -149,4 +157,3 @@ const Food = () => {
     )
 }
 
-export default Food
