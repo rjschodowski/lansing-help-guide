@@ -4,11 +4,20 @@ import IconButton from '@material-ui/core/IconButton'
 import CallIcon from '@material-ui/icons/Call'
 import DirectionsIcon from '@material-ui/icons/Directions'
 import LanguageIcon from '@material-ui/icons/Language'
+import { makeStyles } from '@material-ui/core/styles'
 
-const Health = () => {
+const useStyles = makeStyles((theme) => ({
+    root: {
+        paddingRight: 0,
+    },
+}));
+
+
+export default function HealthPage() {
+    const classes = useStyles();
     return (
         <Layout pageTitle="HEALTH">
-            <h4 className="text-blue-500 ml-4 mb-4">Hospitals</h4>
+            <h4 className="text-blue-500 mb-4">Hospitals</h4>
             <div className="location-wrapper -mb-5">
                 <ul className="flex items-baseline">
                     <li className="flex-grow">
@@ -29,7 +38,7 @@ const Health = () => {
                         </IconButton>
                     </li>
                     <li>
-                        <IconButton aria-label="website">
+                        <IconButton className={classes.root} aria-label="website">
                             <a href="https://www.sparrow.org/our-hospitals-and-services/sparrow-hospitals/sparrow-hospital" alt="Sparrow Hospital website link" target="_blank" rel="noreferrer">
                             <LanguageIcon />
                             </a>
@@ -58,7 +67,7 @@ const Health = () => {
                         </IconButton>
                     </li>
                     <li>
-                        <IconButton aria-label="website">
+                        <IconButton className={classes.root} aria-label="website">
                             <a href="https://www.mclaren.org/lansing/mclaren-greater-lansing-home" alt="McLaren Greater Lansing Hospital website link" target="_blank" rel="noreferrer">
                                 <LanguageIcon />
                             </a>
@@ -67,7 +76,7 @@ const Health = () => {
                 </ul>
            </div>
 
-           <h4 className="text-blue-500 ml-4 mb-4">Medical Clinics</h4>
+           <h4 className="text-blue-500 mb-4">Medical Clinics</h4>
            <div className="location-wrapper -mb-5">
                 <ul className="flex items-baseline">
                     <li className="flex-grow">
@@ -88,7 +97,7 @@ const Health = () => {
                     </IconButton>
                     </li>
                 <li>
-                    <IconButton aria-label="Website">
+                    <IconButton className={classes.root} aria-label="Website">
                             <a href="https://carefreemedical.com/" alt="Carefree Medical website link" target="_blank" rel="noreferrer">
                                 <LanguageIcon />
                             </a>
@@ -117,7 +126,7 @@ const Health = () => {
                     </IconButton>
                     </li>
                 <li>
-                    <IconButton aria-label="Website">
+                    <IconButton className={classes.root} aria-label="Website">
                             <a href="https://www.cristoreycommunity.org/family-health-center/health-services/health-center/" alt="Cristo Rey Family Health Center website link" target="_blank" rel="noreferrer">
                                 <LanguageIcon />
                             </a>
@@ -126,14 +135,14 @@ const Health = () => {
                 </ul>
             </div>
 
-           <h4 className="text-blue-500 ml-4 mb-4">COVID-19</h4>
+           <h4 className="text-blue-500 mb-4">COVID-19</h4>
            <div className="location-wrapper -mb-5">
                 <ul className="flex items-baseline">
                     <li className="flex-grow">
                         <a href="https://www.solvhealth.com/search?cobrandedSrpLocation=MI" alt="COVID-19 testing search for locations website link" target="_blank" rel="noreferrer" className="text-base sm:text-sm">Testing Site Locator</a>
                     </li>
                     <li>
-                        <IconButton aria-label="Website">
+                        <IconButton className={classes.root} aria-label="Website">
                             <a href="https://www.solvhealth.com/search?cobrandedSrpLocation=MI" alt="COVID-19 testing search for locations website link" target="_blank" rel="noreferrer">
                                 <LanguageIcon />
                             </a>
@@ -148,7 +157,7 @@ const Health = () => {
                         <a href="https://vaccinefinder.org/search/" alt="COVID-19 vaccine finder" target="_blank" rel="noreferrer" className="text-base sm:text-sm">Vaccine Finder</a>
                     </li>
                     <li>
-                        <IconButton aria-label="Website">
+                        <IconButton className={classes.root} aria-label="Website">
                             <a href="https://vaccinefinder.org/search/" alt="COVID-19 vaccine finder" target="_blank" rel="noreferrer">
                                 <LanguageIcon />
                             </a>
@@ -163,7 +172,7 @@ const Health = () => {
                         <a href="https://www.michigan.gov/" alt="Michigan.gov COVID-19 Information Website" target="_blank" rel="noreferrer" className="text-base sm:text-sm">Michigan.gov COVID-19<br></br>Information Website</a>
                     </li>
                     <li>
-                        <IconButton aria-label="Website">
+                        <IconButton className={classes.root} aria-label="Website">
                             <a href="https://www.michigan.gov/" alt="Michigan.gov COVID-19 Information Website" target="_blank" rel="noreferrer">
                                 <LanguageIcon />
                             </a>
@@ -172,14 +181,14 @@ const Health = () => {
                 </ul>
             </div>
 
-            <h4 className="text-blue-500 ml-4 mb-4">Mental Health and Substance Abuse</h4>
+            <h4 className="text-blue-500 mb-4">Mental Health and Substance Abuse</h4>
             <div className="location-wrapper -mb-5">   
                 <ul className="flex items-baseline">
                     <li className="flex-grow">
                         <a href="http://www.ceicmh.org/services/cs" alt="Community Mental Health 24-Hour Crisis Services website link" target="_blank" rel="noreferrer" className="text-base sm:text-sm">Community Mental Health 24-Hour Crisis Services</a>
                     </li>
                     <li>
-                        <IconButton aria-label="Call">
+                        <IconButton className={classes.root} aria-label="Call">
                             <a href="tel:5173468460" alt="call" target="_blank" rel="noreferrer">
                                 <CallIcon />
                             </a>
@@ -193,7 +202,7 @@ const Health = () => {
                         </IconButton>
                     </li>
                     <li>
-                        <IconButton aria-label="Website">
+                        <IconButton className={classes.root} aria-label="Website">
                             <a href="http://www.ceicmh.org/services/cs" alt="Community Mental Health 24-Hour Crisis Services website link" target="_blank" rel="noreferrer">
                                 <LanguageIcon />
                             </a>
@@ -222,7 +231,7 @@ const Health = () => {
                         </IconButton>
                     </li>
                     <li>
-                        <IconButton aria-label="Website">
+                        <IconButton className={classes.root} aria-label="Website">
                             <a href="http://www.ceicmh.org/services/amhs" alt="Community Mental Health Adult Mental Health Services" target="_blank" rel="noreferrer">
                                 <LanguageIcon />
                             </a>
@@ -251,7 +260,7 @@ const Health = () => {
                         </IconButton>
                         </li>
                     <li>
-                        <IconButton aria-label="Website">
+                        <IconButton className={classes.root} aria-label="Website">
                                 <a href="https://www.cristoreycommunity.org/family-health-center/health-services/6658-2/" alt="Cristo Rey Community Center Counseling and Substance Abuse Programs website link" target="_blank" rel="noreferrer">
                                     <LanguageIcon />
                                 </a>
@@ -260,7 +269,7 @@ const Health = () => {
                 </ul>
             </div>
 
-            <h4 className="text-blue-500 ml-4 mb-4">Dental</h4>
+            <h4 className="text-blue-500 mb-4">Dental</h4>
             <div className="location-wrapper -mb-5">
                 <ul className="flex items-baseline">
                     <li className="flex-grow">
@@ -281,7 +290,7 @@ const Health = () => {
                         </IconButton>
                     </li>
                     <li>
-                        <IconButton aria-label="Website">
+                        <IconButton className={classes.root} aria-label="Website">
                             <a href="https://carefreemedical.com/dental/" alt="Carefree Dental website link" target="_blank" rel="noreferrer">
                                 <LanguageIcon />
                             </a>
@@ -310,7 +319,7 @@ const Health = () => {
                         </IconButton>
                     </li>
                     <li>
-                        <IconButton aria-label="Website">
+                        <IconButton className={classes.root} aria-label="Website">
                             <a href="https://destinydentalcare.com/" alt="Destiny Dental website link" target="_blank" rel="noreferrer">
                                 <LanguageIcon />
                             </a>
@@ -321,5 +330,3 @@ const Health = () => {
         </Layout>
     )
 }
-
-export default Health

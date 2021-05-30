@@ -7,7 +7,7 @@ const Layout = (props) => {
         <div>
             <div>
                 <Header pageTitle={props.pageTitle}/>
-                <div className="mt-20 mb-10 ml-2 mr-4 md:ml-20 md:mr-24 lg:ml-36 lg:mr-40 xl:ml-72 xl:mr-80">
+                <div className="mt-20 mb-10 ml-2 mr-2">
                     {props.children}
                 </div>
             </div>
