@@ -2,7 +2,7 @@ import React from 'react'
 import { StaticImage } from 'gatsby-plugin-image'
 import Link from 'gatsby-link'
 import HeaderHome from '../components/headerHome'
-import Footer from './footer'
+import Footer from '../components/footer'
 import Button from '@material-ui/core/Button'
 import { makeStyles } from '@material-ui/core'
 
@@ -30,15 +30,6 @@ const IndexPage = () => {
     <div>
       <HeaderHome />
       <div className="my-12 mx-12 flex flex-col">
-        <div className="flex items-baseline justify-center sm:flex sm:flex-col sm:items-center sm:self-center mb-12 border-solid border-2 rounded-lg border-red-500 p-4 sm:px-8 md:py-6 sm:max-w-xs">
-          <div>
-            <p className="font-medium sm:text-sm md:text-base pr-2">For emergencies push</p>
-          </div>
-          <div>
-            <Button className={classes.btn911} size="medium" variant="contained" color="secondary"><a href="tel:911" alt="call" target="_blank" rel="noreferrer">911</a>
-            </Button>
-        </div>
-        </div>
         <div className="sm:flex sm:justify-center sm:mt-16 sm:mb-16">
           <div className="flex flex-col">
             <div>

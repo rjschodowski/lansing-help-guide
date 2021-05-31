@@ -1,5 +1,6 @@
 import React from 'react'
 import Header from './header'
+import Footer from './footer'
 import '../styles/global.css'
 
 const Layout = (props) => {
@@ -10,6 +11,7 @@ const Layout = (props) => {
                 <div className="mt-20 mb-10 mx-4 md:mx-20 lg:mx-40 xl:mx-60">
                     {props.children}
                 </div>
+                <Footer />
             </div>
         </div>
     )

@@ -6,10 +6,19 @@ import Typography from '@material-ui/core/Typography'
 import 'fontsource-roboto'
 import Button from '@material-ui/core/Button'
 
-const useStyles = makeStyles({
+const useStyles = makeStyles((theme) => ({
+    appBar: {
+        top: 'auto',
+        bottom: 0,
+    },
+
+    grow: {
+        flexGrow: 1,
+    },
+
     btn: {
-      width: '3.5rem',
-      height: '3.5rem',
+      width: '2.5rem',
+      height: '2.5rem',
       borderRadius: '50%',
     },
     
@@ -17,20 +26,37 @@ const useStyles = makeStyles({
       width: '5rem',
       height: '2.5rem',
       fontWeight: '900',
-      fontSize: '1.5rem',
+      fontSize: '1.25rem',
       borderWidth: 1.5,
     },
-  });
+
+    title: {
+        paddingRight: 10,
+    },
+
+    footerSpacing: {
+        padding: theme.spacing(1, 0, 1, 0),
+    },
+  }));
   
-  export default function ButtonAppBar() {
+  export default function BottomAppBar() {
     const classes = useStyles();
   
     return (
-      <div className={classes.root}>
-        <AppBar className="max-w-full" position="static" color="primary">
+      <div className={classes.grow}>
+        <AppBar position="fixed" color="primary" className={classes.appBar}>
           <Toolbar>
-            <Button className={classes.btn911} size="medium" variant="contained" color="secondary"><a href="tel:911" alt="call" target="_blank" rel="noreferrer">911</a>
-            </Button>
+            <div className={classes.footerSpacing}>
+                <div>
+                    <Typography className={classes.title}>
+                    In case of emergency dial
+                    </Typography>
+                </div>
+                <div>
+                    <Button className={classes.btn911} size="small" variant="contained" color="secondary"><a href="tel:911" alt="call" target="_blank" rel="noreferrer">911</a>
+                    </Button>
+                </div>
+            </div>
           </Toolbar>
         </AppBar>
       </div>

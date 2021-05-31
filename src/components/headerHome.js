@@ -23,7 +23,7 @@ export default function ButtonAppBar() {
 
   return (
     <div className={classes.root}>
-      <AppBar className="max-w-full" position="static" color="primary">
+      <AppBar position="static" color="primary">
         <Toolbar>
           <Typography variant="h6" className={classes.title}>
           LANSING HELP GUIDE 
