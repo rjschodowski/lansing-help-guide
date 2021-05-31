@@ -5,15 +5,22 @@ import Toolbar from '@material-ui/core/Toolbar'
 import Typography from '@material-ui/core/Typography'
 import 'fontsource-roboto'
 import Button from '@material-ui/core/Button'
+import Box from '@material-ui/core/Box';
 
 const useStyles = makeStyles((theme) => ({
     appBar: {
         top: 'auto',
         bottom: 0,
+        paddingTop: 2,
+        paddingBottom: 2,
     },
 
     grow: {
         flexGrow: 1,
+    },
+
+    textSpacing: {
+        marginRight: 8,
     },
 
     btn: {
@@ -29,14 +36,6 @@ const useStyles = makeStyles((theme) => ({
       fontSize: '1.25rem',
       borderWidth: 1.5,
     },
-
-    title: {
-        paddingRight: 10,
-    },
-
-    footerSpacing: {
-        padding: theme.spacing(1, 0, 1, 0),
-    },
   }));
   
   export default function BottomAppBar() {
@@ -46,17 +45,19 @@ const useStyles = makeStyles((theme) => ({
       <div className={classes.grow}>
         <AppBar position="fixed" color="primary" className={classes.appBar}>
           <Toolbar>
-            <div className={classes.footerSpacing}>
-                <div>
-                    <Typography className={classes.title}>
-                    In case of emergency dial
-                    </Typography>
-                </div>
-                <div>
-                    <Button className={classes.btn911} size="small" variant="contained" color="secondary"><a href="tel:911" alt="call" target="_blank" rel="noreferrer">911</a>
-                    </Button>
-                </div>
-            </div>
+                <div style={{ width: '100%' }}>
+                    <Box display="flex" justifyContent="center" alignItems="baseline">
+                        <Box>
+                            <Typography className={classes.textSpacing}>
+                            In case of emergency dial
+                            </Typography>
+                        </Box>
+                        <Box>
+                            <Button className={classes.btn911} size="small" variant="contained" color="secondary"><a href="tel:911" alt="call" target="_blank" rel="noreferrer">911</a>
+                            </Button>
+                        </Box>
+                    </Box>
+                </div>  
           </Toolbar>
         </AppBar>
       </div>
