@@ -2,6 +2,7 @@ import React from 'react'
 import { StaticImage } from 'gatsby-plugin-image'
 import Link from 'gatsby-link'
 import HeaderHome from '../components/headerHome'
+import Footer from './footer'
 import Button from '@material-ui/core/Button'
 import { makeStyles } from '@material-ui/core'
 
@@ -12,6 +13,7 @@ const useStyles = makeStyles({
     height: '3.5rem',
     borderRadius: '50%',
   },
+
   btn911: {
     width: '5rem',
     height: '2.5rem',
@@ -19,10 +21,10 @@ const useStyles = makeStyles({
     fontSize: '1.5rem',
     borderWidth: 1.5,
   },
-})
+});
 
 const IndexPage = () => {
-  const classes = useStyles()
+  const classes = useStyles();
 
   return (
     <div>
@@ -105,6 +107,7 @@ const IndexPage = () => {
           <hr className="bg-gray-200 mt-4"></hr>
         </div>
       </div>
+      <Footer />
     </div>
   )
 }
