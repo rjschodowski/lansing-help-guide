@@ -1,5 +1,12 @@
 module.exports = {
 
+  siteMetadata: {
+    url: 'https://www.lansinghelpguide.com',
+    title: 'Lansing Help Guide',
+    description: 'Lansing Help Guide provides a quick starting point for Lansing newcomers in accessing help in times of need',
+    author: 'R.J. Schodowski',
+  },
+
   flags: {
     PRESERVE_WEBPACK_CACHE: true
   },
