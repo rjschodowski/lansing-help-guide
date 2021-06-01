@@ -159,7 +159,7 @@ export default function SafetyPage() {
       </div>
 
       <h4 className="text-blue-500 mb-4">Human Trafficking Help</h4>
-      <div className="location-wrapper -mb-5">
+      <div className="location-wrapper mb-4">
         <ul className="flex items-baseline">
           <li className="flex-grow">
             <a
