@@ -1,7 +1,6 @@
 import React from 'react'
 import { StaticImage } from 'gatsby-plugin-image'
 import Link from 'gatsby-link'
-import { graphql } from 'gatsby'
 import HeaderHome from '../components/headerHome'
 import Footer from '../components/footer'
 import Button from '@material-ui/core/Button'
