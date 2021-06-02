@@ -4,21 +4,21 @@ import { Helmet } from 'react-helmet'
 import { useStaticQuery, graphql } from 'gatsby'
 import ogImage from '../images/app-fav-icon.png'
 
-export default function Seo( description, meta, title ) {
-    const { site } = useStaticQuery(
-        graphql`
-          query {
-            site {
-              siteMetadata {
-                title
-                description
-                author
-                url
-              }
+function Seo( description, meta, title ) {
+  const { site } = useStaticQuery(
+      graphql`
+        query {
+          site {
+            siteMetadata {
+              title
+              description
+              author
+              url
             }
           }
-        `
-      )
+        }
+      `
+    )
     
       const metaDescription = description || site.siteMetadata.description
 
@@ -61,3 +61,5 @@ Seo.defaultProps = {
     meta: PropTypes.arrayOf(PropTypes.object),
     title: PropTypes.string.isRequired,
   }
+
+  export default Seo
