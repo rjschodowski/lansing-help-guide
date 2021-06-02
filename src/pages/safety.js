@@ -6,7 +6,6 @@ import DirectionsIcon from '@material-ui/icons/Directions'
 import LanguageIcon from '@material-ui/icons/Language'
 import SmsIcon from '@material-ui/icons/Sms'
 import { makeStyles } from '@material-ui/core/styles'
-import Seo from '../components/seo'
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -18,7 +17,6 @@ export default function SafetyPage() {
   const classes = useStyles();
   return (
     <Layout pageTitle="SAFETY">
-      <Seo title="Lansing Help Guide - Safety" />
       <h4 className="text-blue-500 mb-4">Mental Health Safety</h4>
       <div className="location-wrapper -mb-5">
         <ul className="flex items-baseline">
