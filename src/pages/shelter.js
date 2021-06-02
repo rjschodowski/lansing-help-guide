@@ -5,7 +5,7 @@ import CallIcon from '@material-ui/icons/Call';
 import DirectionsIcon from '@material-ui/icons/Directions';
 import LanguageIcon from '@material-ui/icons/Language';
 import { makeStyles } from '@material-ui/core/styles'
-import SEO from '../components/seo'
+import Seo from '../components/seo'
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -17,7 +17,7 @@ const useStyles = makeStyles((theme) => ({
     const classes = useStyles();
     return (
         <Layout pageTitle="SHELTER">
-            <SEO title="Lansing Help Guide - Shelter" />
+            <Seo title="Lansing Help Guide - Shelter" />
             <div className="location-wrapper -mb-5">
                 <ul className="flex items-baseline">
                     <li className="flex-grow pr-4">

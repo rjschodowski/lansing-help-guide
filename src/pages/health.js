@@ -5,7 +5,7 @@ import CallIcon from '@material-ui/icons/Call'
 import DirectionsIcon from '@material-ui/icons/Directions'
 import LanguageIcon from '@material-ui/icons/Language'
 import { makeStyles } from '@material-ui/core/styles'
-import SEO from '../components/seo'
+import Seo from '../components/seo'
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -18,7 +18,7 @@ export default function HealthPage() {
     const classes = useStyles();
     return (
         <Layout pageTitle="HEALTH">
-            <SEO title="Lansing Help Guide - Health" />
+            <Seo title="Lansing Help Guide - Health" />
             <h4 className="text-blue-500 mb-4">Hospitals</h4>
             <div className="location-wrapper -mb-5">
                 <ul className="flex items-baseline">

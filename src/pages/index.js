@@ -5,7 +5,7 @@ import HeaderHome from '../components/headerHome'
 import Footer from '../components/footer'
 import Button from '@material-ui/core/Button'
 import { makeStyles } from '@material-ui/core'
-import SEO from '../components/seo'
+import Seo from '../components/seo'
 
 
 const useStyles = makeStyles({
@@ -29,7 +29,7 @@ const IndexPage = () => {
 
   return (
     <div>
-      <SEO title="Lansing Help Guide" />
+      <Seo title="Lansing Help Guide" />
       <HeaderHome />
       <div className="my-12 mx-12 flex flex-col">
         <div className="sm:flex sm:justify-center sm:mt-16 sm:mb-16">
