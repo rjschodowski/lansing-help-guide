@@ -4,7 +4,7 @@ import { Helmet } from 'react-helmet'
 import { useStaticQuery, graphql } from 'gatsby'
 import ogImage from '../images/app-fav-icon.png'
 
-export default function seo( description, meta, title ) {
+export default function Seo( description, meta, title ) {
     const { site } = useStaticQuery(
         graphql`
           query {
