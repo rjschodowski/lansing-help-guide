@@ -62,8 +62,8 @@ function SEO({ description, lang, meta, image: metaImage, title, pathname }) {
           content: `website`,
         },
         {
-            property: `og:image`,
-            content: `${site.siteMetadata.url}${ogImage}`,
+          property: `og:image`,
+          content: `${site.siteMetadata.url}${ogImage}`,
         },
         {
           name: `twitter:creator`,
