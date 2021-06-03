@@ -2,6 +2,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import { Helmet } from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
+import ogImage from "../images/app-fav-icon.png"
 
 function SEO({ description, lang, meta, image: metaImage, title, pathname }) {
   const { site } = useStaticQuery(
@@ -59,6 +60,10 @@ function SEO({ description, lang, meta, image: metaImage, title, pathname }) {
         {
           property: `og:type`,
           content: `website`,
+        },
+        {
+            property: `og:image`,
+            content: `${site.siteMetadata.url}${ogImage}`,
         },
         {
           name: `twitter:creator`,
