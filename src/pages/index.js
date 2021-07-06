@@ -6,6 +6,7 @@ import Footer from '../components/footer'
 import Button from '@material-ui/core/Button'
 import { makeStyles } from '@material-ui/core'
 import SEO from '../components/seo'
+import NavButton from '../components/navbutton'
 
 const useStyles = makeStyles({
   btn: {
@@ -32,21 +33,8 @@ const IndexPage = () => {
       <HeaderHome />
       <div className="my-12 mx-12 flex flex-col">
         <div className="sm:flex sm:justify-center sm:mt-16 sm:mb-16">
-          <div className="flex flex-col">
-            <div>
-              <Link to="/health">
-                <Button className={classes.btn} variant="contained" color="primary">               
-                  <StaticImage src="../images/medical_services_white_24dp.svg" 
-                    width={40}
-                    alt="health icon"
-                    placeholder="tracedSVG"
-                    quality="40" />               
-                </Button>
-              </Link>
-            </div>
-            <div className="text-gray-600 font-bold px-1 pt-1 sm:text-center">Health</div>
-          </div>
-          <hr className="bg-gray-200 mt-4"></hr>
+          <NavButton categoryName="Health" style="flex flex-col" />
+          
 
           <div className="sm:ml-32">
             <div>
