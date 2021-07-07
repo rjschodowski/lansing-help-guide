@@ -33,8 +33,13 @@ const IndexPage = () => {
       <HeaderHome />
       <div className="my-12 mx-12 flex flex-col">
         <div className="sm:flex sm:justify-center sm:mt-16 sm:mb-16">
-          <NavButton categoryName="Health" style="flex flex-col" />
-          
+          <NavButton
+            containerStyle="flex flex-col"
+            categoryLink="/health" 
+            categoryName="Health" 
+            nameStyle="text-gray-600 font-bold px-1 pt-1 sm:text-center" 
+            hrStyle="bg-gray-200 mt-4" 
+            />          
 
           <div className="sm:ml-32">
             <div>

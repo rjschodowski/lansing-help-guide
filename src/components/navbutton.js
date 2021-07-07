@@ -16,9 +16,9 @@ const useStyles = makeStyles({
     const classes = useStyles();
 
     return (
-        <div className={props.style}>
+        <div className={props.containerStyle}>
             <div>
-              <Link to="/health">
+              <Link to={props.categoryLink}>
                 <Button className={classes.btn} variant="contained" color="primary">               
                   <StaticImage src="../images/medical_services_white_24dp.svg" 
                     width={40}
@@ -28,8 +28,8 @@ const useStyles = makeStyles({
                 </Button>
               </Link>
             </div>
-            <div className="text-gray-600 font-bold px-1 pt-1 sm:text-center">{props.categoryName}</div>
-            <hr className="bg-gray-200 mt-4"></hr>
+            <div className={props.nameStyle}>{props.categoryName}</div>
+            <hr className={props.hrStyle}></hr>
           </div>
     )
   }
