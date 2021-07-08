@@ -35,7 +35,8 @@ const IndexPage = () => {
         <div className="sm:flex sm:justify-center sm:mt-16 sm:mb-16">
           <NavButton
             containerStyle="flex flex-col"
-            categoryLink="/health" 
+            categoryLink="/health"
+            imageAlt="health icon" 
             categoryName="Health" 
             nameStyle="text-gray-600 font-bold px-1 pt-1 sm:text-center" 
             hrStyle="bg-gray-200 mt-4" 

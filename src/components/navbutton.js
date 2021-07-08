@@ -22,7 +22,7 @@ const useStyles = makeStyles({
                 <Button className={classes.btn} variant="contained" color="primary">               
                   <StaticImage src="../images/medical_services_white_24dp.svg" 
                     width={40}
-                    alt="health icon"
+                    alt={props.imageAlt}
                     placeholder="tracedSVG"
                     quality="40" />               
                 </Button>
