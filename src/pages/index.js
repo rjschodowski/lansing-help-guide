@@ -48,11 +48,11 @@ const IndexPage = () => {
             </NavButton>
 
             <NavButton
-            containerStyle="sm:ml-32"
-            categoryLink="/safety" 
-            categoryName="Safety" 
-            nameStyle="text-gray-600 font-bold px-1 pt-1 sm:text-center" 
-            hrStyle="bg-gray-200 mt-4" 
+              containerStyle="sm:ml-32"
+              categoryLink="/safety" 
+              categoryName="Safety" 
+              nameStyle="text-gray-600 font-bold px-1 pt-1 sm:text-center" 
+              hrStyle="bg-gray-200 mt-4" 
             >
               <StaticImage src="../images/security_white_24dp.svg" 
                     width={40}
@@ -61,38 +61,34 @@ const IndexPage = () => {
                     quality="40" />
             </NavButton>          
         </div>
-        <div className="sm:flex sm:justify-center">
-          <div>
-            <div>
-              <Link to="/food">
-                <Button className={classes.btn} variant="contained" color="primary">               
-                  <StaticImage src="../images/food_bank_white_24dp.svg" 
-                    width={40}
-                    alt="food icon"
-                    placeholder="tracedSVG"
-                    quality="40" />               
-                </Button>
-              </Link>
-            </div>
-            <div className="text-gray-600 font-bold px-2 pt-1 sm:text-center">Food</div>
-          </div>
-          <hr className="bg-gray-200 mt-4"></hr>
 
-          <div className="sm:ml-32">
-            <div>
-              <Link to="/shelter">
-                <Button className={classes.btn} variant="contained" color="primary">               
-                  <StaticImage src="../images/night_shelter_white_24dp.svg" 
-                    width={40}
-                    alt="shelter icon"
-                    placeholder="tracedSVG"
-                    quality="40" />               
-                </Button>
-              </Link>
-            </div>
-            <div className="text-gray-600 font-bold pt-1 sm:text-center">Shelter</div>
-          </div>
-          <hr className="bg-gray-200 mt-4"></hr>
+        <div className="sm:flex sm:justify-center">
+          <NavButton
+            categoryLink="/food" 
+            categoryName="Food" 
+            nameStyle="text-gray-600 font-bold px-2 pt-1 sm:text-center" 
+            hrStyle="bg-gray-200 mt-4" 
+          >
+              <StaticImage src="../images/food_bank_white_24dp.svg" 
+                width={40}
+                alt="food icon"
+                placeholder="tracedSVG"
+                quality="40" />
+          </NavButton>         
+
+          <NavButton
+            containerStyle="sm:ml-32"
+            categoryLink="/shelter" 
+            categoryName="Shelter" 
+            nameStyle="text-gray-600 font-bold pt-1 sm:text-center" 
+            hrStyle="bg-gray-200 mt-4" 
+          >
+            <StaticImage src="../images/night_shelter_white_24dp.svg" 
+              width={40}
+              alt="shelter icon"
+              placeholder="tracedSVG"
+              quality="40" />
+          </NavButton>
         </div>
       </div>
       <Footer />
