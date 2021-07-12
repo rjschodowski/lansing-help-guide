@@ -35,30 +35,32 @@ const IndexPage = () => {
         <div className="sm:flex sm:justify-center sm:mt-16 sm:mb-16">
           <NavButton
             containerStyle="flex flex-col"
-            categoryLink="/health"
-            imageAlt="health icon" 
+            categoryLink="/health" 
             categoryName="Health" 
             nameStyle="text-gray-600 font-bold px-1 pt-1 sm:text-center" 
             hrStyle="bg-gray-200 mt-4" 
-            />          
+            >
+              <StaticImage src="../images/medical_services_white_24dp.svg" 
+                    width={40}
+                    alt="health icon"
+                    placeholder="tracedSVG"
+                    quality="40" />
+            </NavButton>
 
-          <div className="sm:ml-32">
-            <div>
-              <Link to="/safety">
-                <Button className={classes.btn} variant="contained" color="primary">               
-                  <StaticImage src="../images/security_white_24dp.svg" 
+            <NavButton
+            containerStyle="sm:ml-32"
+            categoryLink="/safety" 
+            categoryName="Safety" 
+            nameStyle="text-gray-600 font-bold px-1 pt-1 sm:text-center" 
+            hrStyle="bg-gray-200 mt-4" 
+            >
+              <StaticImage src="../images/security_white_24dp.svg" 
                     width={40}
                     alt="safety icon"
                     placeholder="tracedSVG"
-                    quality="40" />               
-                </Button>
-              </Link>
-            </div>
-            <div className="text-gray-600 font-bold px-1 pt-1 sm:text-center">Safety</div>
-          </div>
-          <hr className="bg-gray-200 mt-4"></hr>
+                    quality="40" />
+            </NavButton>          
         </div>
-
         <div className="sm:flex sm:justify-center">
           <div>
             <div>

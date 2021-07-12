@@ -1,5 +1,4 @@
 import React from 'react'
-import { StaticImage } from 'gatsby-plugin-image'
 import Link from 'gatsby-link'
 import Button from '@material-ui/core/Button'
 import { makeStyles } from '@material-ui/core'
@@ -20,11 +19,7 @@ const useStyles = makeStyles({
             <div>
               <Link to={props.categoryLink}>
                 <Button className={classes.btn} variant="contained" color="primary">               
-                  <StaticImage src="../images/medical_services_white_24dp.svg" 
-                    width={40}
-                    alt={props.imageAlt}
-                    placeholder="tracedSVG"
-                    quality="40" />               
+                  {props.children}               
                 </Button>
               </Link>
             </div>
