@@ -1,5 +1,6 @@
 import React from 'react'
 import Layout from '../components/layout'
+import Subheading from '../components/subheading'
 import IconButton from '@material-ui/core/IconButton'
 import CallIcon from '@material-ui/icons/Call'
 import DirectionsIcon from '@material-ui/icons/Directions'
@@ -19,7 +20,7 @@ export default function HealthPage() {
     return (
         <Layout pageTitle="HEALTH">
             <SEO title="Lansing Help Guide - Health" />
-            <h4 className="text-blue-500 mb-4">Hospitals</h4>
+            <Subheading subheadStyle="text-blue-500 mb-4" subheading="Hospitals" />
             <div className="location-wrapper -mb-5">
                 <ul className="flex items-baseline">
                     <li className="flex-grow">
@@ -78,7 +79,7 @@ export default function HealthPage() {
                 </ul>
            </div>
 
-           <h4 className="text-blue-500 mb-4">Medical Clinics</h4>
+           <Subheading subheadStyle="text-blue-500 mb-4" subheading="Medical Clinics" />
            <div className="location-wrapper -mb-5">
                 <ul className="flex items-baseline">
                     <li className="flex-grow">
@@ -166,7 +167,7 @@ export default function HealthPage() {
                 </ul>
             </div>
 
-           <h4 className="text-blue-500 mb-4">COVID-19</h4>
+            <Subheading subheadStyle="text-blue-500 mb-4" subheading="COVID-19" />
            <div className="location-wrapper -mb-5">
                 <ul className="flex items-baseline">
                     <li className="flex-grow">
@@ -212,7 +213,7 @@ export default function HealthPage() {
                 </ul>
             </div>
 
-            <h4 className="text-blue-500 mb-4">Mental Health and Substance Abuse</h4>
+            <Subheading subheadStyle="text-blue-500 mb-4" subheading="Mental Health and Substance Abuse" />
             <div className="location-wrapper -mb-5">   
                 <ul className="flex items-baseline">
                     <li className="flex-grow">
@@ -300,7 +301,7 @@ export default function HealthPage() {
                 </ul>
             </div>
 
-            <h4 className="text-blue-500 mb-4">Dental</h4>
+            <Subheading subheadStyle="text-blue-500 mb-4" subheading="Dental" />
             <div className="location-wrapper -mb-5">
                 <ul className="flex items-baseline">
                     <li className="flex-grow">
