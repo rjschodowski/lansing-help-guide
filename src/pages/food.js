@@ -48,16 +48,16 @@ export default function FoodPage() {
                     </li>
                     <li>
                         <IconButton aria-label="Call">
-                                <a href="tel:5174854722" alt="call" target="_blank" rel="noreferrer">
-                                    <CallIcon />
-                                </a>
+                            <a href="tel:5174854722" alt="call" target="_blank" rel="noreferrer">
+                                <CallIcon />
+                            </a>
                         </IconButton>
                     </li>
                     <li className="lg:mx-8">
                         <IconButton aria-label="directions">
-                                <a href="https://goo.gl/maps/nMFWV6SzXYVjWgN88" alt="map directions" target="_blank" rel="noreferrer">
-                                    <DirectionsIcon />
-                                </a>
+                            <a href="https://goo.gl/maps/nMFWV6SzXYVjWgN88" alt="map directions" target="_blank" rel="noreferrer">
+                                <DirectionsIcon />
+                            </a>
                         </IconButton>
                         </li>
                     <li>
@@ -78,14 +78,14 @@ export default function FoodPage() {
                     <li className="pr-1">
                         <IconButton aria-label="Call">
                             <a href="tel:5173724700" alt="call" target="_blank" rel="noreferrer">
-                                    <CallIcon />
+                                <CallIcon />
                             </a>
                         </IconButton>
                     </li>
                     <li className="lg:mx-8">
                         <IconButton aria-label="Directions">
                             <a href="https://goo.gl/maps/dzzcGKqrr9G51fd37" alt="map directions" target="_blank" rel="noreferrer">
-                                    <DirectionsIcon />
+                                <DirectionsIcon />
                             </a>
                         </IconButton>
                         </li>
