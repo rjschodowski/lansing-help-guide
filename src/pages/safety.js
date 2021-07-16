@@ -1,6 +1,7 @@
 import React from 'react'
 import Layout from '../components/layout'
 import Subheading from '../components/subheading'
+import ContentItemWrapper from '../components/contentItemWrapper'
 import IconButton from '@material-ui/core/IconButton'
 import CallIcon from '@material-ui/icons/Call'
 import DirectionsIcon from '@material-ui/icons/Directions'
@@ -21,7 +22,7 @@ export default function SafetyPage() {
     <Layout pageTitle="SAFETY">
       <SEO title="Lansing Help Guide - Safety" />
       <Subheading subheadStyle="text-blue-500 mb-4" subheading="Mental Health Safety" />
-      <div className="location-wrapper -mb-5">
+      <ContentItemWrapper wrapperStyle="-mb-5">
         <ul className="flex items-baseline">
           <li className="flex-grow pr-8">
             <a
@@ -63,39 +64,39 @@ export default function SafetyPage() {
             </IconButton>
           </li>
         </ul>
-      </div>
+      </ContentItemWrapper>
       
-      <div className="location-wrapper mb-4">   
-                <ul className="flex items-baseline">
-                    <li className="flex-grow">
-                        <a href="http://www.ceicmh.org/services/cs" alt="Community Mental Health 24-Hour Crisis Services website link" target="_blank" rel="noreferrer" className="text-base sm:text-sm">Community Mental Health 24-Hour Crisis Services</a>
-                    </li>
-                    <li>
-                        <IconButton aria-label="Call">
-                            <a href="tel:5173468460" alt="call" target="_blank" rel="noreferrer">
-                                <CallIcon />
-                            </a>
-                        </IconButton>
-                    </li>
-                    <li className="lg:mx-8">
-                    <IconButton aria-label="Directions">
-                            <a href="https://goo.gl/maps/Nji9RRuAzsKZMWXd7" alt="map directions" target="_blank" rel="noreferrer">
-                                <DirectionsIcon />
-                            </a>
-                        </IconButton>
-                    </li>
-                    <li>
-                        <IconButton className={classes.root} aria-label="Website">
-                            <a href="http://www.ceicmh.org/services/cs" alt="Community Mental Health 24-Hour Crisis Services website link" target="_blank" rel="noreferrer">
-                                <LanguageIcon />
-                            </a>
-                        </IconButton>
-                    </li>
-                </ul>
-            </div>
+      <ContentItemWrapper wrapperStyle="mb-4">   
+        <ul className="flex items-baseline">
+          <li className="flex-grow">
+            <a href="http://www.ceicmh.org/services/cs" alt="Community Mental Health 24-Hour Crisis Services website link" target="_blank" rel="noreferrer" className="text-base sm:text-sm">Community Mental Health 24-Hour Crisis Services</a>
+            </li>
+          <li>
+            <IconButton aria-label="Call">
+              <a href="tel:5173468460" alt="call" target="_blank" rel="noreferrer">
+                <CallIcon />
+              </a>
+            </IconButton>
+          </li>
+          <li className="lg:mx-8">
+            <IconButton aria-label="Directions">
+              <a href="https://goo.gl/maps/Nji9RRuAzsKZMWXd7" alt="map directions" target="_blank" rel="noreferrer">
+                <DirectionsIcon />
+              </a>
+            </IconButton>
+          </li>
+          <li>
+            <IconButton className={classes.root} aria-label="Website">
+              <a href="http://www.ceicmh.org/services/cs" alt="Community Mental Health 24-Hour Crisis Services website link" target="_blank" rel="noreferrer">
+                <LanguageIcon />
+              </a>
+            </IconButton>
+          </li>
+        </ul>
+      </ContentItemWrapper>
 
       <Subheading subheadStyle="text-blue-500 mb-4" subheading="Domestic Violence Help" />
-      <div className="location-wrapper -mb-5">
+      <ContentItemWrapper wrapperStyle="-mb-5">
         <ul className="flex items-baseline">
           <li className="flex-grow">
             <a
@@ -126,9 +127,9 @@ export default function SafetyPage() {
             </IconButton>
           </li>
         </ul>
-      </div>
+      </ContentItemWrapper>
 
-      <div className="location-wrapper mb-4">
+      <ContentItemWrapper wrapperStyle="mb-4">
         <ul className="flex items-baseline">
           <li className="flex-grow">
             <a
@@ -159,10 +160,10 @@ export default function SafetyPage() {
             </IconButton>
           </li>
         </ul>
-      </div>
+      </ContentItemWrapper>
 
       <Subheading subheadStyle="text-blue-500 mb-4" subheading="Human Trafficking Help" />
-      <div className="location-wrapper mb-4">
+      <ContentItemWrapper wrapperStyle="mb-4">
         <ul className="flex items-baseline">
           <li className="flex-grow">
             <a
@@ -204,7 +205,7 @@ export default function SafetyPage() {
             </IconButton>
           </li>
         </ul>
-      </div>
+      </ContentItemWrapper>
     </Layout>
   )
 }
