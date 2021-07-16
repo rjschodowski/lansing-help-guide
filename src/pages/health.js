@@ -1,6 +1,7 @@
 import React from 'react'
 import Layout from '../components/layout'
 import Subheading from '../components/subheading'
+import ContentItemWrapper from '../components/contentItemWrapper'
 import IconButton from '@material-ui/core/IconButton'
 import CallIcon from '@material-ui/icons/Call'
 import DirectionsIcon from '@material-ui/icons/Directions'
@@ -21,7 +22,7 @@ export default function HealthPage() {
         <Layout pageTitle="HEALTH">
             <SEO title="Lansing Help Guide - Health" />
             <Subheading subheadStyle="text-blue-500 mb-4" subheading="Hospitals" />
-            <div className="location-wrapper -mb-5">
+            <ContentItemWrapper wrapperStyle="-mb-5">
                 <ul className="flex items-baseline">
                     <li className="flex-grow">
                         <a href="https://www.sparrow.org/our-hospitals-and-services/sparrow-hospitals/sparrow-hospital" alt="Sparrow Hospital website link" target="_blank" rel="noreferrer" className="text-base sm:text-sm">Sparrow Hospital</a>
@@ -48,9 +49,9 @@ export default function HealthPage() {
                         </IconButton>
                     </li>
                 </ul>
-            </div>
+            </ContentItemWrapper>
 
-            <div className="location-wrapper mb-4">
+            <ContentItemWrapper wrapperStyle="mb-4">
                 <ul className="flex items-baseline">
                     <li className="flex-grow">
                         <a href="https://www.mclaren.org/lansing/mclaren-greater-lansing-home" alt="Sparrow Hospital website link" target="_blank" rel="noreferrer" className="text-base sm:text-sm">McLaren Greater Lansing Hospital</a>
@@ -77,10 +78,10 @@ export default function HealthPage() {
                         </IconButton>
                     </li>
                 </ul>
-           </div>
+           </ContentItemWrapper>
 
            <Subheading subheadStyle="text-blue-500 mb-4" subheading="Medical Clinics" />
-           <div className="location-wrapper -mb-5">
+           <ContentItemWrapper wrapperStyle="-mb-5">
                 <ul className="flex items-baseline">
                     <li className="flex-grow">
                         <a href="https://carefreemedical.com/" alt="Carefree Medical website link" target="_blank" rel="noreferrer" className="text-base sm:text-sm">Carefree Medical</a>
@@ -107,9 +108,9 @@ export default function HealthPage() {
                         </IconButton>
                     </li>
                 </ul>
-            </div>
+            </ContentItemWrapper>
 
-            <div className="location-wrapper -mb-5">
+            <ContentItemWrapper wrapperStyle="-mb-5">
                 <ul className="flex items-baseline">
                     <li className="flex-grow">
                         <a href="https://hd.ingham.org/seekingcare/communityhealthcenters/LocationsHours/WillowHealthCenter.aspx" alt="Willow Health Center website link" target="_blank" rel="noreferrer" className="text-base sm:text-sm">Willow Health Center</a>
@@ -136,9 +137,9 @@ export default function HealthPage() {
                         </IconButton>
                     </li>
                 </ul>
-            </div>
+            </ContentItemWrapper>
             
-            <div className="location-wrapper mb-4">
+            <ContentItemWrapper wrapperStyle="mb-4">
                 <ul className="flex items-baseline">
                     <li className="flex-grow">
                         <a href="https://www.cristoreycommunity.org/family-health-center/health-services/health-center/" alt="Cristo Rey Family Health Center website link" target="_blank" rel="noreferrer" className="text-base sm:text-sm">Cristo Rey Family Health Center</a>
@@ -165,10 +166,10 @@ export default function HealthPage() {
                         </IconButton>
                     </li>
                 </ul>
-            </div>
+            </ContentItemWrapper>
 
             <Subheading subheadStyle="text-blue-500 mb-4" subheading="COVID-19" />
-           <div className="location-wrapper -mb-5">
+           <ContentItemWrapper wrapperStyle="-mb-5">
                 <ul className="flex items-baseline">
                     <li className="flex-grow">
                         <a href="https://www.solvhealth.com/search?cobrandedSrpLocation=MI" alt="COVID-19 testing search for locations website link" target="_blank" rel="noreferrer" className="text-base sm:text-sm">Testing Site Locator</a>
@@ -181,9 +182,9 @@ export default function HealthPage() {
                         </IconButton>
                     </li>
                 </ul>
-            </div>
+            </ContentItemWrapper>
 
-            <div className="location-wrapper -mb-5">
+            <ContentItemWrapper wrapperStyle="-mb-5">
                 <ul className="flex items-baseline">
                     <li className="flex-grow">
                         <a href="https://vaccinefinder.org/search/" alt="COVID-19 vaccine finder" target="_blank" rel="noreferrer" className="text-base sm:text-sm">Vaccine Finder</a>
@@ -196,9 +197,9 @@ export default function HealthPage() {
                         </IconButton>
                     </li>
                 </ul>
-            </div>
+            </ContentItemWrapper>
             
-            <div className="location-wrapper mb-4">
+            <ContentItemWrapper wrapperStyle="mb-4">
                 <ul className="flex items-baseline">
                     <li className="flex-grow pr-8">
                         <a href="https://www.michigan.gov/" alt="Michigan.gov COVID-19 Information Website" target="_blank" rel="noreferrer" className="text-base sm:text-sm">Michigan.gov COVID-19<br></br>Information Website</a>
@@ -211,10 +212,10 @@ export default function HealthPage() {
                         </IconButton>
                     </li>
                 </ul>
-            </div>
+            </ContentItemWrapper>
 
             <Subheading subheadStyle="text-blue-500 mb-4" subheading="Mental Health and Substance Abuse" />
-            <div className="location-wrapper -mb-5">   
+            <ContentItemWrapper wrapperStyle="-mb-5">   
                 <ul className="flex items-baseline">
                     <li className="flex-grow">
                         <a href="http://www.ceicmh.org/services/cs" alt="Community Mental Health 24-Hour Crisis Services website link" target="_blank" rel="noreferrer" className="text-base sm:text-sm">Community Mental Health 24-Hour Crisis Services</a>
@@ -241,9 +242,9 @@ export default function HealthPage() {
                         </IconButton>
                     </li>
                 </ul>
-            </div>
+            </ContentItemWrapper>
 
-            <div className="location-wrapper -mb-5">    
+            <ContentItemWrapper wrapperStyle="-mb-5">    
                 <ul className="flex items-baseline">
                     <li className="flex-grow">
                         <a href="http://www.ceicmh.org/services/amhs" alt="Community Mental Health Adult Mental Health Services" target="_blank" rel="noreferrer" className="text-base sm:text-sm">Community Mental Health Adult Mental Health Services</a>
@@ -270,9 +271,9 @@ export default function HealthPage() {
                         </IconButton>
                     </li>
                 </ul>
-            </div>
+            </ContentItemWrapper>
 
-            <div className="location-wrapper mb-4">
+            <ContentItemWrapper wrapperStyle="mb-4">
                 <ul className="flex items-baseline">
                     <li className="flex-grow">
                         <a href="https://www.cristoreycommunity.org/family-health-center/health-services/6658-2/" alt="Cristo Rey Community Center Counseling and Substance Abuse Programs website link" target="_blank" rel="noreferrer" className="text-base sm:text-sm">Cristo Rey Community Center Counseling and <br></br>Substance Abuse Programs</a>
@@ -299,10 +300,10 @@ export default function HealthPage() {
                         </IconButton>
                     </li>
                 </ul>
-            </div>
+            </ContentItemWrapper>
 
             <Subheading subheadStyle="text-blue-500 mb-4" subheading="Dental" />
-            <div className="location-wrapper -mb-5">
+            <ContentItemWrapper wrapperStyle="-mb-5">
                 <ul className="flex items-baseline">
                     <li className="flex-grow">
                         <a href="https://carefreemedical.com/dental/" alt="Carefree Dental website link" target="_blank" rel="noreferrer" className="text-base sm:text-sm">Carefree Dental</a>
@@ -329,9 +330,9 @@ export default function HealthPage() {
                         </IconButton>
                     </li>
                 </ul>
-            </div>
+            </ContentItemWrapper>
 
-            <div className="location-wrapper -mb-5">
+            <ContentItemWrapper wrapperStyle="-mb-5">
                 <ul className="flex items-baseline">
                     <li className="flex-grow">
                         <a href="https://www.facebook.com/CFD.Lansing" alt="Cedar Family Dental Facebook website link" target="_blank" rel="noreferrer" className="text-base sm:text-sm">Cedar Family Dental</a>
@@ -358,9 +359,9 @@ export default function HealthPage() {
                         </IconButton>
                     </li>
                 </ul>
-            </div>
+            </ContentItemWrapper>
 
-             <div className="location-wrapper mb-4">
+             <ContentItemWrapper wrapperStyle="mb-4">
                 <ul className="flex items-baseline">
                     <li className="flex-grow">
                         <a href="https://destinydentalcare.com/" alt="Destiny Dental website link" target="_blank" rel="noreferrer" className="text-base sm:text-sm">Destiny Dental</a>
@@ -387,7 +388,7 @@ export default function HealthPage() {
                         </IconButton>
                     </li>
                 </ul>
-            </div>     
+            </ContentItemWrapper>     
         </Layout>
     )
 }
