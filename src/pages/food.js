@@ -1,5 +1,6 @@
 import React from 'react'
 import Layout from '../components/layout'
+import ContentItemWrapper from '../components/contentItemWrapper'
 import IconButton from '@material-ui/core/IconButton'
 import CallIcon from '@material-ui/icons/Call'
 import DirectionsIcon from '@material-ui/icons/Directions'
@@ -18,7 +19,7 @@ export default function FoodPage() {
     return (
        <Layout pageTitle="FOOD">
            <SEO title="Lansing Help Guide - Food" />
-           <div className="location-wrapper -mb-5">
+           <ContentItemWrapper wrapperStyle="-mb-5">
                 <ul className="flex items-baseline">
                     <li className="flex-grow">
                         <a href="https://www.lansingmi.gov/530/Mobile-Food-Pantry" alt="Mobile Food Pantry website link" target="_blank" rel="noreferrer" className="text-base sm:text-sm">Mobile Food Pantry</a>
@@ -38,9 +39,9 @@ export default function FoodPage() {
                         </IconButton>
                     </li>
                 </ul>
-            </div>
+            </ContentItemWrapper>
 
-            <div className="location-wrapper -mb-5">
+            <ContentItemWrapper wrapperStyle="-mb-5">
                 <ul className="flex items-baseline">
                     <li className="flex-grow pr-4">
                         <a href="https://www.adventhouse.com/?q=day-shelter-and-food" alt="Advent House Day Shelter website link" target="_blank" rel="noreferrer" className="text-base sm:text-sm">Advent House Day Shelter and Food</a>
@@ -67,9 +68,9 @@ export default function FoodPage() {
                         </IconButton>
                     </li>
                 </ul>
-            </div>
+            </ContentItemWrapper>
 
-            <div className="location-wrapper -mb-5">
+            <ContentItemWrapper wrapperStyle="-mb-5">
                 <ul className="flex items-baseline">
                     <li className="flex-grow">
                         <a href="https://www.cristoreycommunity.org/family-health-center/6593-2/" alt="Cristo Rey Food Access Programs website link" target="_blank" rel="noreferrer" className="text-base sm:text-sm">Cristo Rey Food Access Programs</a>
@@ -96,9 +97,9 @@ export default function FoodPage() {
                         </IconButton>
                     </li>
                 </ul>
-            </div>
+            </ContentItemWrapper>
 
-            <div className="location-wrapper -mb-5">
+            <ContentItemWrapper wrapperStyle="-mb-5">
                 <ul className="flex items-baseline">
                     <li className="flex-grow">
                         <a href="https://greaterlansingfoodbank.org/" alt="Greater Lansing Food Bank website link" target="_blank" rel="noreferrer" className="text-base sm:text-sm">Greater Lansing Food Bank</a>
@@ -125,9 +126,9 @@ export default function FoodPage() {
                         </IconButton>
                     </li>
                 </ul>
-            </div>
+            </ContentItemWrapper>
 
-            <div className="location-wrapper mb-4">
+            <ContentItemWrapper wrapperStyle="mb-4">
                 <ul className="flex items-baseline">
                     <li className="flex-grow">
                         <a href="http://www.oursaviorlansing.org/food-bank/" alt="Our Savior Food Bank website link" target="_blank" rel="noreferrer" className="text-base sm:text-sm">Our Savior Food Bank</a>
@@ -154,7 +155,7 @@ export default function FoodPage() {
                         </IconButton>
                     </li>
                 </ul>
-            </div>
+            </ContentItemWrapper>
        </Layout>
     )
 }
