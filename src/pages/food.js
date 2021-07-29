@@ -128,7 +128,7 @@ export default function FoodPage() {
                 </ul>
             </ContentItemWrapper>
 
-            <ContentItemWrapper wrapperStyle="mb-4">
+            <ContentItemWrapper wrapperStyle="-mb-5">
                 <ul className="flex items-baseline">
                     <li className="flex-grow">
                         <a href="http://www.oursaviorlansing.org/food-bank/" alt="Our Savior Food Bank website link" target="_blank" rel="noreferrer" className="text-base sm:text-sm">Our Savior Food Bank</a>
@@ -150,6 +150,35 @@ export default function FoodPage() {
                     <li>
                         <IconButton className={classes.root} aria-label="Website">
                             <a href="http://www.oursaviorlansing.org/food-bank/" alt="Our Savior Food Bank website link" target="_blank" rel="noreferrer">
+                                <LanguageIcon />
+                            </a>
+                        </IconButton>
+                    </li>
+                </ul>
+            </ContentItemWrapper>
+
+            <ContentItemWrapper wrapperStyle="-mb-5">
+                <ul className="flex items-baseline">
+                    <li className="flex-grow">
+                        <a href="https://www.believerschristianchurch.com/custom-page;page_id=2608" alt="Believers Christian Church Food Bank website link" target="_blank" rel="noreferrer" className="text-base sm:text-sm">Believers Christian Church Food Bank</a>
+                    </li>
+                    <li className="pr-1">
+                        <IconButton aria-label="Call">
+                            <a href="tel:5176220719" alt="call" target="_blank" rel="noreferrer">
+                                <CallIcon />
+                            </a>
+                        </IconButton>
+                    </li>
+                    <li className="lg:mx-8">
+                        <IconButton aria-label="Directions">
+                            <a href="https://goo.gl/maps/DHjmrR88LyQbmHW97" alt="map directions" target="_blank" rel="noreferrer">
+                                <DirectionsIcon />
+                            </a>
+                        </IconButton>
+                    </li>
+                    <li>
+                        <IconButton className={classes.root} aria-label="Website">
+                            <a href="https://www.believerschristianchurch.com/custom-page;page_id=2608" alt="Believers Christian Church Food Bank website link" target="_blank" rel="noreferrer">
                                 <LanguageIcon />
                             </a>
                         </IconButton>
